@@ -1,0 +1,62 @@
+﻿.alert {
+  margin: 0 0 14px;
+}
+.alert h4 {
+  margin: 0 0 5px;
+}
+.alert.alert-warning {
+  background: #ab7a4b;
+  color: #fff;
+  border-color: #ab7a4b;
+}
+.alert.alert-warning .close {
+  color: #fff;
+}
+.alert.alert-warning h4 {
+  color: #fff;
+}
+.alert.alert-danger {
+  background: #cc3a3a;
+  color: #fff;
+  border-color: #cc3a3a;
+}
+.alert.alert-danger .close {
+  color: #fff;
+}
+.alert.alert-danger h4 {
+  color: #fff;
+}
+.alert.alert-primary {
+  background: #3695d5;
+  color: #fff;
+  border-color: #3695d5;
+}
+.alert.alert-primary .close {
+  color: #fff;
+}
+.alert.alert-primary h4 {
+  color: #fff;
+}
+.alert.alert-info {
+  background: #dff3f8;
+  color: #7399b9;
+  border-color: #93b9d8;
+}
+.alert.alert-info .close {
+  color: #7399b9;
+}
+.alert.alert-success {
+  border-color: #8bbf61;
+  background: #8bbf61;
+  color: #fff;
+}
+.alert.alert-success .close,
+.alert.alert-success h4 {
+  color: #fff;
+}
+.alert .close {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  color: #fff;
+}
+/*# sourceMappingURL=alerts.css.map */

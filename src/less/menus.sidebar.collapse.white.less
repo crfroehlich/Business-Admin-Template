@@ -1,0 +1,151 @@
+@import 'variables.less';
+@import 'mixins.less';
+.sidebar.sidebar-collapse {
+
+	#menu {
+
+		&.sidebar-white {
+			height: 100%; // Added  
+			@menuSidebarBg: #3f3f3f;
+			color: #fff;
+
+			img { border-color: lighten(@menuSidebarBg, 10%); }
+			.text-faded { color: lighten(@menuSidebarBg, 20%) !important; }
+			.bg-primary .text-faded { color: darken(@menuSidebarBg, 3%) !important; }
+
+			background: @menuSidebarBg;
+
+			#sidebar-collapse-wrapper {
+
+				.btn-inverse {
+					background:  darken(@menuSidebarBg,5%);
+					border-color: darken(@menuSidebarBg,5%);
+				}
+				.bg-inverse {
+					background: #2e404e !important;
+				}
+				#logoWrapper {
+					background: @menuSidebarBg;
+					.btn-inverse {
+						background:  darken(@menuSidebarBg,5%);
+						border-color: darken(@menuSidebarBg,5%);
+						&:hover  {
+							background:@primaryColor;
+							border-color:@primaryColor;
+							i {  
+								color: #ffffff;
+							}
+						}
+					}
+					border-bottom: 1px solid lighten(@menuSidebarBg,2%);
+				}
+				#brandWrapper {
+					background: darken(@menuSidebarBg,5%);
+					
+				}
+			}
+
+			> div {
+
+				ul {
+					background: @menuSidebarBg;
+					> li.hasSubmenu.active > a {border-color: #2780bb;}
+					> li.hasSubmenu.active > ul li.hasSubmenu.active > a {border-color: #353535;}
+					li {
+						border-bottom-color: lighten(@menuSidebarBg, 2%);
+						> a {
+							color: #999999;
+							border-left: 4px solid #353535;
+							border-right: 4px solid #353535;
+
+							> span {
+								&.badge {
+									color: #ffffff;
+									background: #383838;
+									border-color:  #383838;
+
+									&.badge-inverse {
+										color: #fff;
+										border-color: @primaryColor;
+										background: @menuSidebarBg;
+									}
+								}
+							}
+							> i:before { 	
+								color: lighten(@menuSidebarBg,20%); 
+							}
+							&:hover {
+								background: darken(@menuSidebarBg,5%);
+								color: #fff;
+								> i:before { color: #fff; }
+								
+							}
+							&[data-toggle="collapse"] {
+								&:after {
+									font-size:1em;
+									
+									color: lighten(@menuSidebarBg,20%);
+								}
+							}
+						}
+					}
+				}
+				> ul {
+					> li {
+						&.active  { 
+							> a {
+								border-color: #2780bb;
+								background: @primaryColor;
+								color: #ffffff;
+								> i:before { color:#fff; }
+								.badge { background: #fff; border-color: #ffffff; color:#000000;}
+								&[data-toggle="collapse"] {
+									&:after { 
+										color:#ffffff;
+									}
+								}
+
+							}
+					
+						}
+						.btn-inverse:hover {
+							color: #fff;
+							i { color: @primaryColor; }
+						}
+
+						> ul {
+							/*background: #2e404e;*/
+							border-bottom: none;
+							> li {
+								&.active {
+									> a {
+										background: darken(@menuSidebarBg,5%);
+										color: #ffffff;
+										> i:before { color:#fff; }
+										.badge { background: #fff; border-color: #ffffff; color:#000000;}
+
+									
+									}
+								}
+								> ul {
+									/*background: darken(@menuSidebarBg, 8%);*/
+								}
+							}
+						}
+					}
+				}
+			}
+			&.sidebar-brand-primary {
+				#sidebar-collapse-wrapper {
+					#brandWrapper {
+						background: @primaryColor;
+					}
+					> ul > li.active > a {
+						background: #283943;
+						> i:before { color: @primaryColor; }
+					}
+				}
+			}
+		}
+	}
+}

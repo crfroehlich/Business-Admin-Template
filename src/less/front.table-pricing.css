@@ -1,0 +1,55 @@
+﻿.pricing-table {
+  text-align: center;
+}
+.pricing-table .caret {
+  position: relative;
+  display: inline-block;
+  top: -1px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 25px solid transparent;
+}
+.pricing-table.default .list-group {
+  background: #fff;
+  color: #000;
+}
+.pricing-table.default h2 span {
+  color: #3695d5;
+}
+.pricing-table.default .caret {
+  border-top-color: #e2e2e2;
+}
+.pricing-table.primary .list-group {
+  background: #3695d5;
+  color: #fff;
+}
+.pricing-table.primary .list-group li {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+.pricing-table.primary h2 {
+  color: #fff;
+}
+.pricing-table.primary h2 span {
+  color: #fff;
+}
+.pricing-table.primary .caret {
+  border-top-color: #3695d5;
+}
+.pricing-table .list-group {
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 14px;
+  margin: 0;
+}
+.pricing-table .list-group li {
+  background: none;
+}
+.pricing-table .list-group li h2 {
+  font-size: 24px;
+}
+.pricing-table .list-group li h2 span {
+  display: block;
+  font-size: 60px;
+}
+/*# sourceMappingURL=front.table-pricing.css.map */

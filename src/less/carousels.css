@@ -1,0 +1,104 @@
+﻿.carousel {
+  margin-bottom: 14px;
+}
+.carousel .carousel-control {
+  font-size: 45px;
+}
+.carousel .carousel-control.right {
+  text-align: center;
+}
+.carousel .carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 15px 20px 25px;
+}
+.carousel .carousel-caption h4 {
+  color: #fff;
+  text-shadow: none;
+  font-weight: 700;
+}
+.carousel .carousel-indicators {
+  bottom: 5px;
+}
+.carousel.carousel-1 {
+  height: 223px;
+  margin-bottom: 33px;
+  background: #f4f4f4;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+.carousel.carousel-1 .item {
+  height: 223px;
+  overflow: hidden;
+}
+.carousel.carousel-1 .item img {
+  min-height: 100%;
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+.carousel.carousel-1 .item .row {
+  margin: 0;
+}
+.carousel.carousel-1 .item .row [class*="col-"]:last-of-type {
+  padding: 0;
+}
+.carousel.carousel-1 .carousel-indicators {
+  top: auto;
+  bottom: -23px;
+  right: 0;
+  left: 0;
+  margin: 0;
+  width: auto;
+  text-align: right;
+}
+.carousel.carousel-1 .carousel-indicators li {
+  background: #8ac1e7;
+}
+.carousel.carousel-1 .carousel-indicators li.active {
+  background: #3695d5;
+}
+.carousel.carousel-1 .carousel-caption {
+  height: 193px;
+  background: #f4f4f4;
+  top: 0;
+  left: 20px;
+  right: 10px;
+  padding: 20px 0;
+}
+.carousel.carousel-1 .carousel-inner {
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+.carousel.carousel-1 .carousel-inner {
+  border: 1px solid #e2e1e1;
+}
+.carousel.carousel-1 .item {
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+.carousel.carousel-1 .item img {
+  min-width: 100%;
+}
+.carousel.carousel-1 .carousel-caption {
+  background: rgba(244, 244, 244, 0.95);
+  text-shadow: 0 1px 0 #ffffff;
+}
+.carousel.carousel-1 .carousel-caption p {
+  color: #525252;
+}
+.carousel.carousel-1 .carousel-caption h4 {
+  font-size: 12pt;
+  color: #000;
+  font-weight: 700;
+}
+.carousel.carousel-1 .carousel-caption a {
+  text-decoration: underline;
+  color: #000;
+}
+/*# sourceMappingURL=carousels.css.map */

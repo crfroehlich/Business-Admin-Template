@@ -1,0 +1,176 @@
+﻿.table {
+  margin: 0 0 14px;
+  position: relative;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
+}
+.table.table-white {
+  background: #fff;
+}
+.table.table-invoice thead > tr > th,
+.table.table-invoice tbody > tr > th,
+.table.table-invoice tfoot > tr > th,
+.table.table-invoice thead > tr > td,
+.table.table-invoice tbody > tr > td,
+.table.table-invoice tfoot > tr > td {
+  border-top: none;
+}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  border-top-color: #efefef;
+  padding: 9px;
+}
+.table > thead > tr > th {
+  border-bottom: 1px solid #efefef;
+}
+.table td.center,
+.table th.center {
+  text-align: center;
+}
+.table td.right,
+.table th.right {
+  text-align: right;
+}
+.table-condensed {
+  font-size: 10pt;
+}
+.table-condensed th,
+.table-condensed td {
+  padding: 4px 10px;
+}
+.table-borderless th,
+.table-borderless td {
+  border: none;
+}
+.table-striped tbody tr:nth-child(odd) td,
+.table-striped tbody tr:nth-child(odd) th {
+  background-color: #fff;
+}
+.table-striped tbody tr:nth-child(even) td,
+.table-striped tbody tr:nth-child(even) th {
+  background-color: #f7f7f7;
+}
+.table-bordered {
+  border-color: #efefef;
+  /* Reset rounded corners
+	thead:first-child tr:first-child>th:first-child, 
+	tbody:first-child tr:first-child>td:first-child, 
+	tbody:first-child tr:first-child>th:first-child,
+	thead:first-child tr:first-child>th:last-child, 
+	tbody:first-child tr:first-child>td:last-child, 
+	tbody:first-child tr:first-child>th:last-child,
+	thead:last-child tr:last-child>th:first-child, 
+	tbody:last-child tr:last-child>td:first-child, 
+	tbody:last-child tr:last-child>th:first-child, 
+	tfoot:last-child tr:last-child>td:first-child, 
+	tfoot:last-child tr:last-child>th:first-child {
+		.rounded();
+	}
+	*/
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+.table-bordered th,
+.table-bordered td {
+  border-color: #efefef;
+}
+.table-fill td {
+  background: #F8F8F8;
+}
+.table .progress:last-child,
+.table .alert:last-child {
+  margin: 0;
+}
+.table .shortRight {
+  width: 25%;
+  text-align: right;
+  direction: rtl;
+  text-indent: 10px;
+}
+.table-large-spacing td {
+  padding: 20px 15px;
+}
+.table .thead td {
+  padding: 8px;
+  font-weight: bold;
+}
+.table-vertical-center td,
+.table-vertical-center th {
+  vertical-align: middle !important;
+}
+.table-thead-simple thead th {
+  background: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid #efefef;
+  color: #525252;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
+  text-shadow: none;
+  text-transform: none;
+  box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0), inset -1px -1px 1px rgba(0, 0, 0, 0);
+  -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0), inset -1px -1px 1px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0), inset -1px -1px 1px rgba(0, 0, 0, 0);
+}
+.table-thead-simple.table-thead-border-none {
+  border-top: none;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
+}
+.table-thead-simple.table-thead-border-none thead th {
+  border-bottom: none;
+}
+.table-thead-simple.table-thead-border-none thead:first-child tr:first-child > th:last-child,
+.table-thead-simple.table-thead-border-none tbody:first-child tr:first-child > td:last-child,
+.table-thead-simple.table-thead-border-none tbody:first-child tr:first-child > th:last-child {
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
+}
+.table-primary {
+  border-color: #e2e1e1;
+  border-top: none;
+}
+.table-primary thead th {
+  border-color: #3695d5;
+  background-color: #3695d5;
+  color: #fff;
+  font-size: 14px;
+}
+.table-primary tbody td {
+  color: #525252;
+  background: #fafafa;
+  border-width: 0px;
+}
+.table-primary tbody td.important {
+  color: #3695d5;
+  font-weight: 700;
+}
+.table-primary tbody td.actions {
+  padding-right: 1px;
+}
+.table-primary.table-bordered tbody td {
+  border-color: #e2e1e1;
+  border-width: 1px;
+}
+.table-primary tbody tr:nth-child(odd) td,
+.table-primary tbody tr:nth-child(odd) th {
+  background: #ffffff;
+}
+.table-primary tbody tr.selectable td {
+  cursor: pointer;
+}
+.table-primary tbody tr.selected td,
+.table-primary tbody tr.selectable:hover td {
+  background: rgba(54, 149, 213, 0.1);
+}
+/*# sourceMappingURL=tables.css.map */

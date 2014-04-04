@@ -1,0 +1,59 @@
+﻿.navbar.main.navbar-inverse {
+  background: #3f3f3f;
+  border-color: #3f3f3f;
+}
+.navbar.main.navbar-inverse .badge {
+  border: none;
+}
+.navbar.main.navbar-inverse .dropdown.active > a {
+  color: #fff;
+}
+.navbar.main.navbar-inverse .dropdown.active > a.caret {
+  border-top-color: #fff;
+}
+.navbar.main.navbar-inverse .dropdown.active .dropdown-toggle > .caret {
+  border-top-color: #fff;
+}
+.navbar.main.navbar-inverse .dropdown .dropdown-toggle {
+  color: #999;
+}
+.navbar.main.navbar-inverse .dropdown .dropdown-toggle.active,
+.navbar.main.navbar-inverse .dropdown .dropdown-toggle:focus {
+  color: #ffffff;
+}
+.navbar.main.navbar-inverse .dropdown .dropdown-toggle > .caret {
+  border-top-color: #999;
+}
+.navbar.main.navbar-inverse .dropdown .dropdown-toggle:hover > .caret {
+  border-top-color: #fff;
+}
+.navbar.main.navbar-inverse .dropdown.dropdown-icons a.dropdown-toggle {
+  background: none;
+}
+.navbar.main.navbar-inverse [class*="border-"],
+.navbar.main.navbar-inverse .notifications > li {
+  border-color: #4c4c4c;
+}
+.navbar.main.navbar-inverse [class*="border-"] a.notif-block.fa,
+.navbar.main.navbar-inverse .notifications > li a.notif-block.fa {
+  color: #999;
+}
+.navbar.main.navbar-inverse [class*="border-"]:hover,
+.navbar.main.navbar-inverse .notifications > li:hover,
+.navbar.main.navbar-inverse [class*="border-"].open,
+.navbar.main.navbar-inverse .notifications > li.open {
+  background-color: #4c4c4c;
+}
+.navbar.main.navbar-inverse .input-group input {
+  background-color: #474747;
+  border-color: #4c4c4c;
+}
+.navbar.main.navbar-inverse .input-group input:hover,
+.navbar.main.navbar-inverse .input-group input:active,
+.navbar.main.navbar-inverse .input-group input:focus {
+  background-color: #4c4c4c;
+}
+.navbar.main.navbar-inverse .btn-primary.btn-stroke {
+  border-color: #4c4c4c;
+}
+/*# sourceMappingURL=navbar.main.inverse.css.map */

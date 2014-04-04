@@ -1,0 +1,17 @@
+﻿.widget-offers .price {
+  font-size: 14px;
+}
+.widget-offers .price strong {
+  color: #000;
+}
+.widget-offers .thumb {
+  padding: 0;
+}
+.widget-offers h5 {
+  border-bottom: 1px solid #cecece;
+  font-weight: 600;
+  text-shadow: 0 1px 0 #ffffff;
+  box-shadow: 0 1px 0 0 #eeeeee;
+  padding: 0 0 5px;
+}
+/*# sourceMappingURL=widget-offer.css.map */

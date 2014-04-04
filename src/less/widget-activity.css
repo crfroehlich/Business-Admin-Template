@@ -1,0 +1,136 @@
+﻿.widget-activity > .widget-body {
+  padding: 0 14px;
+}
+.widget-activity ul.list {
+  list-style: none;
+  margin: 0 -14px;
+  padding: 0;
+}
+.widget-activity ul.list li {
+  height: 39px;
+  line-height: 39px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid #ebebeb;
+  padding: 0 14px;
+  -webkit-transition: background 0.5s ease;
+  -moz-transition: background 0.5s ease;
+  -o-transition: background 0.5s ease;
+  -ms-transition: background 0.5s ease;
+  transition: background 0.5s ease;
+}
+.widget-activity ul.list li:hover,
+.widget-activity ul.list li.highlight {
+  background: #f2f2f2;
+  box-shadow: 0 1px 0 0 #ffffff inset;
+  -moz-box-shadow: 0 1px 0 0 #ffffff inset;
+  -webkit-box-shadow: 0 1px 0 0 #ffffff inset;
+  text-shadow: 0 1px 0 #ffffff;
+  cursor: pointer;
+}
+.widget-activity ul.list li:hover:after,
+.widget-activity ul.list li.highlight:after {
+  content: "\e212";
+  display: block;
+  position: absolute;
+  right: 14px;
+  top: 0;
+  height: 39px;
+  line-height: 39px;
+  font-family: "Glyphicons Regular";
+  font-size: 24px;
+  color: #d5d5d5;
+}
+.widget-activity ul.list li:hover .activity-icon i:before,
+.widget-activity ul.list li.highlight .activity-icon i:before {
+  color: #505050;
+}
+.widget-activity ul.list li > span {
+  display: block;
+  height: 39px;
+  line-height: 39px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+.widget-activity ul.list li > span.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 75%;
+}
+.widget-activity ul.list li > span.date {
+  width: 40px;
+  text-align: center;
+}
+.widget-activity ul.list li .activity-icon {
+  width: 30px;
+  height: 39px;
+  padding: 0;
+  margin: 0 10px;
+  display: inline-block;
+  text-align: center;
+}
+.widget-activity ul.list li .activity-icon i {
+  height: 39px;
+  display: block;
+  position: relative;
+}
+.widget-activity ul.list li .activity-icon i:before {
+  position: relative;
+  top: 0;
+  left: 0;
+  color: #cbcbcb;
+  font-size: 18px;
+  line-height: 39px;
+}
+.widget-activity ul.list li.double {
+  height: 45px;
+  line-height: 45px;
+}
+.widget-activity ul.list li.double > span {
+  height: 45px;
+  line-height: 45px;
+}
+.widget-activity ul.list li.double > span.ellipsis {
+  line-height: 15px;
+  padding: 7px 0 0;
+  font-weight: 600;
+  font-size: 11px;
+}
+.widget-activity ul.list li.double > span .meta {
+  display: block;
+  line-height: 15px;
+  font-weight: 400;
+  color: #b7b7b7;
+}
+.widget-activity ul.list li.double > span .meta i:before {
+  top: 1px;
+  color: #b7b7b7;
+}
+.widget-activity ul.list li.double > span .meta span {
+  font-style: italic;
+}
+.widget-activity ul.list li.double .activity-icon {
+  margin-left: 0;
+  height: 45px;
+}
+.widget-activity ul.list li.double .activity-icon i {
+  height: 45px;
+}
+.widget-activity ul.list li.double .activity-icon i:before {
+  line-height: 45px;
+}
+.widget-activity ul.list li.double:hover:after,
+.widget-activity ul.list li.double.highlight:after {
+  height: 45px;
+  line-height: 45px;
+}
+.widget-activity ul.list li:last-child {
+  border: none;
+}
+.widget-activity .view-all {
+  position: absolute;
+  top: 17px;
+  right: 14px;
+}
+/*# sourceMappingURL=widget-activity.css.map */

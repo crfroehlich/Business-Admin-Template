@@ -1,0 +1,37 @@
+﻿.resume-documents {
+  clear: both;
+}
+.resume-documents li {
+  float: left;
+  display: inline-block;
+  margin: 10px;
+}
+.resume-documents li a {
+  float: left;
+  display: inline;
+  color: #fff;
+  padding: 10px;
+  color: #757575;
+  font-weight: bold;
+  text-align: center;
+}
+.resume-documents li a i {
+  clear: both;
+  font-size: 38px;
+  display: block;
+  line-height: 40px;
+  color: #3695d5;
+}
+.resume-documents li a span {
+  color: #8f8f8f;
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+}
+.resume-documents li:hover {
+  background: #f7f7f7;
+}
+.resume-documents li:hover a i {
+  color: #c2c2c2;
+}
+/*# sourceMappingURL=profile_resume.css.map */

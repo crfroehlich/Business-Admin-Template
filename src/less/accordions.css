@@ -1,0 +1,71 @@
+﻿.accordion {
+  margin: 0 0 10px;
+  position: relative;
+}
+.accordion .panel {
+  border-color: #e2e1e1;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+.accordion .panel-body {
+  font-size: 13px;
+  border-color: #e2e1e1 !important;
+}
+.accordion .panel-heading {
+  color: #525252;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 10px;
+}
+.accordion.accordion-2 {
+  border: 1px solid #e2e1e1;
+}
+.accordion.accordion-2 .panel-heading {
+  border-bottom: 1px solid #e2e1e1;
+  background: #ffffff;
+}
+.accordion.accordion-2 .panel-heading .glyphicons {
+  padding: 0;
+  height: 24px;
+  line-height: 24px;
+}
+.accordion.accordion-2 .panel-heading .glyphicons i {
+  width: 30px;
+  display: block;
+  float: left;
+  height: 24px;
+  line-height: 24px;
+}
+.accordion.accordion-2 .panel-heading .glyphicons i:before {
+  font-size: 20px;
+  color: #cccccc;
+  top: auto;
+  left: auto;
+  width: 30px;
+  height: 24px;
+  line-height: 24px;
+  position: relative;
+  text-align: center;
+}
+.accordion.accordion-2 .panel {
+  border: none;
+  margin: 0;
+}
+.accordion.accordion-2 .panel .panel-collapse.in .panel-body {
+  border-bottom: 1px solid #e2e1e1;
+}
+.accordion.accordion-2 .accordion-inner {
+  border: none;
+  padding: 15px;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
+}
+.accordion.accordion-gray .panel-heading {
+  background: #f4f4f4;
+}
+/*# sourceMappingURL=accordions.css.map */

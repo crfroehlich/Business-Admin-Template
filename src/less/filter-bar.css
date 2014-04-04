@@ -1,0 +1,26 @@
+﻿.filter-bar {
+  background: #f4f4f4;
+  margin: 0 auto 14px;
+  border: 1px solid #e2e1e1;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  padding: 5px 10px;
+  line-height: 30px;
+  /* Desktops */
+}
+.filter-bar.dark {
+  background: #64625f;
+  color: #fff;
+}
+@media (min-width: 992px) {
+  .filter-bar label {
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .filter-bar .form-group:first-of-type label {
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=filter-bar.css.map */

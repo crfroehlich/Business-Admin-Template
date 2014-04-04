@@ -1,0 +1,18 @@
+﻿.error {
+  padding-top: 100px;
+}
+.error .error-icon {
+  display: inline;
+}
+.error .content {
+  margin-top: 100px;
+}
+.error .content .well {
+  border: none;
+  font-size: 16px;
+  background: #fff;
+  text-align: center;
+  font-weight: bold;
+  color: #cc3a3a;
+}
+/*# sourceMappingURL=error.css.map */

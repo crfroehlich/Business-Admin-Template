@@ -1,0 +1,285 @@
+﻿.bottom-social {
+  line-height: 28px;
+  font-style: italic;
+}
+.bottom-social a {
+  color: #3695d5;
+  margin-right: 7px;
+}
+.bottom-social .glyphiconaas,
+.bottom-social .glyphicons-social {
+  font-size: 12px;
+  padding: 0 0 0 25px;
+}
+.bottom-social .glyphiconaas.conversation i:before,
+.bottom-social .glyphicons-social.conversation i:before {
+  color: #3695d5;
+}
+.bottom-social .glyphiconaas i:before,
+.bottom-social .glyphicons-social i:before {
+  color: #ccc;
+  font-size: 17px;
+  left: 0;
+  top: 4px;
+}
+ul.social-comments li .user-info {
+  position: relative;
+  display: block;
+  margin: 0;
+}
+ul.social-comments li .user-info abbr {
+  position: relative;
+  display: block;
+  clear: both;
+  font-size: 11px;
+}
+.activity-line p {
+  margin-top: 8px;
+}
+.activity-line .border-top {
+  border-top: 1px solid #efefef;
+}
+.activity-line .icon .glyphicons {
+  height: 40px;
+}
+.activity-line .icon .glyphicons i:before {
+  line-height: 40px;
+}
+.activity-line.medium .icon .glyphicons {
+  height: 80px;
+}
+.activity-line.medium .icon .glyphicons i:before {
+  line-height: 80px;
+}
+.activity-line.large .icon .glyphicons {
+  height: 120px;
+}
+.activity-line.large .icon .glyphicons i:before {
+  line-height: 120px;
+}
+.activity-line .color-widget .activity-action.glyphicons i:before {
+  color: rgba(255, 255, 255, 0.3);
+}
+.activity-line .color-widget .activity-action.glyphicons:hover i:before {
+  color: #fff;
+}
+.activity-line a.activity-action {
+  padding: 0;
+}
+.activity-line a.activity-action.glyphicons {
+  margin-right: 30px;
+}
+.activity-line a.activity-action.glyphicons i:before {
+  font-size: 17px;
+  line-height: 40px;
+  color: #d9d9d9;
+}
+.activity-line a.activity-action.glyphicons:hover i:before {
+  color: #808080;
+}
+.activity-line .primary {
+  background-color: #3695d5;
+}
+.activity-line .danger {
+  background-color: #cc3a3a;
+}
+.activity-line .color-widget {
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+  color: #fff;
+}
+.activity-line .color-widget .glyphicons-social {
+  height: 120px;
+  padding: 36px;
+  margin: 0;
+}
+.activity-line .color-widget .glyphicons-social.social-big i:before {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 70px;
+  line-height: 120px;
+}
+.activity-line .color-widget.primary {
+  background-color: #3695d5;
+}
+.activity-line .color-widget.primary .darken {
+  background-color: #257ab3;
+}
+.activity-line .color-widget.primary .darken .glyphicons i:before {
+  color: #000000;
+}
+.activity-line .color-widget.danger {
+  background-color: #cc3a3a;
+}
+.activity-line .color-widget.danger .darken {
+  background-color: #a82b2b;
+}
+.activity-line .color-widget.danger .darken .glyphicons i:before {
+  color: rgba(255, 255, 255, 0.5);
+}
+.activity-line .color-widget.success {
+  background-color: #8bbf61;
+}
+.activity-line .color-widget.success .darken {
+  background-color: #71a944;
+}
+.activity-line .color-widget.warning {
+  background-color: #ab7a4b;
+}
+.activity-line .color-widget.warning .darken {
+  background-color: #88613b;
+}
+.activity-line .color-widget.inverse {
+  background-color: #424242;
+}
+.activity-line .color-widget.inverse .darken {
+  background-color: #292929;
+}
+.activity-line .color-widget.dribble {
+  background-color: #fce7ef;
+}
+.activity-line .color-widget.dribble .glyphicons-social.social-big i:before {
+  color: #ea4c89;
+}
+.activity-line .color-widget.dribble .darken {
+  background-color: #e51e6b;
+}
+.activity-line .color-widget a {
+  color: #fff;
+  font-weight: bold;
+}
+.activity-line.inverse {
+  background-color: #424242;
+}
+.activity-line .icon {
+  position: relative;
+  display: inline-block;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+.activity-line .icon .glyphicons {
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.activity-line .icon .glyphicons i:before {
+  padding-left: 10px;
+  color: #fff;
+  font-size: 18px;
+}
+.activity-line .icon.primary {
+  background-color: #3695d5;
+}
+.activity-line .icon.danger {
+  background-color: #cc3a3a;
+}
+.activity-line .icon.success {
+  background-color: #8bbf61;
+}
+.activity-line .icon.inverse {
+  background-color: #424242;
+}
+.activity-line .icon.warning {
+  background-color: #ab7a4b;
+}
+.activity-line span {
+  padding-left: 10px;
+}
+.activity-line .activity-author {
+  float: left;
+  margin: 0 10px 10px 10px;
+}
+.activity-line .activity-author img {
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+.activity-line .activity-status {
+  font-size: 14px;
+  padding: 15px 0 0;
+  position: relative;
+}
+.activity-line .activity-status span {
+  position: relative;
+  float: left;
+  width: 80%;
+  margin-top: 3px;
+  padding-left: 20px;
+  font-size: 12px;
+}
+.activity-line .activity-status span.glyphicons i:before {
+  padding: 0;
+  font-size: 16px;
+  color: #ccc;
+}
+.activity-line .activity-content {
+  background: #efefef;
+  clear: both;
+  padding: 10px;
+}
+.activity-line .activity-comments {
+  margin-top: -8px;
+}
+.activity-line .activity-comments p.comment {
+  font-size: 13px;
+  border: 1px solid #efefef;
+  background: #f7f7f7;
+  padding: 5px 10px 5px 40px;
+  color: #797979;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+}
+.activity-line .activity-comments p.comment.glyphicons i:before {
+  font-size: 24px;
+  color: #e2e2e2;
+  padding: 8px;
+}
+.activity-line .activity-comments abbr {
+  font-size: 11px;
+  font-style: italic;
+  color: #797979;
+  display: block;
+}
+.share {
+  margin: 5px;
+}
+.share .form-control {
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid #efefef;
+  -webkit-border-radius: 0px 0px 3px 3px;
+  -moz-border-radius: 0px 0px 3px 3px;
+  border-radius: 0px 0px 3px 3px;
+}
+.share .share-buttons {
+  position: relative;
+  display: inline;
+  height: 38px;
+  margin: 0;
+  padding: 0;
+}
+.share .share-buttons .glyphicons,
+.share .share-buttons .glyphicons-social {
+  height: 38px;
+  width: 40px;
+  padding: 13px;
+  margin: 0;
+}
+.share .share-buttons .glyphicons i:before,
+.share .share-buttons .glyphicons-social i:before {
+  font-size: 18px;
+  line-height: 40px;
+  color: #ccc;
+  padding-left: 10px;
+  margin: 0;
+}
+.share .share-buttons .glyphicons:hover i:before,
+.share .share-buttons .glyphicons-social:hover i:before {
+  color: #3695d5;
+}
+.share .btn-primary {
+  margin: 5px 3px;
+}
+/*# sourceMappingURL=social.css.map */

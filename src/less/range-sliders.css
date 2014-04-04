@@ -1,0 +1,127 @@
+﻿.sliderContainer {
+  height: 35px;
+  margin-top: 50px;
+  width: 100%;
+}
+.sliderContainer select,
+.sliderContainer textarea,
+.sliderContainer input[type="text"],
+.sliderContainer input[type="password"],
+.sliderContainer input[type="datetime"],
+.sliderContainer input[type="datetime-local"],
+.sliderContainer input[type="date"],
+.sliderContainer input[type="month"],
+.sliderContainer input[type="time"],
+.sliderContainer input[type="week"],
+.sliderContainer input[type="number"],
+.sliderContainer input[type="email"],
+.sliderContainer input[type="url"],
+.sliderContainer input[type="search"],
+.sliderContainer input[type="tel"],
+.sliderContainer input[type="color"],
+.sliderContainer .uneditable-input {
+  margin: 0;
+  padding: 2px 4px;
+}
+.sliderContainer .ui-rangeSlider-withArrows .ui-rangeSlider-container {
+  margin: 0 20px;
+}
+.sliderContainer .ui-rangeSlider-bar {
+  background: #3695d5;
+  height: 30px;
+  margin: 0;
+}
+.sliderContainer .ui-rangeSlider-withArrows .ui-rangeSlider-container,
+.sliderContainer .ui-rangeSlider-noArrow .ui-rangeSlider-container,
+.sliderContainer .ui-rangeSlider-arrow,
+.sliderContainer .ui-rangeSlider-bar {
+  box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0), inset -1px -1px 1px rgba(0, 0, 0, 0);
+  -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0), inset -1px -1px 1px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0), inset -1px -1px 1px rgba(0, 0, 0, 0);
+}
+.sliderContainer .ui-rangeSlider-container,
+.sliderContainer .ui-rangeSlider-arrow,
+.sliderContainer .ui-rangeSlider-label {
+  background: #f4f4f4;
+  color: #525252;
+  font-size: 13px;
+}
+.sliderContainer .ui-rangeSlider-container {
+  border-color: #e2e1e1;
+}
+.sliderContainer .ui-editRangeSlider .ui-rangeSlider-label {
+  padding: 5px;
+}
+.sliderContainer .ui-rangeSlider-label-inner {
+  border-top-color: #f4f4f4;
+}
+.sliderContainer .ui-rangeSlider-arrow {
+  border-color: #e2e1e1;
+}
+.sliderContainer .ui-rangeSlider-rightArrow .ui-rangeSlider-arrow-inner {
+  border-left-color: #3695d5;
+  margin-right: -4px;
+}
+.sliderContainer .ui-rangeSlider-leftArrow .ui-rangeSlider-arrow-inner {
+  border-right-color: #3695d5;
+  margin-left: -4px;
+}
+.sliderContainer .ui-rangeSlider-arrow {
+  width: 20px;
+}
+.sliderContainer .ui-rangeSlider .ui-ruler-scale {
+  overflow: hidden;
+}
+.sliderContainer .ui-rangeSlider .ui-ruler-scale0 .ui-ruler-tick-inner {
+  border-color: #e2e1e1;
+}
+.sliderContainer .ui-rangeSlider .ui-ruler-scale0 .ui-ruler-tick-label {
+  color: #525252;
+}
+.sliderContainer .rangeslider-danger .ui-rangeSlider-bar {
+  background: #cc3a3a;
+}
+.sliderContainer .rangeslider-danger .ui-rangeSlider-rightArrow .ui-rangeSlider-arrow-inner {
+  border-left-color: #cc3a3a;
+}
+.sliderContainer .rangeslider-danger .ui-rangeSlider-leftArrow .ui-rangeSlider-arrow-inner {
+  border-right-color: #cc3a3a;
+}
+.sliderContainer .rangeslider-success .ui-rangeSlider-bar {
+  background: #8bbf61;
+}
+.sliderContainer .rangeslider-success .ui-rangeSlider-rightArrow .ui-rangeSlider-arrow-inner {
+  border-left-color: #8bbf61;
+}
+.sliderContainer .rangeslider-success .ui-rangeSlider-leftArrow .ui-rangeSlider-arrow-inner {
+  border-right-color: #8bbf61;
+}
+.sliderContainer .rangeslider-warning .ui-rangeSlider-bar {
+  background: #ab7a4b;
+}
+.sliderContainer .rangeslider-warning .ui-rangeSlider-rightArrow .ui-rangeSlider-arrow-inner {
+  border-left-color: #ab7a4b;
+}
+.sliderContainer .rangeslider-warning .ui-rangeSlider-leftArrow .ui-rangeSlider-arrow-inner {
+  border-right-color: #ab7a4b;
+}
+.widget-body-gray .sliderContainer .ui-rangeSlider-label-inner {
+  border-top-color: #cecece;
+}
+.widget-body-gray .sliderContainer .ui-rangeSlider-container,
+.widget-body-gray .sliderContainer .ui-rangeSlider-arrow,
+.widget-body-gray .sliderContainer .ui-rangeSlider-label {
+  background: #cecece;
+  color: #4d4d4d;
+  font-weight: 600;
+}
+.widget-body-gray .sliderContainer .ui-rangeSlider:not(.rangeslider-success) .ui-rangeSlider-rightArrow .ui-rangeSlider-arrow-inner {
+  border-left-color: #4d4d4d;
+}
+.widget-body-gray .sliderContainer .ui-rangeSlider:not(.rangeslider-success) .ui-rangeSlider-leftArrow .ui-rangeSlider-arrow-inner {
+  border-right-color: #4d4d4d;
+}
+.widget-body-gray .sliderContainer .ui-rangeSlider:not(.rangeslider-success) .ui-rangeSlider-bar {
+  background: #4d4d4d;
+}
+/*# sourceMappingURL=range-sliders.css.map */

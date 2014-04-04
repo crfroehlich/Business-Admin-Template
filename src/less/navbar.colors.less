@@ -1,0 +1,65 @@
+@import 'variables.less';
+@import 'mixins.less';
+.navbar.main {
+		
+
+		.colors {
+
+		> li {
+
+			padding: 15px 2px;
+			float: left;
+			> a {
+				display: block;
+				width: 18px;
+				height: 18px;
+				background: @primaryColor;
+			}
+			&.active {
+				> a {
+					border: 1px solid darken(@primaryColor,20%);
+				}
+			}
+			&.dropdown {
+				> a {
+					background: none;
+					.color {
+						width: 9px;
+						height: 9px;
+						display: inline-block;
+						float: left;
+						&.primary { background: @primaryColor; }
+						&.info { background: @infoColor; }
+						&.inverse { background: @inverseColor; }
+						&.success { background: @successColor; }
+						&.danger { background: @dangerColor; }
+					}
+				}
+				.dropdown-menu {
+					border-color: #dedede;
+					margin: 1px 0 0;
+					width: 472px;
+					padding: 10px;
+					li {
+						width: 150px;
+						float: left;
+						border: none;
+						a {
+							padding: 3px 3px 3px 5px;
+							font-size: 13px;
+						}
+					}
+					.color {
+						display: inline-block;
+						margin-right: 5px;
+						margin-top: 3px;
+						vertical-align: text-top;
+						width: 10px;
+						height: 10px;
+						&.primary { background: @primaryColor; }
+					}
+				}
+			}
+		}
+	}
+}

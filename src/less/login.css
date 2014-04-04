@@ -1,0 +1,12 @@
+﻿.login .placeholder {
+  font-size: 120px;
+  color: #dfdfdf;
+}
+html.app .loginWrapper .layout-app {
+  top: 50px;
+}
+html.app .loginWrapper #content {
+  max-width: 760px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=login.css.map */

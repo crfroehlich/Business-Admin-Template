@@ -1,0 +1,11 @@
+﻿.table-projects .stats span {
+  display: block;
+  text-transform: uppercase;
+  padding: 2px 0;
+}
+.table-projects .stats span.count {
+  font-size: 18pt;
+  font-weight: normal;
+  color: #3695d5;
+}
+/*# sourceMappingURL=my-account-advanced.css.map */

@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "Doc.js",
+  "sourceRoot": "",
+  "sources": [
+    "Doc.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,EAAA,CAAC,SAAA,GAAA;AAEC,QAAA,4BAAA;AAAA,IAAA,UAAA,qEAAyD;AAAA,MAAA,MAAA,4DAA0C;AAAA,QAAA,MAAA,EAAS,IAAT;OAA1C;KAAzD,CAAA;AAAA,IACA,GAAA,GAAM,UAAU,CAAC,EADjB,CAAA;WAGA,UAAU,CAAC,GAAX,GAAiB,IALlB;EAAA,CAAD,CAAA,CAAA,CAAA,CAAA;AAAA"
+}

@@ -1,0 +1,10 @@
+﻿.bootstrap-select .btn.btn-inverse,
+.bootstrap-select.btn-group.open .btn.btn-inverse,
+.bootstrap-select .btn.btn-inverse:focus,
+.bootstrap-select.btn-group.open .btn.btn-inverse:focus {
+  color: #fff !important;
+}
+.bootstrap-select .btn:focus {
+  outline: none !important;
+}
+/*# sourceMappingURL=bootstrap-select.css.map */

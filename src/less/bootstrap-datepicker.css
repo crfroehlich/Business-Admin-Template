@@ -1,0 +1,43 @@
+﻿.datepicker.datepicker-inline {
+  width: 100%;
+  padding: 0;
+  margin: 0 0 14px;
+}
+.datepicker table {
+  width: 100%;
+}
+.datepicker table tr td.active,
+.datepicker table tr td.active:hover,
+.datepicker table tr td.active.disabled,
+.datepicker table tr td.active.disabled:hover {
+  background-image: none !important;
+  filter: none !important;
+  background: #3695d5 !important;
+}
+.datepicker table tr td span.active,
+.datepicker table tr td span.active:hover,
+.datepicker table tr td span.active.disabled,
+.datepicker table tr td span.active.disabled:hover {
+  background-image: none !important;
+  filter: none !important;
+  background: #3695d5 !important;
+}
+.datepicker td,
+.datepicker th {
+  width: 35px;
+  height: 30px;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
+}
+.datepicker thead th.dow {
+  background: #3695d5;
+  color: #fff;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
+}
+.widget .datepicker.datepicker-inline {
+  margin: 0;
+}
+/*# sourceMappingURL=bootstrap-datepicker.css.map */

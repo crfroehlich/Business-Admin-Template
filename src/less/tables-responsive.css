@@ -1,0 +1,98 @@
+﻿@media only screen and (max-width: 979px) {
+  .table-responsive.swipe-horizontal {
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: block;
+    position: relative;
+    width: 100%;
+    border-left: 1px solid #DDD;
+  }
+  .table-responsive.swipe-horizontal th,
+  .table-responsive.swipe-horizontal td {
+    display: block;
+    margin: 0;
+    vertical-align: top;
+  }
+  .table-responsive.swipe-horizontal th {
+    text-align: right;
+    border-bottom: 0;
+    border-left: 0;
+  }
+  .table-responsive.swipe-horizontal td {
+    min-height: 1.25em;
+    text-align: left;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    font-size: 13px;
+  }
+  .table-responsive.swipe-horizontal thead {
+    display: block;
+    float: left;
+  }
+  .table-responsive.swipe-horizontal thead tr {
+    display: block;
+  }
+  .table-responsive.swipe-horizontal tbody {
+    display: block;
+    width: auto;
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+    word-spacing: 0;
+    letter-spacing: 0;
+    font-size: 0;
+  }
+  .table-responsive.swipe-horizontal tbody tr {
+    display: inline-block;
+    vertical-align: top;
+    border-left: 1px solid #e5e5e5;
+  }
+  .table-responsive.block {
+    /* Force table to not be like tables anymore */
+    /* Hide table headers (but not display: none;, for accessibility) */
+    /* Label the data */
+  }
+  .table-responsive.block table,
+  .table-responsive.block thead,
+  .table-responsive.block tbody,
+  .table-responsive.block th,
+  .table-responsive.block td,
+  .table-responsive.block tr {
+    display: block;
+  }
+  .table-responsive.block thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  .table-responsive.block tr {
+    border: 1px solid #e5e5e5;
+  }
+  .table-responsive.block td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+    padding-left: 50%;
+    white-space: normal;
+    text-align: left;
+  }
+  .table-responsive.block td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    vertical-align: middle;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    text-align: right;
+    font-weight: bold;
+  }
+  .table-responsive.block td:before {
+    content: attr(data-title);
+  }
+}
+/*# sourceMappingURL=tables-responsive.css.map */

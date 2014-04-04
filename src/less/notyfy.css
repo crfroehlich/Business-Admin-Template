@@ -1,0 +1,84 @@
+﻿.notyfy_wrapper {
+  border: none;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
+}
+.notyfy_wrapper.notyfy_alert {
+  background: #ffffff;
+}
+.notyfy_wrapper.notyfy_error {
+  background: #cc3a3a;
+  color: #fff;
+}
+.notyfy_wrapper.notyfy_success {
+  background: #8bbf61;
+  color: #fff;
+}
+.notyfy_wrapper.notyfy_warning {
+  background: #ab7a4b;
+  color: #fff;
+}
+.notyfy_wrapper.notyfy_information {
+  background: #4193d0;
+  color: #fff;
+}
+.notyfy_wrapper.notyfy_confirm {
+  background: #ffffff;
+}
+.notyfy_wrapper.notyfy_primary {
+  background: #3695d5;
+  border: none;
+}
+.notyfy_wrapper.notyfy_primary,
+.notyfy_wrapper.notyfy_primary * {
+  color: #fff;
+}
+.notyfy_wrapper.notyfy_default {
+  background: #fafafa;
+}
+.notyfy_wrapper.notyfy_dark {
+  background: #4a4846;
+}
+.notyfy_wrapper.notyfy_dark,
+.notyfy_wrapper.notyfy_dark * {
+  color: #fff;
+}
+#notyfy_container_top {
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#notyfy_container_top .notyfy_wrapper {
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
+}
+#content-notification .notyfy_wrapper {
+  border: none;
+  box-shadow: inset 0 8px 8px -8px rgba(0, 0, 0, 0.5), inset 0 -8px 8px -8px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 8px 8px -8px rgba(0, 0, 0, 0.5), inset 0 -8px 8px -8px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 8px 8px -8px rgba(0, 0, 0, 0.5), inset 0 -8px 8px -8px rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
+}
+#content-notification .notyfy_wrapper p {
+  margin: 0;
+}
+#content-notification .notyfy_wrapper .notyfy_message {
+  padding: 15px 10px;
+}
+#content-notification .notyfy_wrapper.notyfy_default {
+  background: #fafafa;
+}
+#content-notification .notyfy_wrapper.notyfy_dark {
+  background: #4a4846;
+}
+#content-notification .notyfy_wrapper.notyfy_primary {
+  background: #3695d5;
+  box-shadow: inset 0 8px 8px -8px #06151f, inset 0 -8px 8px -8px #1d5d88;
+  -moz-box-shadow: inset 0 8px 8px -8px #06151f, inset 0 -8px 8px -8px #1d5d88;
+  -webkit-box-shadow: inset 0 8px 8px -8px #06151f, inset 0 -8px 8px -8px #1d5d88;
+}
+/*# sourceMappingURL=notyfy.css.map */

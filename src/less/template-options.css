@@ -1,0 +1,117 @@
+﻿#template-options {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000000;
+  background: rgba(255, 255, 255, 0.85);
+  text-align: left;
+}
+#template-options.in {
+  overflow: visible;
+}
+#template-options .close2 {
+  position: absolute;
+  background: #424242;
+  color: #fff;
+  font-weight: 600;
+  height: 20px;
+  top: 14px;
+  right: 10px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 10pt;
+  padding: 0 10px;
+  cursor: pointer;
+}
+#template-options .wrapper {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+#template-options .form-control {
+  height: 30px;
+  line-height: 30px;
+}
+#template-options .bootstrap-select {
+  margin-bottom: 0;
+  width: 100%;
+}
+#template-options .bootstrap-select .btn {
+  font-weight: normal;
+  width: 100%;
+}
+#template-options .form-group {
+  margin-bottom: 3px;
+}
+#choose-preview {
+  padding: 50px 0;
+}
+#choose-preview h2 {
+  margin-left: 0;
+}
+#choose-preview h2 span.text-primary {
+  font-size: 26pt;
+  font-weight: bold;
+  top: auto;
+}
+#choose-preview .control-group {
+  margin: 0 0 5px;
+}
+#choose-preview select {
+  color: #000;
+}
+#choose-preview .heading-buttons {
+  margin-bottom: 10px;
+}
+#choose-preview .box {
+  padding: 10px;
+}
+#choose-preview .box .options {
+  display: none;
+}
+#choose-preview .box .actions a {
+  display: none;
+}
+#choose-preview .box .actions a.btn-active {
+  display: inline-block;
+}
+#choose-preview .box h3 {
+  text-transform: uppercase;
+  margin: 0 0 12px;
+}
+#choose-preview .box.active {
+  background: #ffffff;
+  box-shadow: 0 3px 0 0 #dbdbdb;
+  -moz-box-shadow: 0 3px 0 0 #dbdbdb;
+  -webkit-box-shadow: 0 3px 0 0 #dbdbdb;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid #e2e1e1;
+  padding: 14px;
+}
+#choose-preview .box.active .options {
+  display: block;
+}
+#choose-preview .box.active h3 {
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+}
+#choose-preview.style-dark .well {
+  background: #ffffff;
+}
+#choose-preview.style-dark .box.active {
+  background: #fafafa;
+  border-color: #ebebeb;
+}
+#choose-preview.style-dark .box.active h3 {
+  text-shadow: none;
+  color: #fff;
+}
+#choose-preview.style-dark .box.active hr {
+  border-top-color: #ebebeb;
+}
+/*# sourceMappingURL=template-options.css.map */

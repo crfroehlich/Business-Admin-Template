@@ -1,0 +1,54 @@
+﻿.menubar {
+  height: 30px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #e2e1e1;
+  background: #fafafa;
+  margin: 0;
+  font-size: 9pt;
+}
+.menubar ul {
+  margin: 0;
+  padding: 0 5px;
+  list-style: none;
+  height: 30px;
+}
+.menubar ul li {
+  float: left;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 5px;
+}
+.menubar ul li.divider {
+  border-left: 1px solid #ebebeb;
+  width: 0px;
+  padding: 0;
+  margin: 0 8px;
+}
+.menubar ul li a {
+  color: #525252;
+  font-weight: 700;
+  font-size: 9pt;
+}
+.menubar.links {
+  border: none;
+  background: none;
+  height: 25px;
+  padding: 0 0 5px;
+}
+.menubar.links ul {
+  padding: 0;
+  height: 25px;
+}
+.menubar.links ul li {
+  height: 25px;
+  line-height: 25px;
+}
+.menubar.links ul li:first-child {
+  padding-left: 0;
+}
+.menubar.links.primary ul li a {
+  color: #3695d5;
+}
+/*# sourceMappingURL=menubar.css.map */

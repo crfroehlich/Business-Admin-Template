@@ -1,0 +1,41 @@
+﻿.checkbox-custom input[type=checkbox] {
+  /* IE cannot fire events if display none or visibility hidden */
+  position: relative;
+  left: -99999px;
+}
+.checkbox-custom i {
+  margin-left: -20px;
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  font-size: 1.333em;
+  color: #ddd;
+  display: inline-block;
+}
+.checkbox-custom i.checked {
+  margin-right: 4px;
+  color: #3695d5;
+  margin-left: -19px;
+}
+.checkbox-custom i.checked:before {
+  content: '\f046';
+}
+.checkbox-custom i.disabled {
+  /* disabled */
+  color: #eee;
+}
+.checkbox-single {
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin: 0 5px;
+}
+.checkbox-single .checkbox-custom {
+  width: 20px;
+}
+.checkbox-single .checkbox-custom i {
+  margin-left: 1px;
+}
+/*# sourceMappingURL=fuelux-checkbox.css.map */

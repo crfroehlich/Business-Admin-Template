@@ -1,0 +1,50 @@
+@import 'variables.less';
+@import 'mixins.less';
+.navbar.main {
+	&.navbar-inverse {
+		@navbarBg: #3f3f3f;
+		background: @navbarBg;
+		border-color: @navbarBg;
+		.badge { border: none; }
+		.dropdown {
+			&.active {
+				> a {color:#fff;}
+				> a.caret { border-top-color:#fff;}
+				.dropdown-toggle { > .caret { border-top-color:#fff;}}
+			}
+			.dropdown-toggle {
+				color: #999;
+				&.active, &:focus { color: #ffffff; }
+				> .caret { border-top-color:#999;}
+				&:hover {
+					> .caret { border-top-color:#fff;}
+				}
+			}
+			&.dropdown-icons a.dropdown-toggle {
+				background: none;
+			}
+		
+		}
+		[class*="border-"],
+		.notifications>li {
+			border-color: lighten(@navbarBg, 5%);
+			a.notif-block.fa { color: #999; }
+			&:hover, 
+			&.open {
+				background-color: lighten(@navbarBg,5%);
+			}
+		}
+		.input-group {
+			input {
+				background-color: lighten(@navbarBg,3%);
+				border-color: lighten(@navbarBg,5%);
+				&:hover, &:active, &:focus {
+				  	background-color: lighten(@navbarBg,5%);
+				}
+			}
+		}
+		.btn-primary.btn-stroke {
+			border-color: lighten(@navbarBg,5%);
+		}
+	}
+}

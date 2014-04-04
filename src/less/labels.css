@@ -1,0 +1,124 @@
+﻿.label {
+  display: inline-block;
+}
+.label.label-stroke {
+  background: none;
+  color: #999;
+  border: 1px solid #999;
+}
+.label.label-primary {
+  background: #3695d5;
+}
+.label.label-primary.label-stroke {
+  background: none;
+  color: #3695d5;
+  border: 1px solid #3695d5;
+}
+.label.label-info {
+  background: #4193d0;
+}
+.label.label-info.label-stroke {
+  background: none;
+  color: #4193d0;
+  border: 1px solid #4193d0;
+}
+.label.label-warning {
+  background: #ab7a4b;
+}
+.label.label-warning.label-stroke {
+  background: none;
+  color: #ab7a4b;
+  border: 1px solid #ab7a4b;
+}
+.label.label-danger {
+  background: #cc3a3a;
+}
+.label.label-danger.label-stroke {
+  background: none;
+  color: #cc3a3a;
+  border: 1px solid #cc3a3a;
+}
+.label.label-inverse {
+  background: #424242;
+}
+.label.label-inverse.label-stroke {
+  background: none;
+  color: #424242;
+  border: 1px solid #424242;
+}
+.label.label-success {
+  background: #8bbf61;
+}
+.label.label-success.label-stroke {
+  background: none;
+  color: #8bbf61;
+  border: 1px solid #8bbf61;
+}
+.label.label-block {
+  display: block;
+}
+.badge {
+  border: 1px solid #fff;
+}
+.badge.badge-stroke {
+  background: none;
+  color: #999;
+  border: 1px solid #999;
+}
+.badge.badge-primary {
+  background: #3695d5;
+}
+.badge.badge-primary.badge-stroke {
+  background: none;
+  color: #3695d5;
+  border: 1px solid #3695d5;
+}
+.badge.badge-warning {
+  background: #ab7a4b;
+}
+.badge.badge-warning.badge-stroke {
+  background: none;
+  color: #ab7a4b;
+  border: 1px solid #ab7a4b;
+}
+.badge.badge-danger {
+  background: #cc3a3a;
+}
+.badge.badge-danger.badge-stroke {
+  background: none;
+  color: #cc3a3a;
+  border: 1px solid #cc3a3a;
+}
+.badge.badge-success {
+  background: #8bbf61;
+}
+.badge.badge-success.badge-stroke {
+  background: none;
+  color: #8bbf61;
+  border: 1px solid #8bbf61;
+}
+.badge.badge-inverse {
+  background: #424242;
+}
+.badge.badge-inverse.badge-stroke {
+  background: none;
+  color: #424242;
+  border: 1px solid #424242;
+}
+.badge.badge-info {
+  background: #4193d0;
+}
+.badge.badge-info.badge-stroke {
+  background: none;
+  color: #4193d0;
+  border: 1px solid #4193d0;
+}
+.badge.badge-white {
+  background: #fff;
+  color: #797979;
+  border: 1px solid #ccc;
+}
+.badge.badge-block {
+  display: block;
+}
+/*# sourceMappingURL=labels.css.map */

@@ -1,0 +1,89 @@
+﻿.widget-timeline .widget-body {
+  padding: 15px;
+  position: relative;
+}
+.widget-timeline .widget-body:before {
+  display: block;
+  width: 1px;
+  background: #e2e1e1;
+  top: 15px;
+  bottom: 30px;
+  left: 75px;
+  content: "";
+  position: absolute;
+}
+.widget-timeline:not(.widget) {
+  position: relative;
+}
+.widget-timeline:not(.widget):before {
+  display: block;
+  width: 1px;
+  background: #e2e1e1;
+  top: 15px;
+  bottom: 34px;
+  left: 75px;
+  content: "";
+  position: absolute;
+}
+.widget-timeline .view-all {
+  margin-left: 35px;
+}
+.widget-timeline ul.list-timeline {
+  list-style: none;
+  margin: 0 0 15px;
+  padding: 0;
+}
+.widget-timeline ul.list-timeline li {
+  display: block;
+  height: 35px;
+  line-height: 35px;
+  position: relative;
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  margin: 0 0 10px;
+  padding: 0 10px;
+}
+.widget-timeline ul.list-timeline li:last-child {
+  margin: 0;
+}
+.widget-timeline ul.list-timeline li span {
+  display: block;
+  height: 35px;
+  line-height: 35px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+.widget-timeline ul.list-timeline li span.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 75%;
+}
+.widget-timeline ul.list-timeline li span.date {
+  width: 40px;
+  text-align: center;
+}
+.widget-timeline ul.list-timeline li .activity-icon {
+  width: 30px;
+  height: 35px;
+  padding: 0;
+  margin: 0 10px;
+  display: inline-block;
+  text-align: center;
+}
+.widget-timeline ul.list-timeline li .activity-icon i {
+  height: 35px;
+  display: block;
+  position: relative;
+  background: #64625f;
+}
+.widget-timeline ul.list-timeline li .activity-icon i:before {
+  position: relative;
+  top: 0;
+  left: 0;
+  color: #fff;
+  font-size: 17px;
+  line-height: 35px;
+}
+/*# sourceMappingURL=widget-timeline.css.map */

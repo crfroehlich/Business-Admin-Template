@@ -1,0 +1,28 @@
+﻿#gritter-notice-wrapper {
+  z-index: 99999;
+}
+.gritter-item-wrapper .gritter-item p {
+  margin: 0 0 10px;
+}
+.gritter-item-wrapper .gritter-item p:last-child {
+  margin: 0;
+}
+.gritter-item-wrapper.gritter-primary .gritter-top {
+  display: none;
+}
+.gritter-item-wrapper.gritter-primary .gritter-bottom {
+  display: none;
+}
+.gritter-item-wrapper.gritter-primary .gritter-item {
+  background: rgba(54, 149, 213, 0.9);
+  padding: 10px 10px 15px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  color: #fff;
+}
+.gritter-item-wrapper.gritter-primary .gritter-item a {
+  color: #fff;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=gritter.css.map */

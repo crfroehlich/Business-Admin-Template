@@ -1,0 +1,131 @@
+﻿.sidebar.sidebar-collapse #menu.sidebar-white {
+  height: 100%;
+  color: #fff;
+  background: #3f3f3f;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white img {
+  border-color: #595959;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white .text-faded {
+  color: #727272 !important;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white .bg-primary .text-faded {
+  color: #373737 !important;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white #sidebar-collapse-wrapper .btn-inverse {
+  background: #323232;
+  border-color: #323232;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white #sidebar-collapse-wrapper .bg-inverse {
+  background: #2e404e !important;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white #sidebar-collapse-wrapper #logoWrapper {
+  background: #3f3f3f;
+  border-bottom: 1px solid #444444;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white #sidebar-collapse-wrapper #logoWrapper .btn-inverse {
+  background: #323232;
+  border-color: #323232;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white #sidebar-collapse-wrapper #logoWrapper .btn-inverse:hover {
+  background: #3695d5;
+  border-color: #3695d5;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white #sidebar-collapse-wrapper #logoWrapper .btn-inverse:hover i {
+  color: #ffffff;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white #sidebar-collapse-wrapper #brandWrapper {
+  background: #323232;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white > div ul {
+  background: #3f3f3f;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white > div ul > li.hasSubmenu.active > a {
+  border-color: #2780bb;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white > div ul > li.hasSubmenu.active > ul li.hasSubmenu.active > a {
+  border-color: #353535;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white > div ul li {
+  border-bottom-color: #444444;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white > div ul li > a {
+  color: #999999;
+  border-left: 4px solid #353535;
+  border-right: 4px solid #353535;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white > div ul li > a > span.badge {
+  color: #ffffff;
+  background: #383838;
+  border-color: #383838;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white > div ul li > a > span.badge.badge-inverse {
+  color: #fff;
+  border-color: #3695d5;
+  background: #3f3f3f;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white > div ul li > a > i:before {
+  color: #727272;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white > div ul li > a:hover {
+  background: #323232;
+  color: #fff;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white > div ul li > a:hover > i:before {
+  color: #fff;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white > div ul li > a[data-toggle="collapse"]:after {
+  font-size: 1em;
+  color: #727272;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white > div > ul > li.active > a {
+  border-color: #2780bb;
+  background: #3695d5;
+  color: #ffffff;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white > div > ul > li.active > a > i:before {
+  color: #fff;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white > div > ul > li.active > a .badge {
+  background: #fff;
+  border-color: #ffffff;
+  color: #000000;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white > div > ul > li.active > a[data-toggle="collapse"]:after {
+  color: #ffffff;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white > div > ul > li .btn-inverse:hover {
+  color: #fff;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white > div > ul > li .btn-inverse:hover i {
+  color: #3695d5;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white > div > ul > li > ul {
+  /*background: #2e404e;*/
+  border-bottom: none;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white > div > ul > li > ul > li.active > a {
+  background: #323232;
+  color: #ffffff;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white > div > ul > li > ul > li.active > a > i:before {
+  color: #fff;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white > div > ul > li > ul > li.active > a .badge {
+  background: #fff;
+  border-color: #ffffff;
+  color: #000000;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white > div > ul > li > ul > li > ul {
+  /*background: darken(@menuSidebarBg, 8%);*/
+}
+.sidebar.sidebar-collapse #menu.sidebar-white.sidebar-brand-primary #sidebar-collapse-wrapper #brandWrapper {
+  background: #3695d5;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white.sidebar-brand-primary #sidebar-collapse-wrapper > ul > li.active > a {
+  background: #283943;
+}
+.sidebar.sidebar-collapse #menu.sidebar-white.sidebar-brand-primary #sidebar-collapse-wrapper > ul > li.active > a > i:before {
+  color: #3695d5;
+}
+/*# sourceMappingURL=menus.sidebar.collapse.white.css.map */

@@ -1,0 +1,29 @@
+﻿.radio-custom input[type=radio] {
+  /* IE cannot fire events if display none or visibility hidden */
+  position: relative;
+  left: -99999px;
+}
+.radio-custom i {
+  margin-left: -20px;
+  margin-right: 5px;
+  vertical-align: top;
+  margin-top: 1px;
+  width: 16px;
+  height: 16px;
+  font-size: 1.333em;
+  color: #ddd;
+  display: inline-block;
+}
+.radio-custom i.checked {
+  margin-right: 4px;
+  color: #3695d5;
+  margin-left: -19px;
+}
+.radio-custom i.checked:before {
+  content: '\f111';
+}
+.radio-custom i.disabled {
+  /* disabled */
+  color: #eee;
+}
+/*# sourceMappingURL=fuelux-radio.css.map */

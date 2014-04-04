@@ -1,0 +1,44 @@
+﻿/* Contacts */
+.list-group.list-white {
+  border: none;
+  margin-bottom: 0;
+}
+.list-group.list-white li.list-group-item {
+  border: none;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
+  font-weight: bold;
+}
+.list-group.list-white li.list-group-item.active {
+  background: #4193d0;
+}
+.list-group.list-white li.list-group-item.active a {
+  color: #fff;
+}
+.list-group.list-white li.list-group-item.active .badge-stroke {
+  border-color: #fff;
+  color: #fff;
+}
+.list-group.list-white li.list-group-item.active:hover {
+  background: #4193d0;
+}
+.list-group.list-white li.list-group-item:hover {
+  background: #f7f7f7;
+}
+.media.contact {
+  margin: 0;
+  padding: 14px;
+  border-bottom: 1px solid #efefef;
+}
+.media.contact .media-object {
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+.media.contact:hover {
+  background: #f7f7f7;
+}
+/*# sourceMappingURL=demi.css.map */

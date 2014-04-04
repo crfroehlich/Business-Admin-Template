@@ -1,0 +1,462 @@
+﻿div.row,
+ul.row {
+  margin: 0 -12px;
+}
+.row-merge {
+  margin: 0 !important;
+}
+div[class*="col-xs-"],
+div[class*="col-sm-"],
+div[class*="col-md-"],
+div[class*="col-lg-"],
+li[class*="col-xs-"],
+li[class*="col-sm-"],
+li[class*="col-md-"],
+li[class*="col-lg-"] {
+  padding: 0 12px;
+}
+#content > .innerLR {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+#content > .innerTB {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+#content > .innerAll {
+  padding: 24px;
+}
+#content .container > .innerLR {
+  padding: 0;
+}
+#content > h1,
+#content > h2,
+#content > h3,
+#content > h4 {
+  padding: 0 24px 24px;
+  margin: 0;
+}
+#content > .container .innerLR > h1,
+#content > .innerLR > h1,
+#content > .container .innerLR > h2,
+#content > .innerLR > h2,
+#content > .container .innerLR > h3,
+#content > .innerLR > h3,
+#content > .container .innerLR > h4,
+#content > .innerLR > h4 {
+  margin: 0;
+  padding-bottom: 24px;
+}
+.border-top {
+  border-top: 1px solid #e2e1e1;
+}
+.border-right {
+  border-right: 1px solid #e2e1e1;
+}
+.border-bottom {
+  border-bottom: 1px solid #e2e1e1 !important;
+}
+.border-left {
+  border-left: 1px solid #e2e1e1;
+}
+.separator-h {
+  height: 24px;
+}
+.layout-app {
+  margin: 0 24px 0;
+  position: relative;
+}
+.layout-app .container {
+  padding: 0;
+}
+.layout-app .row-app {
+  background: #eaeaea;
+  margin: 0;
+}
+.layout-app .row-app > div[class*="col-"] {
+  padding: 0;
+}
+.layout-app .col-separator {
+  background-color: #fff;
+}
+.layout-app .col-separator > .widget,
+.layout-app .col-separator > .widget-body,
+.layout-app .col-separator > .widget-stats,
+.layout-app .col-separator > .list-group {
+  margin: 0 !important;
+  border: none !important;
+}
+.layout-app .reset-components .widget,
+.layout-app .reset-components .widget-body,
+.layout-app .reset-components .widget-stats,
+.layout-app .reset-components .list-group {
+  margin: 0 !important;
+  border: none !important;
+}
+.layout-app .reset-components .list-group li {
+  border-left: none !important;
+  border-right: none !important;
+}
+.layout-app .col-separator-h {
+  height: 12px;
+  border-left: none;
+  border-right: none;
+  position: relative;
+}
+.layout-app .col-separator-h:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: -1px;
+  top: 0;
+  bottom: 0;
+  background: #eaeaea;
+}
+.layout-app .col-separator {
+  position: relative;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.app .row-app {
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  .layout-app .col-separator-h {
+    height: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  html .layout-app,
+  html.app .layout-app {
+    margin: 0;
+  }
+  html .layout-app .col-separator,
+  html.app .layout-app .col-separator {
+    position: relative;
+    margin-right: 24px;
+    overflow: visible;
+  }
+  html .layout-app .col-separator-first,
+  html.app .layout-app .col-separator-first {
+    margin-left: 24px;
+  }
+  html .layout-app .col-separator-last,
+  html.app .layout-app .col-separator-last {
+    margin-right: 0;
+  }
+  html .layout-app .col-separator-h,
+  html.app .layout-app .col-separator-h {
+    height: 24px;
+  }
+  html.app .layout-app {
+    margin: 0;
+  }
+  html.app .layout-app .col-separator {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
+@media (max-width: 991px) {
+  .row-merge > [class*="col-md-"] ~ [class*="col-md-"] {
+    position: relative;
+  }
+  .row-merge > [class*="col-md-"] ~ [class*="col-md-"]:after {
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: 1px;
+    background: #e2e1e1;
+    content: "";
+  }
+  html .row-app > [class*="col-sm-"] ~ [class*="col-sm-12"],
+  html.app .row-app > [class*="col-sm-"] ~ [class*="col-sm-12"] {
+    margin-top: 24px;
+    position: relative;
+    overflow: visible !important;
+  }
+  html .row-app > [class*="col-sm-"] ~ [class*="col-sm-12"]:after,
+  html.app .row-app > [class*="col-sm-"] ~ [class*="col-sm-12"]:after {
+    background: #eaeaea;
+    position: absolute;
+    top: -24px;
+    left: 0;
+    right: 0;
+    height: 24px;
+    content: "";
+  }
+  html .row-app > [class*="col-sm-"] ~ [class*="col-md-"]:after,
+  html.app .row-app > [class*="col-sm-"] ~ [class*="col-md-"]:after,
+  html .row-app > [class*="col-md-"] ~ [class*="col-md-"]:after,
+  html.app .row-app > [class*="col-md-"] ~ [class*="col-md-"]:after {
+    bottom: auto;
+    width: auto;
+    left: 0;
+    right: 0;
+    height: 1px;
+    content: "";
+  }
+}
+@media (max-width: 991px) {
+  html.app .layout-app [class*="col-sm-12"] > .col-separator,
+  html.app .layout-app [class*="col-md-12"] > .col-separator {
+    left: 0;
+    right: 0;
+  }
+  html.app .layout-app [class*="col-sm-12"] > .col-separator .col-separator,
+  html.app .layout-app [class*="col-md-12"] > .col-separator .col-separator {
+    margin-right: 0;
+  }
+  html.app .layout-app [class*="col-sm-12"] ~ [class*="col-sm-12"],
+  html.app .layout-app [class*="col-md-12"] ~ [class*="col-sm-12"] {
+    margin-top: 24px;
+    position: relative;
+    overflow: visible !important;
+  }
+  html.app .layout-app [class*="col-sm-12"] ~ [class*="col-sm-12"]:after,
+  html.app .layout-app [class*="col-md-12"] ~ [class*="col-sm-12"]:after {
+    background: #efefef;
+    position: absolute;
+    top: -24px;
+    left: 0;
+    right: 0;
+    height: 24px;
+    content: "";
+  }
+}
+@media (max-width: 1199px) {
+  .layout-app [class*="col-lg-4"][class*="col-sm-"] .col-separator {
+    margin-right: 12px;
+  }
+  .layout-app [class*="col-lg-4"][class*="col-sm-"] .col-separator-last-sm {
+    margin-right: 0;
+  }
+  .layout-app [class*="col-lg-4"][class*="col-sm-12"] .col-separator {
+    margin-right: 0;
+  }
+  html .row,
+  html.app .row {
+    margin: 0 -6px;
+  }
+  html .row-merge,
+  html.app .row-merge {
+    margin: 0;
+  }
+  html .layout-app > .row-app,
+  html.app .layout-app > .row-app {
+    margin: 0;
+  }
+  html div[class*="col-xs-"],
+  html.app div[class*="col-xs-"],
+  html div[class*="col-sm-"],
+  html.app div[class*="col-sm-"],
+  html div[class*="col-md-"],
+  html.app div[class*="col-md-"],
+  html div[class*="col-lg-"],
+  html.app div[class*="col-lg-"] {
+    padding: 0 6px;
+  }
+  html [class*="col-sm-12"] > .col-separator,
+  html.app [class*="col-sm-12"] > .col-separator,
+  html [class*="col-md-12"] > .col-separator,
+  html.app [class*="col-md-12"] > .col-separator {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  html [class*="col-sm-12"] > .col-separator .col-separator,
+  html.app [class*="col-sm-12"] > .col-separator .col-separator,
+  html [class*="col-md-12"] > .col-separator .col-separator,
+  html.app [class*="col-md-12"] > .col-separator .col-separator {
+    margin-right: 12px;
+  }
+  html [class*="col-sm-12"] > .col-separator .col-separator-last,
+  html.app [class*="col-sm-12"] > .col-separator .col-separator-last,
+  html [class*="col-md-12"] > .col-separator .col-separator-last,
+  html.app [class*="col-md-12"] > .col-separator .col-separator-last {
+    margin-right: 0;
+  }
+  html .row-app > [class*="col-sm-"] ~ [class*="col-sm-"],
+  html.app .row-app > [class*="col-sm-"] ~ [class*="col-sm-"],
+  html .row-app > [class*="col-md-"] ~ [class*="col-sm-"],
+  html.app .row-app > [class*="col-md-"] ~ [class*="col-sm-"],
+  html .row-app > [class*="col-sm-"] ~ [class*="col-md-"],
+  html.app .row-app > [class*="col-sm-"] ~ [class*="col-md-"],
+  html .row-app > [class*="col-md-"] ~ [class*="col-md-"],
+  html.app .row-app > [class*="col-md-"] ~ [class*="col-md-"] {
+    position: relative;
+  }
+  html .row-app > [class*="col-sm-"] ~ [class*="col-sm-"]:after,
+  html.app .row-app > [class*="col-sm-"] ~ [class*="col-sm-"]:after,
+  html .row-app > [class*="col-md-"] ~ [class*="col-sm-"]:after,
+  html.app .row-app > [class*="col-md-"] ~ [class*="col-sm-"]:after,
+  html .row-app > [class*="col-sm-"] ~ [class*="col-md-"]:after,
+  html.app .row-app > [class*="col-sm-"] ~ [class*="col-md-"]:after,
+  html .row-app > [class*="col-md-"] ~ [class*="col-md-"]:after,
+  html.app .row-app > [class*="col-md-"] ~ [class*="col-md-"]:after {
+    background: #eaeaea;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: auto;
+    right: auto;
+    height: auto;
+    width: 1px;
+    content: "";
+  }
+  html .row-app > [class*="col-sm-"] ~ [class*="col-md-12"],
+  html.app .row-app > [class*="col-sm-"] ~ [class*="col-md-12"],
+  html .row-app > [class*="col-md-"] ~ [class*="col-md-12"],
+  html.app .row-app > [class*="col-md-"] ~ [class*="col-md-12"] {
+    margin-top: 24px;
+    position: relative;
+    overflow: visible !important;
+  }
+  html .row-app > [class*="col-sm-"] ~ [class*="col-md-12"]:after,
+  html.app .row-app > [class*="col-sm-"] ~ [class*="col-md-12"]:after,
+  html .row-app > [class*="col-md-"] ~ [class*="col-md-12"]:after,
+  html.app .row-app > [class*="col-md-"] ~ [class*="col-md-12"]:after {
+    background: #eaeaea;
+    position: absolute;
+    top: -24px;
+    left: 0;
+    right: 0;
+    height: 24px;
+    content: "";
+  }
+}
+@media (min-width: 1200px) {
+  html.app,
+  html.app body,
+  html.app body .container-fluid {
+    min-height: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  html.app #content {
+    height: 100%;
+  }
+  html.app .layout-app {
+    position: relative;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+  }
+  html.app .layout-app .col-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    table-layout: fixed;
+    left: 0;
+    right: 0;
+  }
+  html.app .layout-app .col-table-row {
+    display: table-row;
+    height: 100%;
+  }
+  html.app .layout-app .col-table-row > .col-app > .col-app {
+    position: absolute;
+    width: 100%;
+  }
+  html.app .layout-app .col-app {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+  }
+  html.app .layout-app .row-app {
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+  html.app .layout-app .row-app > div[class*="col-"],
+  html.app .layout-app .row-app .col-app {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+  }
+  html.app .layout-app .col-separator {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 24px;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  html.app .layout-app .col-separator.col-unscrollable {
+    overflow-y: hidden;
+    overflow: hidden;
+  }
+  html.app .layout-app .col-separator-first {
+    left: 24px;
+  }
+  html.app .layout-app .col-separator-last {
+    right: 0px;
+  }
+  html.app .layout-app .col-scrollable {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  html.app .layout-app .col-unscrollable {
+    overflow-y: hidden;
+  }
+}
+.container-fluid {
+  background: #eaeaea;
+  padding: 0 0 72px 0;
+}
+#content {
+  position: relative;
+  overflow: hidden;
+  min-width: 320px;
+  min-height: 500px;
+  padding: 0;
+  background: #eaeaea;
+  padding-top: 24px;
+}
+.sidebar.sidebar-discover #content {
+  margin-left: 236px;
+}
+.sidebar.sidebar-collapse #content {
+  margin-left: 236px;
+}
+@media (max-width: 767px) {
+  .container-fluid {
+    position: relative;
+    overflow-x: hidden;
+  }
+}
+@media (min-width: 768px) {
+  #content {
+    overflow: visible;
+  }
+}
+.col-fs {
+  left: 0 !important;
+  right: 0 !important;
+  margin: 0;
+  top: 0 !important;
+}
+.img-responsive {
+  width: 100%;
+}
+.fa-6x {
+  font-size: 80px;
+}
+.nicescroll-rails {
+  display: none;
+}
+.bg-danger {
+  background-color: #cc3a3a;
+  color: #fff;
+}
+/*# sourceMappingURL=layout.css.map */

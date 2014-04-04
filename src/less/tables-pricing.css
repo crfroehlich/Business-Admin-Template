@@ -1,0 +1,113 @@
+﻿.table-pricing th,
+.table-pricing td {
+  padding: 10px;
+}
+.table-pricing .plan {
+  font-weight: 600;
+  font-size: 14px;
+  display: block;
+}
+.table-pricing .price {
+  font-weight: 600;
+  font-size: 24px;
+  display: block;
+}
+.table-pricing .heading {
+  font-weight: 600;
+  font-size: 24px;
+  vertical-align: middle;
+}
+.table-pricing .glyphicons.standard {
+  vertical-align: middle;
+}
+.table-pricing .glyphicons.standard.circle_ok i:before {
+  color: #9fc75f;
+}
+.table-pricing-2 th {
+  padding: 12px 0;
+  background: #3695d5;
+  font-size: 14px;
+  color: #fff;
+  border-color: #5a5855;
+}
+.table-pricing-2 .pricing td {
+  padding: 12px 10px 10px;
+  background: #fff;
+  border-color: #cecece;
+}
+.table-pricing-3 {
+  max-width: 850px;
+  text-align: center;
+}
+.table-pricing-3 > ul > li {
+  list-style-type: none;
+  background: #fff;
+  padding: 0;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid #efefef;
+}
+.table-pricing-3 > ul > li > .innerAll {
+  padding: 40px 30px;
+}
+.table-pricing-3 > ul > li .body {
+  width: 140px;
+  height: 140px;
+  margin: 25px auto;
+  border: 4px solid #efefef;
+  border-radius: 100%;
+  display: table;
+}
+.table-pricing-3 > ul > li .body .price {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  vertical-align: middle;
+  display: table-cell;
+  line-height: 20px;
+  color: #7c7c7c;
+}
+.table-pricing-3 > ul > li .body .price .figure {
+  display: block;
+}
+.table-pricing-3 > ul > li .body .price .term {
+  font-size: 11px;
+  font-weight: normal;
+}
+.table-pricing-3 > ul > li .features {
+  padding: 10px 0;
+}
+.table-pricing-3 > ul > li .features ul {
+  padding: 0;
+}
+.table-pricing-3 > ul > li .features ul li {
+  list-style-type: none;
+}
+.table-pricing-3 > ul > li .footer {
+  padding: 10px 0;
+}
+.table-pricing-3 > ul > li.active {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  z-index: 1;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
+}
+.table-pricing-3 > ul > li.active .body {
+  border-color: #bddcf1;
+  background-color: #3695d5;
+}
+.table-pricing-3 > ul > li.active .body .price {
+  color: #fff;
+}
+@media (min-width: 992px) {
+  .table-pricing-3 {
+    margin: 40px auto !important;
+  }
+}
+/*# sourceMappingURL=tables-pricing.css.map */

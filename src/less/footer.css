@@ -1,0 +1,25 @@
+﻿#footer {
+  font-weight: 700;
+  position: fixed;
+  overflow: hidden;
+  z-index: 10000;
+  background: #efefef;
+  text-align: center;
+  padding: 0 10px;
+  height: 48px;
+  line-height: 48px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#footer a {
+  color: #686868;
+  text-decoration: underline;
+}
+.sidebar.sidebar-discover #footer {
+  left: 236px;
+}
+.sidebar.sidebar-collapse #footer {
+  left: 236px;
+}
+/*# sourceMappingURL=footer.css.map */

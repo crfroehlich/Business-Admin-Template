@@ -1,0 +1,26 @@
+﻿#events-speakers .item {
+  border-bottom: 1px solid #e2e1e1;
+}
+#events-speakers.owl-theme .owl-controls .owl-page span {
+  background: #3695d5;
+  width: 20px;
+  height: 20px;
+}
+#events-speakers.owl-theme .owl-controls {
+  margin-top: 3px;
+}
+#events-speakers .widget-pinterest {
+  margin: 0;
+  border: none;
+}
+#events-speakers .widget-pinterest .widget-body .thumb {
+  height: 200px;
+  display: block;
+  overflow: hidden;
+}
+#events-speakers .widget-pinterest .widget-body .thumb img {
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
+}
+/*# sourceMappingURL=events-speakers.css.map */

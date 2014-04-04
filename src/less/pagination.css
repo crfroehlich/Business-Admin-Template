@@ -1,0 +1,53 @@
+﻿.pager li > a,
+.pager li > span {
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+}
+.pagination.bootpag {
+  margin: 0;
+}
+.pagination > li > a:hover,
+.pagination > li.primary > a {
+  background: #3695d5;
+  color: #fff;
+  font-weight: 700;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  border-color: #e2e1e1;
+  background: #3695d5;
+  color: #fff;
+  font-weight: 700;
+}
+.pagination > li > a,
+.pagination > li > span {
+  border-color: #e2e1e1;
+  background: #ffffff;
+}
+.pagination > .primary.disabled > a,
+.pagination > .disabled > a,
+.pagination > .disabled > span {
+  border-color: #e2e1e1;
+  background: #ffffff;
+  color: #dddddd;
+  font-weight: 700;
+  text-shadow: none;
+  box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0), inset -1px -1px 1px rgba(0, 0, 0, 0);
+  -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0), inset -1px -1px 1px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0), inset -1px -1px 1px rgba(0, 0, 0, 0);
+}
+.pagination > .disabled > a:hover {
+  border-color: #e2e1e1;
+  background: #ffffff;
+  color: #dddddd;
+  text-shadow: none;
+  box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0), inset -1px -1px 1px rgba(0, 0, 0, 0);
+  -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0), inset -1px -1px 1px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0), inset -1px -1px 1px rgba(0, 0, 0, 0);
+}
+/*# sourceMappingURL=pagination.css.map */

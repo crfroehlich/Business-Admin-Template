@@ -1,0 +1,64 @@
+﻿.navbar.main .colors > li {
+  padding: 15px 2px;
+  float: left;
+}
+.navbar.main .colors > li > a {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: #3695d5;
+}
+.navbar.main .colors > li.active > a {
+  border: 1px solid #1d5d88;
+}
+.navbar.main .colors > li.dropdown > a {
+  background: none;
+}
+.navbar.main .colors > li.dropdown > a .color {
+  width: 9px;
+  height: 9px;
+  display: inline-block;
+  float: left;
+}
+.navbar.main .colors > li.dropdown > a .color.primary {
+  background: #3695d5;
+}
+.navbar.main .colors > li.dropdown > a .color.info {
+  background: #4193d0;
+}
+.navbar.main .colors > li.dropdown > a .color.inverse {
+  background: #424242;
+}
+.navbar.main .colors > li.dropdown > a .color.success {
+  background: #8bbf61;
+}
+.navbar.main .colors > li.dropdown > a .color.danger {
+  background: #cc3a3a;
+}
+.navbar.main .colors > li.dropdown .dropdown-menu {
+  border-color: #dedede;
+  margin: 1px 0 0;
+  width: 472px;
+  padding: 10px;
+}
+.navbar.main .colors > li.dropdown .dropdown-menu li {
+  width: 150px;
+  float: left;
+  border: none;
+}
+.navbar.main .colors > li.dropdown .dropdown-menu li a {
+  padding: 3px 3px 3px 5px;
+  font-size: 13px;
+}
+.navbar.main .colors > li.dropdown .dropdown-menu .color {
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 3px;
+  vertical-align: text-top;
+  width: 10px;
+  height: 10px;
+}
+.navbar.main .colors > li.dropdown .dropdown-menu .color.primary {
+  background: #3695d5;
+}
+/*# sourceMappingURL=navbar.colors.css.map */

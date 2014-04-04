@@ -1,0 +1,122 @@
+@import 'variables.less';
+@import 'mixins.less';
+#overlay {
+	background: rgba(0,0,0,.05);
+	-webkit-box-shadow: 0 0 5px fade(@inverseColor, 30%);
+	-moz-box-shadow: 0 0 5px fade(@inverseColor, 30%);
+	box-shadow: 0 0 5px fade(@inverseColor, 30%);
+	border: 1px solid @inverseColor;
+}
+#overlay,
+#overlay-hover {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
+	position: absolute;
+	z-index: 100000;
+	display: none;
+	cursor: pointer;
+	.btn {
+		margin: 0 !important;
+		+ btn { margin: 0 !important; }
+	} 
+	#overlay-menu {
+		position: absolute;
+		top: -23px;
+		left: -1px;
+	}
+	#overlay-menu-right {
+		position: absolute;
+		top: -23px;
+		right: -1px;
+	}
+	#overlay-label {
+		position: absolute;
+		top: 100%;
+		left: -1px;
+		line-height: 17px;
+		padding: 0 5px;
+		font-size: 8px;
+		background: @inverseColor;
+		color: #fff;
+		-webkit-border-radius: 0 0 3px 3px;
+		-moz-border-radius: 0 0 3px 3px;
+		border-radius: 0 0 3px 3px;
+	}
+	.dropdown-menu {
+		background: @inverseColor;
+		color: #fff;
+		padding: 0;
+		border: none;
+		.divider {
+			margin: 0;
+			background-color: darken(@inverseColor, 10%);
+		}
+		> li > a {
+			color: #fff;
+			font-size: 10px;
+			padding: 3px 10px 3px 15px;
+			.strong {
+				font-weight: 700;
+			}
+		}
+		> li:first-of-type {
+			a {
+				.rounded(4px, 4px, 0, 0);
+			}
+		}
+		> li:last-of-type {
+			a {
+				.rounded(0,0, 4px, 4px);
+			}
+		}
+	}
+}
+#overlay-hover {
+	background: none;
+	border: 1px dashed @inverseColor;
+}
+.placeholder-draggable {
+	border: 1px dashed #000;
+	background: rgba(0,0,0,.2);
+}
+.ui-highlight-drops {
+	@color: green;
+	border: 1px solid fade(@color, 40%) !important;
+	background: fade(@color, 5%) !important;
+	overflow: hidden;
+	&.separator { display: none; }
+	&.row {
+		padding: 15px 0;
+		margin: 0;
+	}
+}
+div.ui-highlight-drops {
+	padding: 15px;
+	&[class*="col-"] {
+		min-height: 100px;
+	}
+	&.container {
+		padding: 15px !important;
+	}
+}
+.ui-highlight-drops-separator {
+	margin: 0 0 15px !important;
+}
+div[class*="col-"] {
+	&.ui-sortable {
+		min-height: 100px !important;
+	}
+}
+.widget-body, div[class*="col-"] {
+	&:empty {
+		background: fade(red, 5%) !important;
+		border: 1px solid fade(red, 10%) !important;
+		min-height: 100px !important;
+	}
+}
+[contenteditable="true"]
+{
+	border: 1px dashed @inverseColor !important;
+}

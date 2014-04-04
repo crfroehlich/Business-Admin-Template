@@ -1,0 +1,29 @@
+@import 'variables.less';
+@import 'mixins.less';
+// Filters Widget
+// -------------------------
+
+.filter-bar {
+	background: @widgetBgGray;
+	margin: 0 auto @spacing;
+	border: 1px solid @contentBorder;
+	.rounded(5px,5px,5px,5px);
+	padding: 5px 10px;
+	line-height: 30px;
+	&.dark {
+		background: #64625f;
+		color: #fff;
+	}
+
+	/* Desktops */
+	@media (min-width: 992px) {
+		label {
+			float: left;
+			margin-right: 5px;
+			margin-left: 5px;
+		}
+		.form-group:first-of-type label {
+			margin-left: 0;
+		}
+	}
+}

@@ -1,0 +1,37 @@
+﻿#image-preview {
+  position: absolute;
+  border: 1px solid #efefef;
+  background: #fff;
+  padding: 10px;
+  display: none;
+  color: #222;
+  overflow: hidden;
+  width: 140px;
+  z-index: 1006;
+  text-align: center;
+}
+#image-preview h4 {
+  font-weight: 700;
+}
+#image-preview img {
+  display: inline-block;
+  width: 100px;
+  margin: 0 0 10px;
+}
+#image-preview p {
+  font-size: 12px;
+  color: #666;
+}
+#image-preview p:last-of-type {
+  margin-bottom: 0;
+}
+.opacity30 {
+  filter: alpha(opacity=30);
+  -moz-opacity: 0.3;
+  -khtml-opacity: 0.3;
+  opacity: 0.3;
+}
+.opacity30:hover {
+  opacity: 0.7;
+}
+/*# sourceMappingURL=image-preview.css.map */

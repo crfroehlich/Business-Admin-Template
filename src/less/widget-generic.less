@@ -1,0 +1,16 @@
+@import 'variables.less';
+@import 'mixins.less';
+// Generic Widget
+// -------------------------
+
+.box-generic { 
+	border: 1px solid @contentBorder;
+	padding: @spacing; 
+	position: relative; 
+	background: @widgetBg;
+	box-shadow: 0 3px 0 0 @contentShadow1;
+	-moz-box-shadow: 0 3px 0 0 @contentShadow1;
+	-webkit-box-shadow: 0 3px 0 0 @contentShadow1;
+	.rounded(5px,5px,5px,5px);
+	margin: 0 0 @spacing;
+}

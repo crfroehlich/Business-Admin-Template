@@ -1,0 +1,32 @@
+@import 'variables.less';
+@import 'mixins.less';
+// Footer
+// -------------------------
+
+@footerHeight: 48px;
+#footer {
+	font-weight: 700;
+	position: fixed;
+	overflow: hidden;
+	z-index: 10000;
+	background: @footerBg;
+	text-align: center;
+	padding: 0 10px;
+	height: @footerHeight;
+	line-height: @footerHeight;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	a { color: #686868; text-decoration: underline; }
+}
+
+.sidebar.sidebar-discover {
+	#footer {
+		left: @menuSidebarDiscoverWidth;
+	}
+}
+.sidebar.sidebar-collapse {
+	#footer {
+		left: @menuSidebarCollapseWidth;
+	}
+}

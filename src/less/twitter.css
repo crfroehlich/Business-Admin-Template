@@ -1,0 +1,51 @@
+﻿.jstwitter {
+  position: relative;
+}
+.jstwitter .item {
+  overflow: hidden;
+}
+.jstwitter .tweet-wrapper {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 16px;
+  padding: 15px;
+}
+.jstwitter .widget {
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+.jstwitter .widget-body {
+  padding: 0;
+}
+.jstwitter .item a {
+  text-decoration: none;
+}
+.jstwitter .item img {
+  width: 100%;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  border: none;
+  padding: 0;
+}
+.jstwitter .item .thumb {
+  padding: 0;
+  border: none;
+}
+.jstwitter .item a:hover {
+  text-decoration: underline;
+}
+.jstwitter .item .text {
+  display: block;
+}
+.jstwitter .item .time,
+.jstwitter .item .user {
+  font-style: italic;
+  color: #999;
+}
+.jstwitter .item.active {
+  display: block;
+}
+/*# sourceMappingURL=twitter.css.map */

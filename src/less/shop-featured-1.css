@@ -1,0 +1,90 @@
+﻿.mark .text {
+  font-size: 13px;
+  font-weight: bold;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  width: 40px;
+  color: #fff;
+  z-index: 9999;
+}
+.mark .caret {
+  border-top: 8px solid transparent;
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  color: #fff;
+  z-index: 9998;
+  text-align: center;
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  /* IE 9 */
+  -webkit-transform: rotate(180deg);
+  /* Safari and Chrome */
+}
+.mark .caret-default {
+  border-left: 20px solid #e2e2e2;
+  border-right: 20px solid #e2e2e2;
+  border-bottom: 30px solid #e2e2e2;
+  color: #ccc;
+}
+.mark .caret-primary {
+  border-left: 20px solid #3695d5;
+  border-right: 20px solid #3695d5;
+  border-bottom: 30px solid #3695d5;
+}
+.mark .caret-danger {
+  border-left: 20px solid #cc3a3a;
+  border-right: 20px solid #cc3a3a;
+  border-bottom: 30px solid #cc3a3a;
+}
+.mark .caret-default {
+  border-left: 20px solid #424242;
+  border-right: 20px solid #424242;
+  border-bottom: 30px solid #424242;
+}
+.mark .caret-default .text {
+  color: #fff;
+}
+#shop-featured-1 .item {
+  border-bottom: 1px solid #e2e1e1;
+}
+#shop-featured-1.owl-theme .owl-controls .owl-page span {
+  background: #3695d5;
+  width: 20px;
+  height: 20px;
+}
+#shop-featured-1.owl-theme .owl-controls {
+  margin-top: 3px;
+}
+#shop-featured-1 .widget-pinterest {
+  margin: 0;
+  border: none;
+}
+#shop-featured-1 .widget-pinterest .widget-body .thumb {
+  height: 250px;
+  display: block;
+  overflow: hidden;
+}
+#shop-featured-1 .widget-pinterest .widget-body .thumb img {
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
+}
+#shop-featured-1 .widget-pinterest .mark {
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+#shop-featured-1 .widget-pinterest .mark .caret {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+#shop-featured-1 .widget-pinterest .mark .text {
+  top: 5px;
+  text-align: center;
+  right: 0;
+}
+/*# sourceMappingURL=shop-featured-1.css.map */

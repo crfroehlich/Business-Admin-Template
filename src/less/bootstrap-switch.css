@@ -1,0 +1,77 @@
+﻿.has-switch {
+  vertical-align: middle;
+  border-color: #eaeaea;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
+}
+.has-switch + .has-switch {
+  margin-left: 10px;
+}
+.has-switch span.switch-left {
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
+}
+.has-switch span {
+  background-image: none !important;
+  filter: none !important;
+}
+.has-switch label {
+  background-image: none !important;
+  filter: none !important;
+  background: #fff;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  border: none;
+}
+.has-switch label:hover,
+.has-switch label:focus,
+.has-switch label:active,
+.has-switch label.active,
+.has-switch label.disabled,
+.has-switch label[disabled] {
+  background: #fff;
+}
+.has-switch span.switch-primary {
+  background: #3695d5;
+}
+.has-switch span.switch-primary:hover {
+  background: #60abde;
+}
+.has-switch span.switch-danger {
+  background: #cc3a3a;
+}
+.has-switch span.switch-danger:hover {
+  background: #d66363;
+}
+.has-switch span.switch-warning {
+  background: #ab7a4b;
+}
+.has-switch span.switch-warning:hover {
+  background: #be946b;
+}
+.has-switch span.switch-success {
+  background: #8bbf61;
+}
+.has-switch span.switch-success:hover {
+  background: #a6ce85;
+}
+.has-switch span.switch-inverse {
+  background: #424242;
+}
+.has-switch span.switch-inverse:hover {
+  background: #5c5c5c;
+}
+.has-switch span.switch-default {
+  background: #eaeaea;
+  color: #444;
+}
+.has-switch span.switch-default:hover {
+  background: #fff;
+}
+.has-switch span.switch-default.switch-right {
+  background: #fff;
+}
+/*# sourceMappingURL=bootstrap-switch.css.map */

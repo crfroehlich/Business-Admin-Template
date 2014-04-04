@@ -1,0 +1,14 @@
+﻿.box-generic {
+  border: 1px solid #e2e1e1;
+  padding: 14px;
+  position: relative;
+  background: #ffffff;
+  box-shadow: 0 3px 0 0 #dbdbdb;
+  -moz-box-shadow: 0 3px 0 0 #dbdbdb;
+  -webkit-box-shadow: 0 3px 0 0 #dbdbdb;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  margin: 0 0 14px;
+}
+/*# sourceMappingURL=widget-generic.css.map */

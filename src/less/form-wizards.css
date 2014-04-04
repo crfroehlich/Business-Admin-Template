@@ -1,0 +1,114 @@
+﻿.wizard .wizard-head {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-bottom: none;
+}
+.bwizard-steps .label {
+  position: relative;
+  top: -1px;
+  margin: 0 5px 0 0;
+  padding: 1px 5px 2px;
+}
+.bwizard-steps .active .label {
+  background-color: #333;
+}
+.bwizard-steps {
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  list-style: none;
+}
+.bwizard-steps li {
+  display: block;
+  float: left;
+  position: relative;
+  margin-right: 5px;
+  line-height: 40px;
+  height: 40px;
+  background: #fafafa;
+}
+.bwizard-steps li a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px 0 40px;
+  color: #7c7c7c;
+  font-weight: 600;
+}
+.bwizard-steps li.active {
+  color: #fff;
+  background: #3695d5;
+}
+.bwizard-steps li.active:after {
+  border-left-color: #3695d5;
+}
+.bwizard-steps li.active a {
+  color: #fff;
+  cursor: default;
+}
+.bwizard-steps li:after {
+  position: absolute;
+  right: -20px;
+  top: 0;
+  height: 0;
+  width: 0;
+  border-bottom: 20px inset transparent;
+  border-left: 20px solid #fafafa;
+  border-top: 20px inset transparent;
+  content: "";
+  z-index: 2;
+}
+.bwizard-steps li:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 0;
+  border-bottom: 20px inset transparent;
+  border-left: 20px solid #fff;
+  border-top: 20px inset transparent;
+  content: "";
+}
+.bwizard-steps li:last-child {
+  margin-right: 0;
+}
+.bwizard-steps li:first-child:before {
+  border: none;
+}
+.bwizard-steps li:first-child a {
+  padding-left: 20px;
+}
+.bwizard-steps a:hover {
+  text-decoration: none;
+}
+.bwizard-steps.clickable li:not (.active ) {
+  cursor: pointer;
+}
+.bwizard-steps.clickable li:hover:not (.active ) {
+  background: #ccc;
+}
+.bwizard-steps.clickable li:hover:not (.active ):after {
+  border-left-color: #ccc;
+}
+.bwizard-steps.clickable li:hover:not (.active ) a {
+  color: #08c;
+}
+@media (max-width: 991px) {
+  .bwizard-steps {
+    height: auto;
+  }
+  .bwizard-steps li {
+    float: none;
+    margin: 0;
+    border-bottom: 1px solid #e2e1e1;
+  }
+  .bwizard-steps li:before,
+  .bwizard-steps li:after {
+    display: none;
+  }
+  .bwizard-steps li a {
+    padding: 0 20px;
+  }
+}
+/*# sourceMappingURL=form-wizards.css.map */

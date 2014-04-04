@@ -1,0 +1,38 @@
+@import 'variables.less';
+@import 'mixins.less';
+/* Contacts */
+
+.list-group {
+	&.list-white {
+		border:none;
+		
+		margin-bottom: 0;
+		li.list-group-item {
+			border:none;
+			border-top:1px solid #efefef;
+			border-bottom:1px solid #efefef;
+			.rounded();
+			font-weight: bold;
+			&.active {
+				a {color:#fff;}
+				.badge-stroke { border-color: #fff; color:#fff; }
+				background: @infoColor;
+				&:hover {background: @infoColor;}
+			}
+			&:hover {background: lighten(#efefef,3%);}
+		}
+	}
+
+}
+
+	.media {
+		&.contact {
+
+			margin:0;
+			padding:@spacing;
+			border-bottom:1px solid #efefef;
+			.media-object { .rounded(5px,5px,5px,5px);}
+			&:hover {background: lighten(#efefef,3%);}
+		}
+		
+	}

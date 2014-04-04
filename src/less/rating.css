@@ -1,0 +1,31 @@
+﻿.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating.text-large {
+  margin: 7px 0;
+}
+.rating span.star {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+}
+.rating span.star:before {
+  content: "\f006";
+  padding-right: 0;
+}
+.rating:not(.read-only) span.star:hover {
+  cursor: pointer;
+}
+.rating:not(.read-only) span.star:hover:before,
+.rating:not(.read-only) span.star:hover ~ span.star:before {
+  content: "\f005";
+  color: #3695d5;
+}
+.rating span.star.active:before,
+.rating span.star.active ~ span.star:before {
+  content: "\f005";
+  color: #3695d5;
+}
+/*# sourceMappingURL=rating.css.map */

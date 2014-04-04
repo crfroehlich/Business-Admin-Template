@@ -1,0 +1,60 @@
+﻿.tickets li label {
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+.tickets li .media-heading {
+  font-size: 14px;
+  font-weight: bold;
+  color: #3695d5;
+}
+.tickets li .media-body i {
+  font-size: 80%;
+}
+.tickets li .media-body .media {
+  margin-top: 5px;
+  padding: 10px;
+  border-top: 1px solid #efefef;
+}
+.tickets li .empty-photo {
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background: #dbdbdb;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+}
+.tickets li .empty-photo i {
+  color: #8f8f8f;
+  line-height: 50px;
+}
+.tickets li .empty-photo.agent {
+  background: #3695d5;
+  width: 20px;
+  height: 20px;
+}
+.tickets li .empty-photo.agent i {
+  line-height: 20px;
+  color: #fff;
+  font-size: 15px;
+}
+.tickets li a.user-ticket-action {
+  color: #fff;
+}
+.tickets li a.user-ticket-action.primary {
+  background: #3695d5;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+}
+.tickets li a.user-ticket-action i {
+  font-size: 80%;
+}
+.tickets:hover {
+  background: #f7f7f7;
+}
+.tickets:hover .media-body .media {
+  background: #fff;
+}
+/*# sourceMappingURL=tickets.css.map */
