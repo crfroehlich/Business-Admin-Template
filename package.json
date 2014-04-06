@@ -1,77 +1,77 @@
 {
-  "name": "DocData",
-  "title": "Doctor Evidence's Doc Data Evidence-Based Research and Analysis",
-  "description": "NPM package for web app",
-  "version": "0.0.1",
-  "homepage": "http://www.drevidence.com",
   "author": {
-    "name": "Christopher Froehlich",
-    "email": "cfroehlich@doctorevidence.com"
-  },
-  "repository": {
-    "type": "hg",
-    "url": "https://doctorevidence.kilnhg.com/Code/Dev/Platform/DocData"
+    "email": "cfroehlich@doctorevidence.com",
+    "name": "Christopher Froehlich"
   },
   "bugs": {
     "url": "https://doctorevidence.fogbugz.com/default.asp"
   },
+  "dependencies": {
+    "coffee-script": "*",
+    "gulp": "*",
+    "gulp-load-plugins": "*"
+  },
+  "description": "NPM package for web app",
+  "devDependencies": {
+    "gulp": "^3.5.5",
+    "gulp-autoprefixer": "0.0.6",
+    "gulp-bower-files": "^0.1.11",
+    "gulp-bump": "^0.1.6",
+    "gulp-cache": "^0.1.3",
+    "gulp-changed": "^0.3.0",
+    "gulp-clean": "^0.2.4",
+    "gulp-coffee": "^1.4.1",
+    "gulp-coffeelint": "^0.3.1",
+    "gulp-concat": "^2.2.0",
+    "gulp-debug": "^0.2.0",
+    "gulp-declare": "*",
+    "gulp-gh-pages": "*",
+    "gulp-git": "^0.3.6",
+    "gulp-header": "^1.0.2",
+    "gulp-imagemin": "^0.1.5",
+    "gulp-inject": "*",
+    "gulp-js2coffee": "0.0.1",
+    "gulp-jshint": "^1.5.0",
+    "gulp-less": "^1.2.3",
+    "gulp-livereload": "^1.2.0",
+    "gulp-minify-css": "^0.3.0",
+    "gulp-notify": "^1.2.1",
+    "gulp-plumber": "^0.5.6",
+    "gulp-qunit": "^0.3.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-replace": "*",
+    "gulp-template": "*",
+    "gulp-uglify": "^0.2.1",
+    "gulp-util": "*",
+    "gulp-watch": "^0.5.3",
+    "qunit": "*",
+    "tiny-lr": "0.0.5",
+    "wiredep": "^1.2.2"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "homepage": "http://www.drevidence.com",
+  "keywords": [],
   "licenses": [
     {
       "type": "All rights reserved, Copyright(c) 2014",
       "url": ""
     }
   ],
-  "dependencies": {
-    "gulp": "*",
-    "gulp-load-plugins": "*",
-    "coffee-script": "*"
-  },
-  "devDependencies": {
-    "gulp-bower-files": "^0.1.11",
-    "gulp-concat": "^2.2.0",
-    "gulp-declare": "*",
-    "gulp-inject": "*",
-    "gulp-minify-css": "^0.3.0",
-    "gulp-replace": "*",
-    "gulp-uglify": "^0.2.1",
-    "gulp-util": "*",
-    "gulp": "^3.5.5",
-    "wiredep": "^1.2.2",
-    "gulp-less": "^1.2.3",
-    "gulp-livereload": "^1.2.0",
-    "gulp-rename": "^1.2.0",
-    "gulp-clean": "^0.2.4",
-    "tiny-lr": "0.0.5",
-    "gulp-autoprefixer": "0.0.6",
-    "gulp-notify": "^1.2.1",
-    "gulp-jshint": "^1.5.0",
-    "gulp-cache": "^0.1.3",
-    "gulp-imagemin": "^0.1.5",
-    "gulp-gh-pages": "*",
-    "gulp-template": "*",
-    "qunit": "*",
-    "gulp-coffee": "^1.4.1",
-    "gulp-coffeelint": "^0.3.1",
-    "gulp-debug": "^0.2.0",
-    "gulp-git": "^0.3.6",
-    "gulp-bump": "^0.1.6",
-    "gulp-qunit": "^0.3.2",
-    "gulp-header": "^1.0.2",
-    "gulp-plumber": "^0.5.6",
-    "gulp-watch": "^0.5.3",
-    "gulp-js2coffee": "0.0.1",
-    "gulp-changed": "^0.3.0"
-  },
-  "keywords": [],
-  "engines": {
-    "node": "0.8.x",
-    "npm": "1.1.x"
+  "name": "DocData",
+  "repository": {
+    "type": "hg",
+    "url": "https://doctorevidence.kilnhg.com/Code/Dev/Platform/DocData"
   },
   "scripts": {},
+  "title": "Doctor Evidence's Doc Data Evidence-Based Research and Analysis",
+  "version": "0.0.1",
   "volo": {
     "dependencies": {
-      "moment": "http://momentjs.com/downloads/moment-with-langs.js",
-      "fuelux": "github:ExactTarget/fuelux/2.6.0"
+      "fuelux": "github:ExactTarget/fuelux/2.6.0",
+      "moment": "http://momentjs.com/downloads/moment-with-langs.js"
     }
   }
 }

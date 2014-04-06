@@ -1,42 +1,38 @@
-﻿/*
-@import 'variables.less';
-@import 'mixins.less';
-//
-// lt-ie9
-// --------------------------------------------------
-
-// lt-ie9
-// ------------------------- //
-
-.lt-ie9 {
-    .widget .widget-body.list ul li {
-        border-bottom: 1px solid #efefef;
-    }
-    .heading-buttons h1.glyphicons, .heading-buttons h2.glyphicons, .heading-buttons h3.glyphicons, .heading-buttons h4.glyphicons, .heading-buttons h5.glyphicons, .heading-buttons h6.glyphicons { float: left; }
-    .filter-bar div div.input-append .add-on {
-        width: 24px;
-        padding-right: 0;
-        padding-left: 0;
-        i {
-            width: 24px;
-            height: 24px;
-            display: block;
-            vertical-align: middle;
-            line-height: 24px;
-            &:before {
-                width: 24px;
-                height: 24px;
-                line-height: 24px;
-                top: auto;
-            }
-        }
-    }
-    .navbar.main .topnav .dropdown > a .caret {
-        vertical-align: middle;
-        margin-top: 0;
-        top: 0;
-    }
-    .ribbon-wrapper { display: none; }
+﻿.lt-ie9 .widget .widget-body.list ul li {
+  border-bottom: 1px solid #efefef;
 }
-    */
+.lt-ie9 .heading-buttons h1.glyphicons,
+.lt-ie9 .heading-buttons h2.glyphicons,
+.lt-ie9 .heading-buttons h3.glyphicons,
+.lt-ie9 .heading-buttons h4.glyphicons,
+.lt-ie9 .heading-buttons h5.glyphicons,
+.lt-ie9 .heading-buttons h6.glyphicons {
+  float: left;
+}
+.lt-ie9 .filter-bar div div.input-append .add-on {
+  width: 24px;
+  padding-right: 0;
+  padding-left: 0;
+}
+.lt-ie9 .filter-bar div div.input-append .add-on i {
+  width: 24px;
+  height: 24px;
+  display: block;
+  vertical-align: middle;
+  line-height: 24px;
+}
+.lt-ie9 .filter-bar div div.input-append .add-on i:before {
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  top: auto;
+}
+.lt-ie9 .navbar.main .topnav .dropdown > a .caret {
+  vertical-align: middle;
+  margin-top: 0;
+  top: 0;
+}
+.lt-ie9 .ribbon-wrapper {
+  display: none;
+}
 /*# sourceMappingURL=lt-ie9.css.map */

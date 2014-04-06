@@ -1,7 +1,7 @@
 if (typeof $.fn.easyPieChart != 'undefined') {
     (function($) {
         // generate easy-pie-charts
-        if ($('.easy-pie').length && $.fn.easyPieChart) {
+        if ($('.easy-pie').length) {
             $.each($('.easy-pie'), function(k, v) {
                 var color = primaryColor;
                 if ($(this).is('.info')) color = infoColor;

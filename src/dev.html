@@ -3,867 +3,1375 @@
 <!--[if IE 7]>    <html class="ie lt-ie9 lt-ie8 sidebar sidebar-discover"> <![endif]-->
 <!--[if IE 8]>    <html class="ie lt-ie9 sidebar sidebar-discover"> <![endif]-->
 <!--[if gt IE 8]> <html class="ie sidebar sidebar-discover"> <![endif]-->
-<!--[if !IE]><!--><html class="sidebar sidebar-discover"><!-- <![endif]-->
+<!--[if !IE]><!-->
+<html class="sidebar sidebar-discover">
+<!-- <![endif]-->
 <head>
-    <title>BUSINESS Template (v1.0.2)</title>
-    
+    <title>(dev) BUSINESS Template (v1.0.3-rc2)</title>
+
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-    
-        <!--[if lt IE 9]><link rel="stylesheet" href="bower_components/css/bootstrap.min.css" /><![endif]-->
-    
-    <!-- inject:css -->
- 
-    <!-- endinject -->
-    <!-- bower:css -->
- 
-    <!-- endbower -->
-    
-	 <!-- inject:css 
-
-    <!-- endinject -->
-	
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- 
-    <script src="bower_components/better-dom/dist/better-dom.js"></script>
-    <script src="bower_components/better-ajaxify/dist/better-ajaxify.js"></script>
-   -->
-    <script src="../bower_components/jquery/dist/jquery.js"></script>
-
-    <script>if (/*@cc_on!@*/false && document.documentMode === 10) { document.documentElement.className+=' ie ie10'; }</script>
-    
-</head>
-<body class="scripts-async">
-    
-    <!-- Main Container Fluid -->
    
-        
-                <!-- Sidebar Menu -->
-        <div id="menu" class="hidden-print hidden-xs">
+    <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/blueimp-gallery/css/blueimp-gallery.min.css" />
+    <link rel="stylesheet" href="../bower_components/blueimp-gallery/css/blueimp-gallery-video.css" />
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../bower_components/bootstrap-datepicker/css/datepicker.css" />
+    <link rel="stylesheet" href="../bower_components/bootstrap-datepicker/css/datepicker3.css" />
+    <link rel="stylesheet" href="../bower_components/bootstrap-multiselect/css/bootstrap-multiselect.css" />
+    <link rel="stylesheet" href="../bower_components/bootstrap-select/bootstrap-select.css" />
+    <link rel="stylesheet" href="../bower_components/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.css" />
+    <link rel="stylesheet" href="../bower_components/bootstrap-timepicker/css/bootstrap-timepicker.min.css" />
+    <link rel="stylesheet" href="../bower_components/bootstrap-wysihtml5/src/bootstrap-wysihtml5.css" />
+    <link rel="stylesheet" href="../bower_components/bower-jvectormap/jquery-jvectormap-1.2.2.css" />
+    <link rel="stylesheet" href="../bower_components/datatables/media/css/jquery.dataTables.css" />
+    <link rel="stylesheet" href="../bower_components/datatables-colreorder/css/dataTables.colReorder.css" />
+    <link rel="stylesheet" href="../bower_components/datatables-colvis/css/dataTables.colVis.css" />
+    <link rel="stylesheet" href="../bower_components/datatables-fixedheader/css/dataTables.fixedHeader.css" />
+    <link rel="stylesheet" href="../bower_components/datatables-tabletools/css/dataTables.tableTools.css" />
+    <link rel="stylesheet" href="../bower_components/dropzone/downloads/css/dropzone.css" />
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="../bower_components/footable/css/footable.core.min.css" />
+    <link rel="stylesheet" href="../bower_components/fullcalendar/fullcalendar.css" />
+    <link rel="stylesheet" href="../bower_components/google-code-prettify/src/prettify.css" />
+    <link rel="stylesheet" href="../bower_components/jasny-bootstrap/dist/css/jasny-bootstrap.css" />
+    <link rel="stylesheet" href="../bower_components/jcrop/css/jquery.Jcrop.min.css" />
+    <link rel="stylesheet" href="../bower_components/jqrangeslider/css/iThing.css" />
+    <link rel="stylesheet" href="../bower_components/jquery.easy-pie-chart/jquery.easy-pie-chart.css" />
+    <link rel="stylesheet" href="../bower_components/jquery.gritter/css/jquery.gritter.css" />
+    <link rel="stylesheet" href="../bower_components/jquery-prettyPhoto/css/prettyPhoto.css" />
+    <link rel="stylesheet" href="../bower_components/jquery-ui/themes/base/minified/jquery-ui.min.css" />
+    <link rel="stylesheet" href="../bower_components/owlcarousel/owl-carousel/owl.carousel.css" />
+    <link rel="stylesheet" href="../bower_components/owlcarousel/owl-carousel/owl.theme.css" />
+    <link rel="stylesheet" href="../bower_components/pageguide/dist/css/pageguide.min.css" />
+    <link rel="stylesheet" href="../bower_components/plupload/js/jquery.plupload.queue/css/jquery.plupload.queue.css" />
+    <link rel="stylesheet" href="../bower_components/select2/select2.css" />
+    <!-- endbower -->
 
-            <div id="sidebar-discover-wrapper">
-    <ul class="list-unstyled">
+   <!-- inject:css -->
+    <link rel="stylesheet" href="../src/css/DT_bootstrap.css">
+    <link rel="stylesheet" href="../src/css/animate.min.css">
+    <link rel="stylesheet" href="../src/css/elements.css">
+    <link rel="stylesheet" href="../src/css/farbtastic.css">
+    <link rel="stylesheet" href="../src/css/jquery.easy-pie-chart.css">
+    <link rel="stylesheet" href="../src/css/jquery.notyfy.css">
+    <link rel="stylesheet" href="../src/css/notyfy.theme.default.css">
+    <link rel="stylesheet" href="../src/icons/glyphicons/less/glyphicons_filetypes.css">
+    <link rel="stylesheet" href="../src/icons/glyphicons/less/glyphicons_regular.css">
+    <link rel="stylesheet" href="../src/icons/glyphicons/less/glyphicons_social.css">
+    <link rel="stylesheet" href="../src/icons/pictoicons/css/picto.css">
+    <link rel="stylesheet" href="../src/less/accordions.css">
+    <link rel="stylesheet" href="../src/less/alerts.css">
+    <link rel="stylesheet" href="../src/less/animations.css">
+    <link rel="stylesheet" href="../src/less/blueimp-gallery.css">
+    <link rel="stylesheet" href="../src/less/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="../src/less/bootstrap-select.css">
+    <link rel="stylesheet" href="../src/less/bootstrap-switch.css">
+    <link rel="stylesheet" href="../src/less/bootstrap-timepicker.css">
+    <link rel="stylesheet" href="../src/less/breadcrumb.css">
+    <link rel="stylesheet" href="../src/less/builder.iframe.css">
+    <link rel="stylesheet" href="../src/less/buttons.css">
+    <link rel="stylesheet" href="../src/less/calendar.css">
+    <link rel="stylesheet" href="../src/less/carousels.css">
+    <link rel="stylesheet" href="../src/less/courses-featured-1.css">
+    <link rel="stylesheet" href="../src/less/datatables.css">
+    <link rel="stylesheet" href="../src/less/demi.css">
+    <link rel="stylesheet" href="../src/less/email.css">
+    <link rel="stylesheet" href="../src/less/employees.css">
+    <link rel="stylesheet" href="../src/less/error.css">
+    <link rel="stylesheet" href="../src/less/events-carousel.css">
+    <link rel="stylesheet" href="../src/less/events-speakers.css">
+    <link rel="stylesheet" href="../src/less/filter-bar.css">
+    <link rel="stylesheet" href="../src/less/flotcharts.css">
+    <link rel="stylesheet" href="../src/less/footer.css">
+    <link rel="stylesheet" href="../src/less/form-wizards.css">
+    <link rel="stylesheet" href="../src/less/forms.css">
+    <link rel="stylesheet" href="../src/less/front.table-pricing.css">
+    <link rel="stylesheet" href="../src/less/fuelux-checkbox.css">
+    <link rel="stylesheet" href="../src/less/fuelux-radio.css">
+    <link rel="stylesheet" href="../src/less/gallery.css">
+    <link rel="stylesheet" href="../src/less/glyphicons_filetypes.css">
+    <link rel="stylesheet" href="../src/less/glyphicons_regular.css">
+    <link rel="stylesheet" href="../src/less/glyphicons_social.css">
+    <link rel="stylesheet" href="../src/less/gritter.css">
+    <link rel="stylesheet" href="../src/less/helpers.css">
+    <link rel="stylesheet" href="../src/less/image-preview.css">
+    <link rel="stylesheet" href="../src/less/invoice.css">
+    <link rel="stylesheet" href="../src/less/jcrop.css">
+    <link rel="stylesheet" href="../src/less/jqueryui-sliders.css">
+    <link rel="stylesheet" href="../src/less/labels.css">
+    <link rel="stylesheet" href="../src/less/layout.css">
+    <link rel="stylesheet" href="../src/less/list-group.css">
+    <link rel="stylesheet" href="../src/less/login.css">
+    <link rel="stylesheet" href="../src/less/lt-ie9.css">
+    <link rel="stylesheet" href="../src/less/maps-google.css">
+    <link rel="stylesheet" href="../src/less/maps-vector.css">
+    <link rel="stylesheet" href="../src/less/medical.css">
+    <link rel="stylesheet" href="../src/less/menu.sidebar.collapse.css">
+    <link rel="stylesheet" href="../src/less/menubar.css">
+    <link rel="stylesheet" href="../src/less/menus.css">
+    <link rel="stylesheet" href="../src/less/menus.sidebar.collapse.css">
+    <link rel="stylesheet" href="../src/less/menus.sidebar.collapse.white.css">
+    <link rel="stylesheet" href="../src/less/menus.sidebar.discover.css">
+    <link rel="stylesheet" href="../src/less/menus.top.css">
+    <link rel="stylesheet" href="../src/less/mixins.css">
+    <link rel="stylesheet" href="../src/less/mixitup.css">
+    <link rel="stylesheet" href="../src/less/modal-inline.css">
+    <link rel="stylesheet" href="../src/less/modals.css">
+    <link rel="stylesheet" href="../src/less/multiselect.css">
+    <link rel="stylesheet" href="../src/less/my-account-advanced.css">
+    <link rel="stylesheet" href="../src/less/navbar.colors.css">
+    <link rel="stylesheet" href="../src/less/navbar.main.css">
+    <link rel="stylesheet" href="../src/less/navbar.main.inverse.css">
+    <link rel="stylesheet" href="../src/less/news-featured-1.css">
+    <link rel="stylesheet" href="../src/less/news-featured-2.css">
+    <link rel="stylesheet" href="../src/less/news-featured-3.css">
+    <link rel="stylesheet" href="../src/less/notyfy.css">
+    <link rel="stylesheet" href="../src/less/page-tour.css">
+    <link rel="stylesheet" href="../src/less/pagination.css">
+    <link rel="stylesheet" href="../src/less/popovers.css">
+    <link rel="stylesheet" href="../src/less/preload.pace.css">
+    <link rel="stylesheet" href="../src/less/profile_resume.css">
+    <link rel="stylesheet" href="../src/less/progress-bars.css">
+    <link rel="stylesheet" href="../src/less/range-sliders.css">
+    <link rel="stylesheet" href="../src/less/rating.css">
+    <link rel="stylesheet" href="../src/less/responsive.css">
+    <link rel="stylesheet" href="../src/less/ribbons.css">
+    <link rel="stylesheet" href="../src/less/rtl.css">
+    <link rel="stylesheet" href="../src/less/scaffolding.css">
+    <link rel="stylesheet" href="../src/less/select2.css">
+    <link rel="stylesheet" href="../src/less/shop-featured-1.css">
+    <link rel="stylesheet" href="../src/less/social.css">
+    <link rel="stylesheet" href="../src/less/sparkline.css">
+    <link rel="stylesheet" href="../src/less/surveys.css">
+    <link rel="stylesheet" href="../src/less/tables-pricing.css">
+    <link rel="stylesheet" href="../src/less/tables-responsive.css">
+    <link rel="stylesheet" href="../src/less/tables.css">
+    <link rel="stylesheet" href="../src/less/tabs.css">
+    <link rel="stylesheet" href="../src/less/template-options.css">
+    <link rel="stylesheet" href="../src/less/themer.css">
+    <link rel="stylesheet" href="../src/less/tickets.css">
+    <link rel="stylesheet" href="../src/less/timeline-project.css">
+    <link rel="stylesheet" href="../src/less/timeline.appointments.css">
+    <link rel="stylesheet" href="../src/less/timeline.css">
+    <link rel="stylesheet" href="../src/less/tooltips.css">
+    <link rel="stylesheet" href="../src/less/twitter.css">
+    <link rel="stylesheet" href="../src/less/uniformjs.css">
+    <link rel="stylesheet" href="../src/less/variables.css">
+    <link rel="stylesheet" href="../src/less/wells.css">
+    <link rel="stylesheet" href="../src/less/widget-activity-social.css">
+    <link rel="stylesheet" href="../src/less/widget-activity.css">
+    <link rel="stylesheet" href="../src/less/widget-chat.css">
+    <link rel="stylesheet" href="../src/less/widget-collapsible.css">
+    <link rel="stylesheet" href="../src/less/widget-generic.css">
+    <link rel="stylesheet" href="../src/less/widget-offer.css">
+    <link rel="stylesheet" href="../src/less/widget-pinterest.css">
+    <link rel="stylesheet" href="../src/less/widget-progress.css">
+    <link rel="stylesheet" href="../src/less/widget-stats.css">
+    <link rel="stylesheet" href="../src/less/widget-timeline.css">
+    <link rel="stylesheet" href="../src/less/widgets.css">
     
-        <li class="active">
-             
-            <a href="#sidebar-discover-social" class="glyphicons home " data-toggle="sidebar-discover"><span class="badge pull-right badge-primary hidden-md">7</span><i></i><span>Overview</span></a>
-            <div id="sidebar-discover-social" class="sidebar-discover-menu">
-                <div class="innerAll text-center border-bottom text-muted-dark">
-                    <strong>Overview</strong>
-                    <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i></button>
-                </div>
-                <ul class="animated fadeIn">
-                    <li class="active"><a href="index.html?lang=en">Analytics</a></li>
-                    <li><a href="dashboard_users.html?lang=en">Users</a></li>
-                    <li><a href="medical_overview.html?lang=en">Medical</a></li>
-                    <li><a href="finances.html?lang=en">Financial</a></li>
-                    <li><a href="courses_2.html?lang=en">Learning</a></li>
-                </ul>
-            </div>
-        </li>
-
-        <li>
-            <a href="#sidebar-discover-media" class="glyphicons picture" data-toggle="sidebar-discover"><span class="badge pull-right badge-primary hidden-md">2</span><i></i><span>Media</span></a>
-            <div id="sidebar-discover-media" class="sidebar-discover-menu">
-                <div class="innerAll text-center border-bottom text-muted-dark">
-                    <strong>Media</strong>
-                    <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i></button>
-                </div>
-                <ul class="animated fadeIn">
-                    <li><a href="gallery_video.html?lang=en"><i class="fa fa-video-camera"></i> Video Gallery</a></li>
-                    <li><a href="gallery.html?lang=en"><i class="fa fa-camera"></i> Photo Gallery</a></li>
-                </ul>
-            </div>
-        </li>
-
-        <li>
-            <a href="#sidebar-discover-email" class="glyphicons envelope" data-toggle="sidebar-discover"><i></i><span>Email</span></a>
-            <div id="sidebar-discover-email" class="sidebar-discover-menu">
-                <div class="innerAll text-center border-bottom text-muted-dark">
-                    <strong>Email</strong>
-                    <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i></button>
-                </div>
-                <ul class="animated fadeIn">
-                    <li><a href="email.html?lang=en"><i class="fa fa-envelope"></i> Inbox</a></li>
-                    <li><a href="email_compose.html?lang=en"><i class="fa fa-pencil"></i> Compose</a></li>
-                </ul>
-            </div>
-        </li>
-
-        <li>
-            <a href="#sidebar-discover-courses" class="glyphicons crown" data-toggle="sidebar-discover"><i></i><span>Learning</span></a>
-            <div id="sidebar-discover-courses" class="sidebar-discover-menu">
-                <div class="innerAll text-center border-bottom text-muted-dark">
-                    <strong>Learning</strong>
-                    <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i></button>
-                </div>
-                <ul class="animated fadeIn">
-                    <li><a href="courses_2.html?lang=en"><i class="fa fa-circle-o"></i> Courses Home</a></li>
-                    <li><a href="courses_listing.html?lang=en"><i class="fa fa-circle-o"></i> Courses Listing</a></li>
-                    <li><a href="course.html?lang=en"><i class="fa fa-circle-o"></i> Course Page</a></li>
-                </ul>
-            </div>
-        </li>
-
-        <li>
-            <a href="#sidebar-discover-support" data-toggle="sidebar-discover" class="glyphicons life_preserver"><i></i><span>Support</span></a>
-            <div id="sidebar-discover-support" class="sidebar-discover-menu">
-                <div class="innerAll text-center border-bottom text-muted-dark">
-                    <strong>Support</strong>
-                    <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i></button>
-                </div>
-                <ul class="animated fadeIn">
-                    <li><a href="support_tickets.html?lang=en"><span class="badge pull-right badge-inverse">45</span><i class="fa fa-ticket"></i><span>Tickets</span></a></li>
-                    <li><a href="support_forum_overview.html?lang=en"><i class="fa fa-folder-o"></i><span>Overview page</span></a></li>
-                    <li><a href="support_forum_post.html?lang=en"><i class="fa fa-folder-o"></i><span>Post page</span></a></li>
-                    <li><a href="support_kb.html?lang=en"><i class="fa fa-file-text-o"></i><span>Knowledge Base</span></a></li>
-                    <li><a href="support_questions.html?lang=en"><span class="badge pull-right badge-inverse">7</span><i class="fa fa-question"></i><span>Questions</span></a></li>
-                    <li><a href="support_answers.html?lang=en"><i class="fa fa-info"></i><span>Answers</span></a></li>
-                </ul>
-            </div>
-        </li>
-
-        <li>
-            <a href="#sidebar-discover-medical" data-toggle="sidebar-discover" class="glyphicons circle_plus"><i></i><span>Medical</span></a>
-            <div id="sidebar-discover-medical" class="sidebar-discover-menu">
-                <div class="innerAll text-center border-bottom text-muted-dark">
-                    <strong>Medical App</strong>
-                    <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i></button>
-                </div>
-                <ul class="animated fadeIn">
-                    <li class="">
-                        <a href="medical_overview.html?lang=en"><i class="fa fa-medkit"></i> Overview</a>
+    <!-- endinject -->
+   
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/jquery-migrate/jquery-migrate.js"></script>
+    <script src="../bower_components/flot/excanvas.min.js"></script>
+    <script src="../bower_components/modernizr/modernizr.js"></script>
+   
+    <script>
+    if ( /*@cc_on!@*/ false && document.documentMode === 10)
+    {
+        document.documentElement.className += ' ie ie10';
+    }
+    </script>
+</head>
+<body class="">
+    <!-- Main Container Fluid -->
+    <div class="container-fluid menu-hidden">
+        <!-- Sidebar Menu -->
+        <div id="menu" class="hidden-print hidden-xs ">
+            <div id="sidebar-discover-wrapper">
+                <ul class="list-unstyled">
+                    <li class="active">
+                        <a href="#sidebar-discover-social" class="glyphicons home " data-toggle="sidebar-discover">
+                            <span class="badge pull-right badge-primary hidden-md">7</span><i></i>
+                            <span>Overview</span>
+                        </a>
+                        <div id="sidebar-discover-social" class="sidebar-discover-menu">
+                            <div class="innerAll text-center border-bottom text-muted-dark">
+                                <strong>Overview</strong>
+                                <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i>
+                                </button>
+                            </div>
+                            <ul class="animated fadeIn">
+                                <li class="active"><a href="index.html?lang=en">Analytics</a>
+                                </li>
+                                <li><a href="dashboard_users.html?lang=en">Users</a>
+                                </li>
+                                <li><a href="medical_overview.html?lang=en">Medical</a>
+                                </li>
+                                <li><a href="finances.html?lang=en">Financial</a>
+                                </li>
+                                <li><a href="courses_2.html?lang=en">Learning</a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
-                    <li class="">
-                        <a href="medical_patients.html?lang=en"><span class="badge pull-right badge-primary hidden-md">2</span><i class="fa fa-user-md"></i> Patients</a>
+                    <li>
+                        <a href="#sidebar-discover-media" class="glyphicons picture" data-toggle="sidebar-discover">
+                            <span class="badge pull-right badge-primary hidden-md">2</span><i></i>
+                            <span>Media</span>
+                        </a>
+                        <div id="sidebar-discover-media" class="sidebar-discover-menu">
+                            <div class="innerAll text-center border-bottom text-muted-dark">
+                                <strong>Media</strong>
+                                <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i>
+                                </button>
+                            </div>
+                            <ul class="animated fadeIn">
+                                <li><a href="gallery_video.html?lang=en"><i class="fa fa-video-camera"></i> Video Gallery</a>
+                                </li>
+                                <li><a href="gallery.html?lang=en"><i class="fa fa-camera"></i> Photo Gallery</a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
-                    <li class="">
-                        <a href="medical_appointments.html?lang=en"><i class="fa fa-stethoscope"></i> Appointments</a>
+                    <li>
+                        <a href="#sidebar-discover-email" class="glyphicons envelope" data-toggle="sidebar-discover"><i></i><span>Email</span></a>
+                        <div id="sidebar-discover-email" class="sidebar-discover-menu">
+                            <div class="innerAll text-center border-bottom text-muted-dark">
+                                <strong>Email</strong>
+                                <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i>
+                                </button>
+                            </div>
+                            <ul class="animated fadeIn">
+                                <li><a href="email.html?lang=en"><i class="fa fa-envelope"></i> Inbox</a>
+                                </li>
+                                <li><a href="email_compose.html?lang=en"><i class="fa fa-pencil"></i> Compose</a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
-                    <li class="">
-                        <a href="medical_memos.html?lang=en"><i class="fa fa-file-text-o"></i> Memos</a>
+                    <li>
+                        <a href="#sidebar-discover-courses" class="glyphicons crown" data-toggle="sidebar-discover"><i></i><span>Learning</span></a>
+                        <div id="sidebar-discover-courses" class="sidebar-discover-menu">
+                            <div class="innerAll text-center border-bottom text-muted-dark">
+                                <strong>Learning</strong>
+                                <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i>
+                                </button>
+                            </div>
+                            <ul class="animated fadeIn">
+                                <li><a href="courses_2.html?lang=en"><i class="fa fa-circle-o"></i> Courses Home</a>
+                                </li>
+                                <li><a href="courses_listing.html?lang=en"><i class="fa fa-circle-o"></i> Courses Listing</a>
+                                </li>
+                                <li><a href="course.html?lang=en"><i class="fa fa-circle-o"></i> Course Page</a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
-                    <li class="border-bottom-none">
-                        <a href="medical_metrics.html?lang=en"><i class="fa fa-bar-chart-o"></i> Metrics</a>
+                    <li>
+                        <a href="#sidebar-discover-support" data-toggle="sidebar-discover" class="glyphicons life_preserver"><i></i><span>Support</span></a>
+                        <div id="sidebar-discover-support" class="sidebar-discover-menu">
+                            <div class="innerAll text-center border-bottom text-muted-dark">
+                                <strong>Support</strong>
+                                <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i>
+                                </button>
+                            </div>
+                            <ul class="animated fadeIn">
+                                <li>
+                                    <a href="support_tickets.html?lang=en">
+                                        <span class="badge pull-right badge-inverse">45</span><i class="fa fa-ticket"></i>
+                                        <span>Tickets</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="support_forum_overview.html?lang=en"><i class="fa fa-folder-o"></i>
+                                        <span>Overview page</span>
+                                    </a>
+                                </li>
+                                <li><a href="support_forum_post.html?lang=en"><i class="fa fa-folder-o"></i><span>Post page</span></a>
+                                </li>
+                                <li><a href="support_kb.html?lang=en"><i class="fa fa-file-text-o"></i><span>Knowledge Base</span></a>
+                                </li>
+                                <li>
+                                    <a href="support_questions.html?lang=en">
+                                        <span class="badge pull-right badge-inverse">7</span><i class="fa fa-question"></i>
+                                        <span>Questions</span>
+                                    </a>
+                                </li>
+                                <li><a href="support_answers.html?lang=en"><i class="fa fa-info"></i><span>Answers</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#sidebar-discover-medical" data-toggle="sidebar-discover" class="glyphicons circle_plus"><i></i><span>Medical</span></a>
+                        <div id="sidebar-discover-medical" class="sidebar-discover-menu">
+                            <div class="innerAll text-center border-bottom text-muted-dark">
+                                <strong>Medical App</strong>
+                                <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i>
+                                </button>
+                            </div>
+                            <ul class="animated fadeIn">
+                                <li class="">
+                                    <a href="medical_overview.html?lang=en"><i class="fa fa-medkit"></i> Overview</a>
+                                </li>
+                                <li class="">
+                                    <a href="medical_patients.html?lang=en">
+                                        <span class="badge pull-right badge-primary hidden-md">2</span><i class="fa fa-user-md"></i> Patients</a>
+                                </li>
+                                <li class="">
+                                    <a href="medical_appointments.html?lang=en"><i class="fa fa-stethoscope"></i> Appointments</a>
+                                </li>
+                                <li class="">
+                                    <a href="medical_memos.html?lang=en"><i class="fa fa-file-text-o"></i> Memos</a>
+                                </li>
+                                <li class="border-bottom-none">
+                                    <a href="medical_metrics.html?lang=en"><i class="fa fa-bar-chart-o"></i> Metrics</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#sidebar-discover-maps" class="glyphicons google_maps" data-toggle="sidebar-discover"><i></i><span>Maps</span></a>
+                        <div id="sidebar-discover-maps" class="sidebar-discover-menu">
+                            <div class="innerAll text-center border-bottom text-muted-dark">
+                                <strong>Maps</strong>
+                                <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i>
+                                </button>
+                            </div>
+                            <ul class="animated fadeIn">
+                                <li><a href="maps_google.html?lang=en"><i class="fa fa-map-marker"></i> Google Maps</a>
+                                </li>
+                                <li><a href="maps_vector.html?lang=en"><i class="fa fa-map-marker"></i> Vector Maps</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#sidebar-discover-content" data-toggle="sidebar-discover" class="glyphicons notes_2"><i></i><span>Content</span></a>
+                        <div id="sidebar-discover-content" class="sidebar-discover-menu">
+                            <div class="innerAll text-center border-bottom text-muted-dark">
+                                <strong>Content</strong>
+                                <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i>
+                                </button>
+                            </div>
+                            <ul class="animated fadeIn">
+                                <li><a href="news.html?lang=en"><i class="fa fa-file-text-o"></i> News</a>
+                                </li>
+                                <li><a href="faq.html?lang=en"><i class="fa fa-question-circle"></i> FAQ</a>
+                                </li>
+                                <li><a href="search.html?lang=en"><i class="fa fa-search"></i> Search</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#sidebar-discover-financial" data-toggle="sidebar-discover" class="glyphicons calculator"><i></i><span>Financial</span></a>
+                        <div id="sidebar-discover-financial" class="sidebar-discover-menu">
+                            <div class="innerAll text-center border-bottom text-muted-dark">
+                                <strong>Financial</strong>
+                                <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i>
+                                </button>
+                            </div>
+                            <ul class="animated fadeIn">
+                                <li><a href="invoice.html?lang=en"><i class="fa fa-file-text-o"></i> Invoice</a>
+                                </li>
+                                <li><a href="finances.html?lang=en"><i class="fa fa-legal"></i> Finances</a>
+                                </li>
+                                <li><a href="bookings.html?lang=en"><i class="fa fa-ticket"></i> Bookings</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#sidebar-discover-shop" data-toggle="sidebar-discover" class="glyphicons shopping_cart"><i></i><span>eCommerce</span></a>
+                        <div id="sidebar-discover-shop" class="sidebar-discover-menu">
+                            <div class="innerAll text-center border-bottom text-muted-dark">
+                                <strong>eCommerce</strong>
+                                <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i>
+                                </button>
+                            </div>
+                            <ul class="animated fadeIn">
+                                <li><a href="shop_products.html?lang=en"><i class="fa fa-list"></i><span>Products</span></a>
+                                </li>
+                                <li><a href="shop_edit_product.html?lang=en"><i class="fa fa-edit"></i><span>Edit product</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#sidebar-discover-manage" class="glyphicons wrench" data-toggle="sidebar-discover"><i></i><span>Manage</span></a>
+                        <div id="sidebar-discover-manage" class="sidebar-discover-menu">
+                            <div class="innerAll text-center border-bottom text-muted-dark">
+                                <strong>Management</strong>
+                                <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i>
+                                </button>
+                            </div>
+                            <ul class="animated fadeIn">
+                                <li><a href="employees.html?lang=en"><i class="fa fa-user"></i> Employees</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="surveys_multiple.html?lang=en" class="glyphicons turtle"><i></i><span>Surveys</span></a>
+                    </li>
+                    <li><a href="events.html?lang=en" class="glyphicons google_maps"><i></i><span>Events</span></a>
+                    </li>
+                    <li>
+                        <a href="#sidebar-discover-elements" data-toggle="sidebar-discover" class="glyphicons adjust_alt"><i></i><span>Elements</span></a>
+                        <div id="sidebar-discover-elements" class="sidebar-discover-menu">
+                            <div class="innerAll text-center border-bottom text-muted-dark">
+                                <strong>Components</strong>
+                                <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i>
+                                </button>
+                            </div>
+                            <ul class="animated fadeIn">
+                                <li class=""><a href="ui.html?lang=en"><i class="fa fa-circle-o"></i><span>UI Elements</span></a>
+                                </li>
+                                <li class=""><a href="icons.html?lang=en"><i class="fa fa-circle-o"></i><span>Icons</span></a>
+                                </li>
+                                <li class=""><a href="typography.html?lang=en"><i class="fa fa-circle-o"></i><span>Typography</span></a>
+                                </li>
+                                <li class=""><a href="calendar.html?lang=en"><i class="fa fa-circle-o"></i><span>Calendar</span></a>
+                                </li>
+                                <li class=""><a href="tabs.html?lang=en"><i class="fa fa-circle-o"></i><span>Tabs</span></a>
+                                </li>
+                                <li class="hasSubmenu">
+                                    <a href="#menu_tables" data-toggle="collapse">
+                                        <span class="badge badge-primary pull-right">3</span><i class="fa fa-circle-o"></i>
+                                        <span>Tables</span>
+                                    </a>
+                                    <ul class="collapse animated fadeIn" id="menu_tables">
+                                        <li class=""><a href="tables.html?lang=en">Tables</a>
+                                        </li>
+                                        <li class=""><a href="tables_responsive.html?lang=en">Responsive</a>
+                                        </li>
+                                        <li class=""><a href="pricing_tables.html?lang=en">Pricing Tables</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="hasSubmenu">
+                                    <a href="#menu_forms" data-toggle="collapse">
+                                        <span class="badge badge-primary pull-right">4</span><i class="fa fa-circle-o"></i>
+                                        <span>Forms</span>
+                                    </a>
+                                    <ul class="collapse" id="menu_forms">
+                                        <li class=""><a href="form_wizards.html?lang=en">Form Wizards</a>
+                                        </li>
+                                        <li class=""><a href="form_elements.html?lang=en">Form Elements</a>
+                                        </li>
+                                        <li class=""><a href="form_validator.html?lang=en">Form Validator</a>
+                                        </li>
+                                        <li class=""><a href="file_managers.html?lang=en">File Managers</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class=""><a href="sliders.html?lang=en"><i class="fa fa-circle-o"></i><span>Sliders</span></a>
+                                </li>
+                                <li class=""><a href="charts.html?lang=en"><i class="fa fa-circle-o"></i><span>Charts</span></a>
+                                </li>
+                                <li class=""><a href="grid.html?lang=en"><i class="fa fa-circle-o"></i><span>Grid</span></a>
+                                </li>
+                                <li class=""><a href="notifications.html?lang=en"><i class="fa fa-circle-o"></i><span>Notifications</span></a>
+                                </li>
+                                <li class=""><a href="modals.html?lang=en"><i class="fa fa-circle-o"></i><span>Modals</span></a>
+                                </li>
+                                <li class=""><a href="thumbnails.html?lang=en"><i class="fa fa-circle-o"></i><span>Thumbnails</span></a>
+                                </li>
+                                <li class=""><a href="carousels.html?lang=en"><i class="fa fa-circle-o"></i><span>Carousels</span></a>
+                                </li>
+                                <li class=""><a href="image_crop.html?lang=en"><i class="fa fa-circle-o"></i><span>Image Crop</span></a>
+                                </li>
+                                <li class=""><a href="twitter.html?lang=en"><i class="fa fa-circle-o"></i><span>Twitter API</span></a>
+                                </li>
+                                <li class=""><a href="infinite_scroll.html?lang=en"><i class="fa fa-circle-o"></i><span>Infinite Scroll</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#sidebar-discover-account" data-toggle="sidebar-discover" class="glyphicons user"><i></i><span>Account</span></a>
+                        <div id="sidebar-discover-account" class="sidebar-discover-menu">
+                            <div class="innerAll text-center border-bottom text-muted-dark">
+                                <strong>Account</strong>
+                                <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i>
+                                </button>
+                            </div>
+                            <ul class="animated fadeIn">
+                                <li><a href="profile_resume.html?lang=en"><i class="fa fa-user"></i> Profile / CV</a>
+                                </li>
+                                <li><a href="my_account.html?lang=en"><i class="fa fa-user"></i> My Account</a>
+                                </li>
+                                <li>
+                                    <a href="login.html?lang=en" class="no-ajaxify"><i class="fa fa-lock"></i> Login</a>
+                                </li>
+                                <li>
+                                    <a href="signup.html?lang=en" class="no-ajaxify"><i class="fa fa-pencil"></i> Signup</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="error.html?lang=en" class="glyphicons warning_sign"><i></i><span>Error</span></a>
                     </li>
                 </ul>
             </div>
-        </li>
-
-        <li>
-            <a href="#sidebar-discover-maps" class="glyphicons google_maps" data-toggle="sidebar-discover"><i></i><span>Maps</span></a>
-            <div id="sidebar-discover-maps" class="sidebar-discover-menu">
-                <div class="innerAll text-center border-bottom text-muted-dark">
-                    <strong>Maps</strong>
-                    <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i></button>
-                </div>
-                <ul class="animated fadeIn">
-                    <li><a href="maps_google.html?lang=en"><i class="fa fa-map-marker"></i> Google Maps</a></li>
-                    <li><a href="maps_vector.html?lang=en"><i class="fa fa-map-marker"></i> Vector Maps</a></li>
-                </ul>
-            </div>
-        </li>
-
-        <li>
-            <a href="#sidebar-discover-content" data-toggle="sidebar-discover" class="glyphicons notes_2"><i></i><span>Content</span></a>
-            <div id="sidebar-discover-content" class="sidebar-discover-menu">
-                <div class="innerAll text-center border-bottom text-muted-dark">
-                    <strong>Content</strong>
-                    <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i></button>
-                </div>
-                <ul class="animated fadeIn">
-                    <li><a href="news.html?lang=en"><i class="fa fa-file-text-o"></i> News</a></li>
-                    <li><a href="faq.html?lang=en"><i class="fa fa-question-circle"></i> FAQ</a></li>
-                    <li><a href="search.html?lang=en"><i class="fa fa-search"></i> Search</a></li>
-                </ul>
-            </div>
-        </li>
-
-        <li>
-            <a href="#sidebar-discover-financial" data-toggle="sidebar-discover" class="glyphicons calculator"><i></i><span>Financial</span></a>
-            <div id="sidebar-discover-financial" class="sidebar-discover-menu">
-                <div class="innerAll text-center border-bottom text-muted-dark">
-                    <strong>Financial</strong>
-                    <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i></button>
-                </div>
-                <ul class="animated fadeIn">
-                    <li><a href="invoice.html?lang=en"><i class="fa fa-file-text-o"></i> Invoice</a></li>
-                    <li><a href="finances.html?lang=en"><i class="fa fa-legal"></i> Finances</a></li>
-                    <li><a href="bookings.html?lang=en"><i class="fa fa-ticket"></i> Bookings</a></li>
-                </ul>
-            </div>
-        </li>
-
-        <li>
-            <a href="#sidebar-discover-shop" data-toggle="sidebar-discover" class="glyphicons shopping_cart"><i></i><span>eCommerce</span></a>
-            <div id="sidebar-discover-shop" class="sidebar-discover-menu">
-                <div class="innerAll text-center border-bottom text-muted-dark">
-                    <strong>eCommerce</strong>
-                    <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i></button>
-                </div>
-                <ul class="animated fadeIn">
-                    <li><a href="shop_products.html?lang=en"><i class="fa fa-list"></i><span>Products</span></a></li>
-                    <li><a href="shop_edit_product.html?lang=en"><i class="fa fa-edit"></i><span>Edit product</span></a></li>
-                </ul>
-            </div>
-        </li>
-
-        <li>
-            <a href="#sidebar-discover-manage" class="glyphicons wrench" data-toggle="sidebar-discover"><i></i><span>Manage</span></a>
-            <div id="sidebar-discover-manage" class="sidebar-discover-menu">
-                <div class="innerAll text-center border-bottom text-muted-dark">
-                    <strong>Management</strong>
-                    <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i></button>
-                </div>
-                <ul class="animated fadeIn">
-                    <li><a href="employees.html?lang=en"><i class="fa fa-user"></i> Employees</a></li>
-                </ul>
-            </div>
-        </li>
-
-        <li><a href="surveys_multiple.html?lang=en" class="glyphicons turtle"><i></i><span>Surveys</span></a></li>
-
-        <li><a href="events.html?lang=en" class="glyphicons google_maps"><i></i><span>Events</span></a></li>
-
-        <li>
-            <a href="#sidebar-discover-elements" data-toggle="sidebar-discover" class="glyphicons adjust_alt"><i></i><span>Elements</span></a>
-            <div id="sidebar-discover-elements" class="sidebar-discover-menu">
-                <div class="innerAll text-center border-bottom text-muted-dark">
-                    <strong>Components</strong>
-                    <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i></button>
-                </div>
-                <ul class="animated fadeIn">
-                    <li class=""><a href="ui.html?lang=en"><i class="fa fa-circle-o"></i><span>UI Elements</span></a></li>
-                    <li class=""><a href="icons.html?lang=en"><i class="fa fa-circle-o"></i><span>Icons</span></a></li>
-                    <li class=""><a href="typography.html?lang=en"><i class="fa fa-circle-o"></i><span>Typography</span></a></li>
-                    <li class=""><a href="calendar.html?lang=en"><i class="fa fa-circle-o"></i><span>Calendar</span></a></li>
-                    <li class=""><a href="tabs.html?lang=en"><i class="fa fa-circle-o"></i><span>Tabs</span></a></li>
-                    <li class="hasSubmenu">
-                        <a href="#menu_tables" data-toggle="collapse"><span class="badge badge-primary pull-right">3</span><i class="fa fa-circle-o"></i><span>Tables</span></a>
-                        <ul class="collapse animated fadeIn" id="menu_tables">
-                            <li class=""><a href="tables.html?lang=en">Tables</a></li>
-                            <li class=""><a href="tables_responsive.html?lang=en">Responsive</a></li>
-                            <li class=""><a href="pricing_tables.html?lang=en">Pricing Tables</a></li>
-                        </ul>
-                    </li>
-                    <li class="hasSubmenu">
-                        <a href="#menu_forms" data-toggle="collapse"><span class="badge badge-primary pull-right">4</span><i class="fa fa-circle-o"></i><span>Forms</span></a>
-                        <ul class="collapse" id="menu_forms">
-                            <li class=""><a href="form_wizards.html?lang=en">Form Wizards</a></li>
-                            <li class=""><a href="form_elements.html?lang=en">Form Elements</a></li>
-                            <li class=""><a href="form_validator.html?lang=en">Form Validator</a></li>
-                            <li class=""><a href="file_managers.html?lang=en">File Managers</a></li>
-                        </ul>
-                    </li>
-                    <li class=""><a href="sliders.html?lang=en"><i class="fa fa-circle-o"></i><span>Sliders</span></a></li>
-                    <li class=""><a href="charts.html?lang=en"><i class="fa fa-circle-o"></i><span>Charts</span></a></li>
-                    <li class=""><a href="grid.html?lang=en"><i class="fa fa-circle-o"></i><span>Grid</span></a></li>
-                    <li class=""><a href="notifications.html?lang=en"><i class="fa fa-circle-o"></i><span>Notifications</span></a></li>
-                    <li class=""><a href="modals.html?lang=en"><i class="fa fa-circle-o"></i><span>Modals</span></a></li>
-                    <li class=""><a href="thumbnails.html?lang=en"><i class="fa fa-circle-o"></i><span>Thumbnails</span></a></li>
-                    <li class=""><a href="carousels.html?lang=en"><i class="fa fa-circle-o"></i><span>Carousels</span></a></li>
-                    <li class=""><a href="image_crop.html?lang=en"><i class="fa fa-circle-o"></i><span>Image Crop</span></a></li>
-                    <li class=""><a href="twitter.html?lang=en"><i class="fa fa-circle-o"></i><span>Twitter API</span></a></li>
-                    <li class=""><a href="infinite_scroll.html?lang=en"><i class="fa fa-circle-o"></i><span>Infinite Scroll</span></a></li>
-                </ul>
-            </div>
-        </li>
-
-        <li>
-            <a href="#sidebar-discover-account" data-toggle="sidebar-discover" class="glyphicons user"><i></i><span>Account</span></a>
-            <div id="sidebar-discover-account" class="sidebar-discover-menu">
-                <div class="innerAll text-center border-bottom text-muted-dark">
-                    <strong>Account</strong>
-                    <button class="btn btn-xs btn-default close-discover"><i class="fa fa-fw fa-times"></i></button>
-                </div>
-                <ul class="animated fadeIn">
-                    <li><a href="profile_resume.html?lang=en"><i class="fa fa-user"></i> Profile / CV</a></li>
-                    <li><a href="my_account.html?lang=en"><i class="fa fa-user"></i> My Account</a></li>
-                    <li><a href="login.html?lang=en" class="no-ajaxify"><i class="fa fa-lock"></i> Login</a></li>
-                    <li><a href="signup.html?lang=en" class="no-ajaxify"><i class="fa fa-pencil"></i> Signup</a></li>
-                </ul>
-            </div>
-        </li>
-
-        <li><a href="error.html?lang=en" class="glyphicons warning_sign"><i></i><span>Error</span></a></li>
-
-    </ul>
-</div>
-
-
-
-            
         </div>
         <!-- // Sidebar Menu END -->
-                
         <!-- Content -->
         <div id="content">
-
-            <div class="navbar hidden-print main" role="navigation">
-    <div class="user-action user-action-btn-navbar pull-left border-right">
-        <button class="btn btn-sm btn-navbar btn-inverse btn-stroke"><i class="fa fa-bars fa-2x"></i></button>
-    </div>
-    <ul class="main pull-left hidden-xs">
-        <li class="dropdown">
-            <a data-toggle="dropdown" class="dropdown-toggle" href="">Components<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a href="ui.html?lang=en">UI Elements</a></li>
-                <li><a href="icons.html?lang=en">Icons</a></li>
-                <li><a href="typography.html?lang=en">Typography</a></li>
-                <li><a href="tabs.html?lang=en">Tabs</a></li>
-                <li><a href="sliders.html?lang=en">Sliders</a></li>
-                <li><a href="charts.html?lang=en">Charts</a></li>
-                <li><a href="grid.html?lang=en">Grid</a></li>
-                <li><a href="notifications.html?lang=en">Notifications</a></li>
-                <li><a href="modals.html?lang=en">Modals</a></li>
-                <li><a href="thumbnails.html?lang=en">Thumbnails</a></li>
-                <li><a href="carousels.html?lang=en">Carousels</a></li>
-                <li><a href="image_crop.html?lang=en">Image Cropping</a></li>
-                <li><a href="twitter.html?lang=en">Twitter API</a></li>
-                <li><a href="infinite_scroll.html?lang=en">Infinite Scroll</a></li>
-            </ul>
-        </li>
-        
-        <li class="dropdown">
-            <a data-toggle="dropdown" class="dropdown-toggle" href="">Forms <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a href="form_wizards.html?lang=en">Form Wizards</a></li>
-                <li><a href="form_elements.html?lang=en">Form Elements</a></li>
-                <li><a href="form_validator.html?lang=en">Form Validator</a></li>
-                <li><a href="file_managers.html?lang=en">File Managers</a></li>
-            </ul>
-        </li>
-        <li class="dropdown">
-            <a data-toggle="dropdown" class="dropdown-toggle" href="">Tables <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a href="tables.html?lang=en">Tables</a></li>
-                <li><a href="tables_responsive.html?lang=en">Tables Responsive</a></li>
-                <li><a href="pricing_tables.html?lang=en">Pricing Tables</a></li>
-            </ul>
-         
-        </li>
-        <li class="dropdown">
-            <a data-toggle="dropdown" class="dropdown-toggle" href="">Gallery <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a href="gallery_video.html?lang=en">Video Gallery</a></li>
-                <li><a href="gallery.html?lang=en">Photo Gallery</a></li>
-            </ul>
-        </li>
-        <li>
-            <ul class="colors pull-left hidden-xs">
-        
-                <li class="active"><a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.2&skin=style-default" style="background-color: #3695d5" class="no-ajaxify"><span class="hide">style-default</span></a></li>
-                <li><a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.2&skin=alizarin-crimson" style="background-color: #F06F6F" class="no-ajaxify"><span class="hide">alizarin-crimson</span></a></li>
-                <li><a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.2&skin=green-army" style="background-color: #9FB478" class="no-ajaxify"><span class="hide">green-army</span></a></li>
-        
-        <li class="dropdown">
-            <a href="" data-toggle="dropdown" class="dropdown-toggle">
-                <span class="color inverse"></span>
-                <span class="color danger"></span>
-                <span class="color success"></span>
-                <span class="color info"></span>
-            </a>
-            <ul class="dropdown-menu pull-right">
-                                <li><a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.2&skin=brown"><span class="color" style="background-color: #d39174" class="no-ajaxify"></span> brown</a></li>
-                                <li><a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.2&skin=purple-gray"><span class="color" style="background-color: #AF86B9" class="no-ajaxify"></span> purple-gray</a></li>
-                                <li><a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.2&skin=blue-gray"><span class="color" style="background-color: #7293CF" class="no-ajaxify"></span> blue-gray</a></li>
-                                <li><a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.2&skin=purple-wine"><span class="color" style="background-color: #CC6788" class="no-ajaxify"></span> purple-wine</a></li>
-                                <li><a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.2&skin=black-and-white"><span class="color" style="background-color: #979797" class="no-ajaxify"></span> black-and-white</a></li>
-                                <li><a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.2&skin=amazon"><span class="color" style="background-color: #8BC4B9" class="no-ajaxify"></span> amazon</a></li>
-                                <li><a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.2&skin=amber"><span class="color" style="background-color: #CACA8A" class="no-ajaxify"></span> amber</a></li>
-                                <li><a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.2&skin=android-green"><span class="color" style="background-color: #A9C784" class="no-ajaxify"></span> android-green</a></li>
-                                <li><a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.2&skin=antique-brass"><span class="color" style="background-color: #B3998A" class="no-ajaxify"></span> antique-brass</a></li>
-                                <li><a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.2&skin=antique-bronze"><span class="color" style="background-color: #8D8D6E" class="no-ajaxify"></span> antique-bronze</a></li>
-                                <li><a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.2&skin=artichoke"><span class="color" style="background-color: #B0B69D" class="no-ajaxify"></span> artichoke</a></li>
-                                <li><a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.2&skin=atomic-tangerine"><span class="color" style="background-color: #F19B69" class="no-ajaxify"></span> atomic-tangerine</a></li>
-                                <li><a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.2&skin=bazaar"><span class="color" style="background-color: #98777B" class="no-ajaxify"></span> bazaar</a></li>
-                                <li><a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.2&skin=bistre-brown"><span class="color" style="background-color: #C3A961" class="no-ajaxify"></span> bistre-brown</a></li>
-                                <li><a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.2&skin=bittersweet"><span class="color" style="background-color: #d6725e" class="no-ajaxify"></span> bittersweet</a></li>
-                                <li><a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.2&skin=blueberry"><span class="color" style="background-color: #7789D1" class="no-ajaxify"></span> blueberry</a></li>
-                                <li><a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.2&skin=bud-green"><span class="color" style="background-color: #6fa362" class="no-ajaxify"></span> bud-green</a></li>
-                                <li><a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.2&skin=burnt-sienna"><span class="color" style="background-color: #E4968A" class="no-ajaxify"></span> burnt-sienna</a></li>
-                            </ul>
-        </li>
-    </ul>
-        </li>
-
-    </ul>
-
-    
-    <ul class="main pull-right">
-        <li class="dropdown notif notifications hidden-xs">
-            <a href="" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-bell-fill"></i> <span class="label label-danger">5</span></a>
-
-            <ul class="dropdown-menu chat media-list pull-right">
-                <li class="media">
-                    <a class="pull-left" href="#"><img class="media-object thumb" src="images/people/100/15.jpg" alt="50x50" width="50"/></a>
-                    <div class="media-body">
-                        <span class="label label-default pull-right">5 min</span>
-                        <h5 class="media-heading">Adrian D.</h5>
-                        <p class="margin-none">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    </div>
-                </li>
-                <li class="media">
-                    <a class="pull-left" href="#"><img class="media-object thumb" src="images/people/100/16.jpg" alt="50x50" width="50" /></a>
-                    <div class="media-body">
-                        <span class="label label-default pull-right">2 days</span>
-                        <h5 class="media-heading">Jane B.</h5>
-                        <p class="margin-none">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    </div>
-                </li>
-                <li class="media">
-                    <a class="pull-left" href="#"><img class="media-object thumb" src="images/people/100/17.jpg" alt="50x50" width="50" /></a>
-                    <div class="media-body">
-                        <span class="label label-default pull-right">3 days</span>
-                        <h5 class="media-heading">Andrew M.</h5>
-                        <p class="margin-none">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    </div>
-                </li>
-                <li><a href="#" class="btn btn-primary"><i class="fa fa-list"></i> <span>View all messages</span></a></li>
-            </ul>
-        </li>
-        <li class="dropdown username">
-            <a href="" class="dropdown-toggle" data-toggle="dropdown"><img src="images/people/35/2.jpg" class="img-circle" width="30" /> Bill Jonson <span class="caret"></span></a>
-
-            <ul class="dropdown-menu pull-right">
-                <li><a href="my_account.html?lang=en" class="glyphicons user"><i></i> Account</a></li>
-                <li><a href="messages.html?lang=en" class="glyphicons envelope"><i></i>Messages</a></li>
-                <li><a href="index.html?lang=en" class="glyphicons settings"><i></i>Settings</a></li>
-                <li><a href="login.html?lang=en" class="glyphicons lock no-ajaxify"><i></i>Logout</a></li>
-            </ul>
-        </li>
-    </ul>
-</div>
-<!-- // END navbar -->
-
-
-
-<div class="innerLR">
-
-    <h2 class="margin-none">Analytics &nbsp;<i class="fa fa-fw fa-pencil text-muted"></i></h2>
-
-    <div class="separator-h"></div>
-                
-    <div class="row">
-        <div class="col-md-8">
-
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="widget innerAll text-center">
-                        <h3 class="innerT">Overall Performance</h3>
-                        <p class="innerB margin-none text-xlarge text-condensed strong text-primary">+281</p>
-                        <div class="innerTB">
-                            <div class="sparkline" sparkHeight="57">0:10,7:3,5:5,6:4,3:7,7:3,5:5,6:4,2:8,3:7,7:3,5:5,0:10</div>
-                        </div>
+            <nav class="navbar hidden-print main " role="navigation">
+                <div class="navbar-header pull-left">
+                    <div class="user-action user-action-btn-navbar pull-left border-right">
+                        <button class="btn btn-sm btn-navbar btn-inverse btn-stroke"><i class="fa fa-bars fa-2x"></i>
+                        </button>
                     </div>
                 </div>
-
-                <div class="col-md-6">
-                
-                    <div class="widget widget-tabs widget-tabs-double-2 border-bottom widget-tabs-responsive">
-
-                        <div class="widget-body">
-                            <div class="tab-content">
-                            
-                                <!-- Tab content -->
-                                <div id="tabReports" class="tab-pane active widget-body-regular innerAll inner-2x text-center">
-                                    
-                                    <div data-percent="85" data-size="95" class="easy-pie inline-block primary" data-scale-color="false" data-track-color="#efefef" data-line-width="8">
-                                        <div class="value text-center">
-                                            <span class="strong"><i class="icon-graph-up-1 fa-3x text-primary"></i></span>
+                <ul class="main pull-right ">
+                    <li class="dropdown notif notifications hidden-xs">
+                        <a href="" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-bell-fill"></i> <span class="label label-danger">5</span></a>
+                        <ul class="dropdown-menu chat media-list pull-right">
+                            <li class="media">
+                                <a class="pull-left" href="#">
+                                    <img class="media-object thumb" src="images/people/100/15.jpg"
+                                    alt="50x50" width="50" />
+                                </a>
+                                <div class="media-body">
+                                    <span class="label label-default pull-right">5 min</span>
+                                    <h5 class="media-heading">Adrian D.</h5>
+                                    <p class="margin-none">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit.</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <a class="pull-left" href="#">
+                                    <img class="media-object thumb" src="images/people/100/16.jpg"
+                                    alt="50x50" width="50" />
+                                </a>
+                                <div class="media-body">
+                                    <span class="label label-default pull-right">2 days</span>
+                                    <h5 class="media-heading">Jane B.</h5>
+                                    <p class="margin-none">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit.</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <a class="pull-left" href="#">
+                                    <img class="media-object thumb" src="images/people/100/17.jpg"
+                                    alt="50x50" width="50" />
+                                </a>
+                                <div class="media-body">
+                                    <span class="label label-default pull-right">3 days</span>
+                                    <h5 class="media-heading">Andrew M.</h5>
+                                    <p class="margin-none">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit.</p>
+                                </div>
+                            </li>
+                            <li><a href="#" class="btn btn-primary"><i class="fa fa-list"></i> <span>View all messages</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown username">
+                        <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                            <img src="images/people/35/2.jpg" class="img-circle"
+                            width="30" />Bill Jonson
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu pull-right">
+                            <li><a href="my_account.html?lang=en" class="glyphicons user"><i></i> Account</a>
+                            </li>
+                            <li><a href="messages.html?lang=en" class="glyphicons envelope"><i></i>Messages</a>
+                            </li>
+                            <li><a href="index.html?lang=en" class="glyphicons settings"><i></i>Settings</a>
+                            </li>
+                            <li><a href="login.html?lang=en" class="glyphicons lock no-ajaxify"><i></i>Logout</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="">Components<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="ui.html?lang=en">UI Elements</a>
+                                </li>
+                                <li><a href="icons.html?lang=en">Icons</a>
+                                </li>
+                                <li><a href="typography.html?lang=en">Typography</a>
+                                </li>
+                                <li><a href="tabs.html?lang=en">Tabs</a>
+                                </li>
+                                <li><a href="sliders.html?lang=en">Sliders</a>
+                                </li>
+                                <li><a href="charts.html?lang=en">Charts</a>
+                                </li>
+                                <li><a href="grid.html?lang=en">Grid</a>
+                                </li>
+                                <li><a href="notifications.html?lang=en">Notifications</a>
+                                </li>
+                                <li><a href="modals.html?lang=en">Modals</a>
+                                </li>
+                                <li><a href="thumbnails.html?lang=en">Thumbnails</a>
+                                </li>
+                                <li><a href="carousels.html?lang=en">Carousels</a>
+                                </li>
+                                <li><a href="image_crop.html?lang=en">Image Cropping</a>
+                                </li>
+                                <li><a href="twitter.html?lang=en">Twitter API</a>
+                                </li>
+                                <li><a href="infinite_scroll.html?lang=en">Infinite Scroll</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="">Forms <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="form_wizards.html?lang=en">Form Wizards</a>
+                                </li>
+                                <li><a href="form_elements.html?lang=en">Form Elements</a>
+                                </li>
+                                <li><a href="form_validator.html?lang=en">Form Validator</a>
+                                </li>
+                                <li><a href="file_managers.html?lang=en">File Managers</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="">Tables <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="tables.html?lang=en">Tables</a>
+                                </li>
+                                <li><a href="tables_responsive.html?lang=en">Tables Responsive</a>
+                                </li>
+                                <li><a href="pricing_tables.html?lang=en">Pricing Tables</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="">Gallery <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="gallery_video.html?lang=en">Video Gallery</a>
+                                </li>
+                                <li><a href="gallery.html?lang=en">Photo Gallery</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class=" hidden-xs   hidden-sm">
+                            <ul class="colors pull-left">
+                                <li class="active">
+                                    <a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.3-rc2&sidebar_type=discover&skin=style-default"
+                                    style="background-color: #3695d5" class="no-ajaxify">
+                                        <span class="hide">style-default</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.3-rc2&sidebar_type=discover&skin=alizarin-crimson"
+                                    style="background-color: #F06F6F" class="no-ajaxify">
+                                        <span class="hide">alizarin-crimson</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.3-rc2&sidebar_type=discover&skin=green-army"
+                                    style="background-color: #9FB478" class="no-ajaxify">
+                                        <span class="hide">green-army</span>
+                                    </a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="" data-toggle="dropdown" class="dropdown-toggle">
+                                        <span class="color inverse"></span>
+                                        <span class="color danger"></span>
+                                        <span class="color success"></span>
+                                        <span class="color info"></span>
+                                    </a>
+                                    <ul class="dropdown-menu pull-right">
+                                        <li>
+                                            <a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.3-rc2&sidebar_type=discover&skin=brown">
+                                                <span class="color" style="background-color: #d39174"
+                                                class="no-ajaxify"></span>brown</a>
+                                        </li>
+                                        <li>
+                                            <a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.3-rc2&sidebar_type=discover&skin=purple-gray">
+                                                <span class="color" style="background-color: #AF86B9"
+                                                class="no-ajaxify"></span>purple-gray</a>
+                                        </li>
+                                        <li>
+                                            <a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.3-rc2&sidebar_type=discover&skin=blue-gray">
+                                                <span class="color" style="background-color: #7293CF"
+                                                class="no-ajaxify"></span>blue-gray</a>
+                                        </li>
+                                        <li>
+                                            <a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.3-rc2&sidebar_type=discover&skin=purple-wine">
+                                                <span class="color" style="background-color: #CC6788"
+                                                class="no-ajaxify"></span>purple-wine</a>
+                                        </li>
+                                        <li>
+                                            <a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.3-rc2&sidebar_type=discover&skin=black-and-white">
+                                                <span class="color" style="background-color: #979797"
+                                                class="no-ajaxify"></span>black-and-white</a>
+                                        </li>
+                                        <li>
+                                            <a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.3-rc2&sidebar_type=discover&skin=amazon">
+                                                <span class="color" style="background-color: #8BC4B9"
+                                                class="no-ajaxify"></span>amazon</a>
+                                        </li>
+                                        <li>
+                                            <a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.3-rc2&sidebar_type=discover&skin=amber">
+                                                <span class="color" style="background-color: #CACA8A"
+                                                class="no-ajaxify"></span>amber</a>
+                                        </li>
+                                        <li>
+                                            <a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.3-rc2&sidebar_type=discover&skin=android-green">
+                                                <span class="color" style="background-color: #A9C784"
+                                                class="no-ajaxify"></span>android-green</a>
+                                        </li>
+                                        <li>
+                                            <a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.3-rc2&sidebar_type=discover&skin=antique-brass">
+                                                <span class="color" style="background-color: #B3998A"
+                                                class="no-ajaxify"></span>antique-brass</a>
+                                        </li>
+                                        <li>
+                                            <a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.3-rc2&sidebar_type=discover&skin=antique-bronze">
+                                                <span class="color" style="background-color: #8D8D6E"
+                                                class="no-ajaxify"></span>antique-bronze</a>
+                                        </li>
+                                        <li>
+                                            <a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.3-rc2&sidebar_type=discover&skin=artichoke">
+                                                <span class="color" style="background-color: #B0B69D"
+                                                class="no-ajaxify"></span>artichoke</a>
+                                        </li>
+                                        <li>
+                                            <a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.3-rc2&sidebar_type=discover&skin=atomic-tangerine">
+                                                <span class="color" style="background-color: #F19B69"
+                                                class="no-ajaxify"></span>atomic-tangerine</a>
+                                        </li>
+                                        <li>
+                                            <a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.3-rc2&sidebar_type=discover&skin=bazaar">
+                                                <span class="color" style="background-color: #98777B"
+                                                class="no-ajaxify"></span>bazaar</a>
+                                        </li>
+                                        <li>
+                                            <a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.3-rc2&sidebar_type=discover&skin=bistre-brown">
+                                                <span class="color" style="background-color: #C3A961"
+                                                class="no-ajaxify"></span>bistre-brown</a>
+                                        </li>
+                                        <li>
+                                            <a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.3-rc2&sidebar_type=discover&skin=bittersweet">
+                                                <span class="color" style="background-color: #d6725e"
+                                                class="no-ajaxify"></span>bittersweet</a>
+                                        </li>
+                                        <li>
+                                            <a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.3-rc2&sidebar_type=discover&skin=blueberry">
+                                                <span class="color" style="background-color: #7789D1"
+                                                class="no-ajaxify"></span>blueberry</a>
+                                        </li>
+                                        <li>
+                                            <a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.3-rc2&sidebar_type=discover&skin=bud-green">
+                                                <span class="color" style="background-color: #6fa362"
+                                                class="no-ajaxify"></span>bud-green</a>
+                                        </li>
+                                        <li>
+                                            <a href="?module=admin&page=index&url_rewrite=&build=&v=v1.0.3-rc2&sidebar_type=discover&skin=burnt-sienna">
+                                                <span class="color" style="background-color: #E4968A"
+                                                class="no-ajaxify"></span>burnt-sienna</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- // END navbar -->
+            <div class="innerLR">
+                <h2 class="margin-none">Analytics &nbsp;<i class="fa fa-fw fa-pencil text-muted"></i>
+                </h2>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="widget innerAll text-center">
+                                    <h3 class="innerT">Overall Performance</h3>
+                                    <p class="innerB margin-none text-xlarge text-condensed strong text-primary">+281</p>
+                                    <div class="innerTB">
+                                        <div class="sparkline" sparkHeight="57">0:10,7:3,5:5,6:4,3:7,7:3,5:5,6:4,2:8,3:7,7:3,5:5,0:10</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="widget widget-tabs widget-tabs-double-2 border-bottom widget-tabs-responsive">
+                                    <div class="widget-body">
+                                        <div class="tab-content">
+                                            <!-- Tab content -->
+                                            <div id="tabReports" class="tab-pane active widget-body-regular innerAll inner-2x text-center">
+                                                <div data-percent="85" data-size="95" class="easy-pie inline-block primary" data-scale-color="false"
+                                                data-track-color="#efefef" data-line-width="8">
+                                                    <div class="value text-center">
+                                                        <span class="strong"><i class="icon-graph-up-1 fa-3x text-primary"></i>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- // Tab content END -->
+                                            <!-- Tab content -->
+                                            <div id="tabIncome" class="tab-pane widget-body-regular innerAll inner-2x text-center">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, omnis
+                                                minus voluptatibus assumenda sint
+                                                autem dolorum. Rem, cupiditate,
+                                                sed, optio est cumque repudiandae
+                                                quo natus dignissimos praesentium
+                                                alias nihil aspernatur?
+                                            </div>
+                                            <!-- // Tab content END -->
+                                            <!-- Tab content -->
+                                            <div id="tabAccounts" class="tab-pane widget-body-regular innerAll inner-2x text-center">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic qui natus deserunt
+                                                atque quae laborum. Porro, eveniet,
+                                                voluptatem, obcaecati quisquam
+                                                tempore architecto nostrum quis
+                                                eius corrupti ea non facilis quidem.
+                                            </div>
+                                            <!-- // Tab content END -->
                                         </div>
                                     </div>
-
+                                    <!-- Tabs Heading -->
+                                    <div class="widget-head border-top-none bg-gray">
+                                        <ul>
+                                            <li class="active"><a class="glyphicons notes" href="#tabReports"
+                                                data-toggle="tab"><i></i><span>Reports</span></a>
+                                            </li>
+                                            <li><a class="glyphicons credit_card" href="#tabIncome"
+                                                data-toggle="tab"><i></i><span>Income</span></a>
+                                            </li>
+                                            <li><a class="glyphicons user" href="#tabAccounts"
+                                                data-toggle="tab"><i></i><span>Accounts</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- // Tabs Heading END -->
                                 </div>
-                                <!-- // Tab content END -->
-                            
-                                <!-- Tab content -->
-                                <div id="tabIncome" class="tab-pane widget-body-regular innerAll inner-2x text-center">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, omnis minus voluptatibus assumenda sint autem dolorum. Rem, cupiditate, sed, optio est cumque repudiandae quo natus dignissimos praesentium alias nihil aspernatur?
-                                </div>
-                                <!-- // Tab content END -->
-
-                                <!-- Tab content -->
-                                <div id="tabAccounts" class="tab-pane widget-body-regular innerAll inner-2x text-center">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic qui natus deserunt atque quae laborum. Porro, eveniet, voluptatem, obcaecati quisquam tempore architecto nostrum quis eius corrupti ea non facilis quidem.
-                                </div>
-                                <!-- // Tab content END -->
-                                
+                                <!-- //Widget -->
                             </div>
+                            <!-- //Col -->
                         </div>
-
-                        <!-- Tabs Heading -->
-                        <div class="widget-head border-top-none bg-gray">
-                            <ul>
-                                <li class="active"><a class="glyphicons notes" href="#tabReports" data-toggle="tab"><i></i><span>Reports</span></a></li>
-                                <li><a class="glyphicons credit_card" href="#tabIncome" data-toggle="tab"><i></i><span>Income</span></a></li>
-                                <li><a class="glyphicons user" href="#tabAccounts" data-toggle="tab"><i></i><span>Accounts</span></a></li>
-                            </ul>
-                        </div>
-                        <!-- // Tabs Heading END -->
-
-                    </div>
-                    <!-- //Widget -->
-                                    
-                </div>
-                <!-- //Col -->
-            </div>
-            <!-- //Row -->
-
-            <!-- Widget -->
-            <div class=" widget widget-body-white ">
-                <div class="widget-head height-auto ">
-                    <div class="row row-merge ">
-                        <div class="col-md-6">
-                            <div class="innerAll inner-2x text-center">
-                                <h5 class="margin-none innerB half">Gross Revenue</h5>
-                                <h4 class="text-medium strong text-primary margin-none">10,201.00</h4>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="innerAll inner-2x text-center">
-                                <h5 class="margin-none innerB half">Net Revenue</h5>
-                                <h4 class="text-medium text-primary strong margin-none">8,812.40</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="widget-body innerAll">
-                    <!-- Chart with lines and fill with no points -->
-<div id="chart_lines_fill_nopoints_2" class="flotchart-holder"></div>
-
-
-
-
-                </div>
-            </div>
-            <!-- //Widget -->
-
-            <div class="row">
-                <div class="col-md-6">
-                    <!-- Widget -->
-                    <div class="widget">
-                        <div class="bg-primary text-center innerAll">
-                            <div class="innerTB">
-                                <h4 class="innerTB text-white">Today's Weather</h4>
-                                <div class="strong text-xlarge text-white">
-                                    <i class="fa fa-cloud"></i> 26<sup>&deg;</sup>
+                        <!-- //Row -->
+                        <!-- Widget -->
+                        <div class=" widget widget-body-white ">
+                            <div class="widget-head height-auto ">
+                                <div class="row row-merge ">
+                                    <div class="col-md-6">
+                                        <div class="innerAll inner-2x text-center">
+                                            <h5 class="margin-none innerB half">Gross Revenue</h5>
+                                            <h4 class="text-medium strong text-primary margin-none">10,201.00</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="innerAll inner-2x text-center">
+                                            <h5 class="margin-none innerB half">Net Revenue</h5>
+                                            <h4 class="text-medium text-primary strong margin-none">8,812.40</h4>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="widget-body innerAll">
+                                <!-- Chart with lines and fill with no points -->
+                                <div id="chart_lines_fill_nopoints_2" class="flotchart-holder"></div>
+                            </div>
                         </div>
-                        <div class="row row-merge">
+                        <!-- //Widget -->
+                        <div class="row">
                             <div class="col-md-6">
-                                <div class="text-center innerAll">
-                                    <p class="margin-none"><i class="fa icon-wind-speed-censor fa-2x"></i></p>
-                                    <p class="lead margin-none strong">15 m/h</p>
+                                <!-- Widget -->
+                                <div class="widget">
+                                    <div class="bg-primary text-center innerAll">
+                                        <div class="innerTB">
+                                            <h4 class="innerTB text-white">Today's Weather</h4>
+                                            <div class="strong text-xlarge text-white">
+                                                <i class="fa fa-cloud"></i> 26<sup>&deg;</sup>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row-merge">
+                                        <div class="col-md-6">
+                                            <div class="text-center innerAll">
+                                                <p class="margin-none"><i class="fa icon-wind-speed-censor fa-2x"></i>
+                                                </p>
+                                                <p class="lead margin-none strong">15 m/h</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="text-center innerAll">
+                                                <p class="margin-none"><i class="fa icon-water fa-2x"></i>
+                                                </p>
+                                                <p class="lead margin-none strong">40%</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- //Widget -->
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="text-center innerAll">
-                                    <p class="margin-none"><i class="fa icon-water fa-2x"></i></p>
-                                    <p class="lead margin-none strong">40%</p>
+                                <div class="widget">
+                                    <div class="widget-body innerB half">
+                                        <!-- Chart with lines and fill with no points -->
+                                        <div id="chart_mixed_1" class="flotchart-holder" style="height: 182px"></div>
+                                    </div>
                                 </div>
+                            </div>
+                        </div>
+                        <!-- //Row -->
+                        <!-- Widget	 -->
+                        <div class="widget">
+                            <div class="widget-head innerAll half">
+                                <h4 class="margin-none"><i class="fa fa-fw icon-star"></i> Trends</h4>
+                            </div>
+                            <!-- Widget -->
+                            <div class="widget-body innerAll inner-2x">
+                                <table class="table table-striped margin-none">
+                                    <thead>
+                                        <tr>
+                                            <th>Box office</th>
+                                            <th class="text-center">Cash</th>
+                                            <th class="text-right" style="width: 100px;">Trend</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <strong>1.</strong>Frozen</td>
+                                            <td class="text-center">&euro;8,718,939</td>
+                                            <td class="text-right">
+                                                <div class="sparkline" style="width: 100px;" sparkHeight="20" sparkType="line"
+                                                sparkWidth="100%" sparkLineWidth="2"
+                                                sparkLineColor="#3695d5" sparkFillColor=""
+                                                data-data="[358,232,192,259,111,414,220,402,381,257]">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong>2.</strong>The Hobbit 2</td>
+                                            <td class="text-center">&euro;7,800,000</td>
+                                            <td class="text-right">
+                                                <div class="sparkline" style="width: 100px;" sparkHeight="20" sparkType="line"
+                                                sparkWidth="100%" sparkLineWidth="2"
+                                                sparkLineColor="#3695d5" sparkFillColor=""
+                                                data-data="[272,316,460,170,392,279,222,135,300,195]">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong>3.</strong>The Wolf of Wall Street</td>
+                                            <td class="text-center">&euro;5,671,036</td>
+                                            <td class="text-right">
+                                                <div class="sparkline" style="width: 100px;" sparkHeight="20" sparkType="line"
+                                                sparkWidth="100%" sparkLineWidth="2"
+                                                sparkLineColor="#3695d5" sparkFillColor=""
+                                                data-data="[255,280,124,254,305,399,197,292,245,392]">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong>4.</strong>Iron Man 3</td>
+                                            <td class="text-center">&euro;409,013,994</td>
+                                            <td class="text-right">
+                                                <div class="sparkline" style="width: 100px;" sparkHeight="20" sparkType="line"
+                                                sparkWidth="100%" sparkLineWidth="2"
+                                                sparkLineColor="#3695d5" sparkFillColor=""
+                                                data-data="[357,465,222,471,349,129,150,217,194,476]">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong>5.</strong>Catching Fire</td>
+                                            <td class="text-center">&euro;398,327,026</td>
+                                            <td class="text-right">
+                                                <div class="sparkline" style="width: 100px;" sparkHeight="20" sparkType="line"
+                                                sparkWidth="100%" sparkLineWidth="2"
+                                                sparkLineColor="#3695d5" sparkFillColor=""
+                                                data-data="[299,384,280,402,246,395,271,219,179,306]">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong>6.</strong>Despicable Me 2</td>
+                                            <td class="text-center">&euro;367,835,345</td>
+                                            <td class="text-right">
+                                                <div class="sparkline" style="width: 100px;" sparkHeight="20" sparkType="line"
+                                                sparkWidth="100%" sparkLineWidth="2"
+                                                sparkLineColor="#3695d5" sparkFillColor=""
+                                                data-data="[442,231,191,323,445,203,455,295,303,130]">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- // End Widget Body -->
+                        </div>
+                        <!-- // End Widget -->
+                        <!-- Widget	 -->
+                        <div class="widget widget-body-white overflow-hidden">
+                            <div class="widget-head innerAll half">
+                                <h4 class="margin-none"><i class="fa fa-fw icon-wallet"></i> Sales Volume</h4>
+                            </div>
+                            <div class="widget-body innerAll">
+                                <!-- Horizontal Bars Chart -->
+                                <div id="chart_horizontal_bars" class="flotchart-holder"></div>
                             </div>
                         </div>
                         <!-- //Widget -->
                     </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="widget">
-                        <div class="widget-body innerB half">
-                            <!-- Chart with lines and fill with no points -->
-<div id="chart_mixed_1" class="flotchart-holder" style="height: 182px"></div>
-
-
-
-
+                    <!-- //  End Col -->
+                    <div class="col-md-4">
+                        <!-- Widget -->
+                        <div class="widget widget-body-gray">
+                            <div class="widget-body padding-none">
+                                <div class="bg-primary innerAll">
+                                    <div class="text-large text-white pull-right">&euro;1000</div>
+                                    <h4 class="text-white strong text-medium">Earnings</h4>
+                                    <h5 class="text-white margin-none">Today's earnings</h5>
+                                    <div class="separator bottom"></div>
+                                    <div class="progress primary progress-mini  margin-none">
+                                        <div class="progress-bar progress-bar-white	" style="width: 70%;"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <!-- //Row -->
-
-            <!-- Widget	 -->
-            <div class="widget">
-                                <div class="widget-head innerAll half">
-                    <h4 class="margin-none"><i class="fa fa-fw icon-star"></i> Trends</h4>
-                </div>
-
-                <!-- Widget -->
-                <div class="widget-body innerAll inner-2x">
-                    <table class="table table-striped margin-none">
-                        <thead>
-                            <tr>
-                                <th>Box office</th>
-                                <th class="text-center">Cash</th>
-                                <th class="text-right" style="width: 100px;">Trend</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                                                                                    <tr>
-                                <td><strong>1.</strong> Frozen</td>
-                                <td class="text-center">&euro;8,718,939</td>
-                                <td class="text-right">
-                                    <div class="sparkline" style="width: 100px;" sparkHeight="20" sparkType="line" sparkWidth="100%" sparkLineWidth="2" sparkLineColor="#3695d5" sparkFillColor="" data-data="[145,110,467,180,212,104,259,474,372,363]">
+                        <!-- //End Widget -->
+                        <!-- Widget -->
+                        <div class="widget widget-body-gray">
+                            <div class="innerAll half border-bottom">
+                                <div class="btn-group btn-group-sm pull-right">
+                                    <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Monthly
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li class="active"><a href="">Monthly</a>
+                                        </li>
+                                        <li><a href="">Quarterly</a>
+                                        </li>
+                                        <li><a href="">Yearly</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h4 class="innerT half margin-none pull-left">Monthly Spend</h4>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="widget-body">
+                                <p class="margin-none">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Quod, ipsam, minus nam consequatur aliquid
+                                    sint.</p>
+                            </div>
+                            <div class="innerAll ">
+                                <p class="text-large">&euro;3,204.89</p>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                        <span class="sr-only">40% from last month</span>
                                     </div>
-                                </td>
-                            </tr>
-                                                                                <tr>
-                                <td><strong>2.</strong> The Hobbit 2</td>
-                                <td class="text-center">&euro;7,800,000</td>
-                                <td class="text-right">
-                                    <div class="sparkline" style="width: 100px;" sparkHeight="20" sparkType="line" sparkWidth="100%" sparkLineWidth="2" sparkLineColor="#3695d5" sparkFillColor="" data-data="[141,298,472,194,473,283,113,130,348,451]">
-                                    </div>
-                                </td>
-                            </tr>
-                                                                                <tr>
-                                <td><strong>3.</strong> The Wolf of Wall Street</td>
-                                <td class="text-center">&euro;5,671,036</td>
-                                <td class="text-right">
-                                    <div class="sparkline" style="width: 100px;" sparkHeight="20" sparkType="line" sparkWidth="100%" sparkLineWidth="2" sparkLineColor="#3695d5" sparkFillColor="" data-data="[211,284,367,381,434,418,118,207,199,350]">
-                                    </div>
-                                </td>
-                            </tr>
-                                                                                <tr>
-                                <td><strong>4.</strong> Iron Man 3</td>
-                                <td class="text-center">&euro;409,013,994</td>
-                                <td class="text-right">
-                                    <div class="sparkline" style="width: 100px;" sparkHeight="20" sparkType="line" sparkWidth="100%" sparkLineWidth="2" sparkLineColor="#3695d5" sparkFillColor="" data-data="[212,443,121,490,134,293,383,250,473,204]">
-                                    </div>
-                                </td>
-                            </tr>
-                                                                                <tr>
-                                <td><strong>5.</strong> Catching Fire</td>
-                                <td class="text-center">&euro;398,327,026</td>
-                                <td class="text-right">
-                                    <div class="sparkline" style="width: 100px;" sparkHeight="20" sparkType="line" sparkWidth="100%" sparkLineWidth="2" sparkLineColor="#3695d5" sparkFillColor="" data-data="[420,332,182,280,477,287,441,109,143,389]">
-                                    </div>
-                                </td>
-                            </tr>
-                                                                                <tr>
-                                <td><strong>6.</strong> Despicable Me 2</td>
-                                <td class="text-center">&euro;367,835,345</td>
-                                <td class="text-right">
-                                    <div class="sparkline" style="width: 100px;" sparkHeight="20" sparkType="line" sparkWidth="100%" sparkLineWidth="2" sparkLineColor="#3695d5" sparkFillColor="" data-data="[451,188,244,330,295,261,350,179,466,205]">
-                                    </div>
-                                </td>
-                            </tr>
-                                                </tbody>
-                    </table>
-                </div>
-                <!-- // End Widget Body -->
-            </div>
-            <!-- // End Widget -->
-
-            <!-- Widget	 -->
-            <div class="widget widget-body-white overflow-hidden">
-                <div class="widget-head innerAll half">
-                    <h4 class="margin-none"><i class="fa fa-fw icon-wallet"></i> Sales Volume</h4>
-                </div>
-                <div class="widget-body innerAll">
-                    <!-- Horizontal Bars Chart -->
-<div id="chart_horizontal_bars" class="flotchart-holder"></div>
-
-
-
-
-                </div>
-            </div>
-            <!-- //Widget -->
-
-        </div>
-        <!-- //  End Col -->
-                    
-        <div class="col-md-4">
-            <!-- Widget -->
-            <div class="widget widget-body-gray">
-                <div class="widget-body padding-none">
-                    <div class="bg-primary innerAll">
-                        <div class="text-large text-white pull-right">&euro;1000</div>
-                        <h4 class="text-white strong text-medium">Earnings</h4>
-                        <h5 class="text-white margin-none">Today's earnings</h5>
-                        <div class="separator bottom"></div>
-                        <div class="progress primary progress-mini  margin-none">
-                            <div class="progress-bar progress-bar-white	" style="width: 70%;"></div>
+                                </div>
+                                <div class="text-right">
+                                    <p class="strong margin-none">&euro;5,127.82</p>
+                                    <p>
+                                        <em>Previus month bill</em>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <!-- //End Widget -->
-
-            <!-- Widget -->
-            <div class="widget widget-body-gray">
-                <div class="innerAll half border-bottom">
-                    <div class="btn-group btn-group-sm pull-right">
-                        <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Monthly <span class="caret"></span></button>
-                        <ul class="dropdown-menu">
-                            <li class="active"><a href="">Monthly</a></li>
-                            <li><a href="">Quarterly</a></li>
-                            <li><a href="">Yearly</a></li>
-                        </ul>
-                    </div>
-                    <h4 class="innerT half margin-none pull-left">Monthly Spend</h4>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="widget-body">
-                    <p class="margin-none">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, ipsam, minus nam consequatur aliquid sint.</p>
-                </div>
-                <div class="innerAll ">
-                    <p class="text-large">&euro;3,204.89</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                            <span class="sr-only">40% from last month</span>
-                        </div>
-                    </div>
-                    <div class="text-right">
-                        <p class="strong margin-none">&euro;5,127.82</p>
-                        <p><em>Previus month bill</em></p>
-                    </div>
-                </div>
-            </div>
-            <!-- //End Widget -->
-
-            <!-- Widget	 -->
-            <div class="widget">
-                <div class="widget-head">
-                    <h4 class="innerAll half"><i class="fa fa-fw icon-worldwide"></i> Demographic</h4>
-                </div>
-                <div class="bg-white border-bottom text-center">
-                    <div id="world-map-markers" style="height: 200px"></div>
-                </div>
-                <ul class="list-unstyled">
-                    <li class="innerAll border-bottom"><div class="pull-right strong">1249</div><i class="fa fa-fw fa-circle text-info"></i> Miami</li>
-                    <li class="innerAll border-bottom"><div class="pull-right strong">892</div><i class="fa fa-fw fa-circle text-success"></i> Chicago</li>
-                    <li class="innerAll border-bottom"><div class="pull-right strong">530</div><i class="fa fa-fw fa-circle text-primary"></i> Michigan</li>
-                    <li class="innerAll"><div class="pull-right strong">380</div><i class="fa fa-fw fa-circle"></i> Boston</li>
-                </ul>
-            </div>
-            <!-- //Widget -->
-
-            <!-- Widget -->
-            <div class="widget">
-                <div class="row row-merge">
-                    <div class="col-md-4 bg-gray">
-                        <div class="innerAll inner-2x text-center">
-                            <div class="sparkline" sparkHeight="74" data-colors="#cacaca, #4a8bc2,#609450,#cacaca">1,4,3,8</div>
-                        </div>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="innerAll">
+                        <!-- //End Widget -->
+                        <!-- Widget	 -->
+                        <div class="widget">
+                            <div class="widget-head">
+                                <h4 class="innerAll half"><i class="fa fa-fw icon-worldwide"></i> Demographic</h4>
+                            </div>
+                            <div class="bg-white border-bottom text-center">
+                                <div id="world-map-markers" style="height: 200px"></div>
+                            </div>
                             <ul class="list-unstyled">
-                                <li class="innerAll half"><i class="fa fa-fw fa-square text-info"></i> <span class="strong">5,931</span> Visits</li>
-                                <li class="innerAll half"><i class="fa fa-fw fa-square text-success"></i> <span class="strong">402</span> Conversions</li>
-                                <li class="innerAll half"><i class="fa fa-fw fa-square text-muted"></i> <span class="strong">15,120</span> Pageviews</li>
+                                <li class="innerAll border-bottom">
+                                    <div class="pull-right strong">1249</div><i class="fa fa-fw fa-circle text-info"></i> Miami</li>
+                                <li class="innerAll border-bottom">
+                                    <div class="pull-right strong">892</div><i class="fa fa-fw fa-circle text-success"></i> Chicago</li>
+                                <li class="innerAll border-bottom">
+                                    <div class="pull-right strong">530</div><i class="fa fa-fw fa-circle text-primary"></i> Michigan</li>
+                                <li class="innerAll">
+                                    <div class="pull-right strong">380</div><i class="fa fa-fw fa-circle"></i> Boston</li>
                             </ul>
                         </div>
+                        <!-- //Widget -->
+                        <!-- Widget -->
+                        <div class="widget">
+                            <div class="row row-merge">
+                                <div class="col-md-4 bg-gray">
+                                    <div class="innerAll inner-2x text-center">
+                                        <div class="sparkline" sparkHeight="74" data-colors="#cacaca, #4a8bc2,#609450,#cacaca">1,4,3,8</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="innerAll">
+                                        <ul class="list-unstyled">
+                                            <li class="innerAll half"><i class="fa fa-fw fa-square text-info"></i> 
+                                                <span
+                                                class="strong">5,931</span>Visits</li>
+                                            <li class="innerAll half"><i class="fa fa-fw fa-square text-success"></i> 
+                                                <span
+                                                class="strong">402</span>Conversions</li>
+                                            <li class="innerAll half"><i class="fa fa-fw fa-square text-muted"></i> 
+                                                <span
+                                                class="strong">15,120</span>Pageviews</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //End Widget -->
+                        <!-- Widget -->
+                        <div class="widget widget-body-gray">
+                            <div class=" innerAll half border-bottom">
+                                <div class="btn-group btn-group-sm pull-right">
+                                    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Day
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">Day</a>
+                                        </li>
+                                        <li><a href="#">Week</a>
+                                        </li>
+                                        <li><a href="#">Month</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h4 class="pull-left innerT half margin-none"><i class="fa fa-fw fa-money"></i> Earnings</h4>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="innerAll border-bottom">
+                                <p class="margin-none">
+                                    <span class="strong">Today:</span>&euro;502.42 <i class="fa text-primary fa-fw fa-arrow-up"></i>
+                                    <span
+                                    class="strong text-primary">4%</span>
+                                </p>
+                            </div>
+                            <div class="widget-body ">
+                                <div class="sparkline" sparkType="line" sparkResize="true" sparkHeight="76" sparkLineWidth="2"
+                                sparkWidth="100%" sparkLineColor="#3695d5" sparkSpotColor="#3695d5"
+                                sparkFillColor="" sparkHighlightLineColor="#7c7c7c"
+                                sparkHighlightSpotColor="#7c7c7c" sparkSpotRadius="4"
+                                sparkMinSpotColor="#b55151" sparkMaxSpotColor="#609450">
+                                    110,435,226,496,456,146,319,104,238,216</div>
+                            </div>
+                        </div>
+                        <!-- //End Widget -->
                     </div>
+                    <!-- //End Col -->
                 </div>
             </div>
-            <!-- //End Widget -->
-
-            <!-- Widget -->
-            <div class="widget widget-body-gray">
-                <div class=" innerAll half border-bottom">
-                    <div class="btn-group btn-group-sm pull-right">
-                        <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Day <span class="caret"></span></button>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Day</a></li>
-                            <li><a href="#">Week</a></li>
-                            <li><a href="#">Month</a></li>
-                        </ul>
-                    </div>
-                    <h4 class="pull-left innerT half margin-none"><i class="fa fa-fw fa-money"></i> Earnings</h4>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="innerAll border-bottom">
-                    <p class="margin-none"><span class="strong">Today: </span> &euro;502.42 <i class="fa text-primary fa-fw fa-arrow-up"></i><span class="strong text-primary">4%</span></p>
-                </div>
-                <div class="widget-body ">
-                    <div class="sparkline" sparkType="line" sparkResize="true" sparkHeight="76" sparkLineWidth="2" sparkWidth="100%" sparkLineColor="#3695d5" sparkSpotColor="#3695d5" sparkFillColor="" sparkHighlightLineColor="#7c7c7c" sparkHighlightSpotColor="#7c7c7c" sparkSpotRadius="4" sparkMinSpotColor="#b55151" sparkMaxSpotColor="#609450">
-                        331,154,189,475,196,332,456,174,159,441					</div>
-                </div>
-            </div>
-            <!-- //End Widget -->
-            
-        </div>
-        <!-- //End Col -->
-
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-        
         </div>
         <!-- // Content END -->
-        
         <div class="clearfix"></div>
         <!-- // Sidebar menu & content wrapper END -->
         
-        <div id="footer" class="hidden-print">
-            
-            <!--  Copyright Line -->
-            <div class="copy">&copy; 2012 - 2014 - <a href="http://www.mosaicpro.biz">MosaicPro</a> - All Rights Reserved. <a href="http://themeforest.net/?ref=mosaicpro" target="_blank">Purchase BUSINESS on ThemeForest</a> - Current version: v1.0.2 / <a target="_blank" href="http://demo.mosaicpro.biz/coral/CHANGELOG.txt">changelog</a></div>
-            <!--  End Copyright Line -->
-    
-        </div>
-        
-        <!-- // Footer END -->
-        
     </div>
     <!-- // Main Container Fluid END -->
-    
-    <!-- bower:js -->
-    
-    <!-- endbower -->
-    <!-- inject:js -->
-    
-    
-    
-    <!-- endinject -->
 
     <!-- Global -->
     <script data-id="App.Config">
-       
-        var DEV = false;
+        var App = {};
+        var basePath = '',
+            commonPath = '../src/',
+            rootPath = '../',
+            DEV = false,
+            componentsPath = '../';
+        var primaryColor = '#3695d5',
+            dangerColor = '#b55151',
+            successColor = '#609450',
+            infoColor = '#4a8bc2',
+            warningColor = '#ab7a4b',
+            inverseColor = '#45484d';
+        var themerPrimaryColor = primaryColor;
+    </script>
     
-    var primaryColor = '#3695d5',
-        dangerColor = '#b55151',
-        successColor = '#609450',
-        infoColor = '#4a8bc2',
-        warningColor = '#ab7a4b',
-        inverseColor = '#45484d';
-    
-    var themerPrimaryColor = primaryColor;
+    <!-- bower:js -->
+    <script src="../bower_components/appear/jquery.appear.js"></script>
+    <script src="../bower_components/blueimp-gallery/js/blueimp-gallery.min.js"></script>
+    <script src="../bower_components/blueimp-gallery/js/blueimp-helper.js"></script>
+    <script src="../bower_components/blueimp-gallery/js/blueimp-gallery.js"></script>
+    <script src="../bower_components/blueimp-gallery/js/blueimp-gallery-fullscreen.js"></script>
+    <script src="../bower_components/blueimp-gallery/js/blueimp-gallery-indicator.js"></script>
+    <script src="../bower_components/blueimp-gallery/js/blueimp-gallery-video.js"></script>
+    <script src="../bower_components/blueimp-gallery/js/blueimp-gallery-vimeo.js"></script>
+    <script src="../bower_components/blueimp-gallery/js/blueimp-gallery-youtube.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../bower_components/bootbox/bootbox.js"></script>
+    <script src="../bower_components/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+    <script src="../bower_components/bootstrap-multiselect/js/bootstrap-multiselect.js"></script>
+    <script src="../bower_components/bootstrap-select/bootstrap-select.js"></script>
+    <script src="../bower_components/bootstrap-switch/build/js/bootstrap-switch.js"></script>
+    <script src="../bower_components/autotype/index.js"></script>
+    <script src="../bower_components/bootstrap-timepicker/js/bootstrap-timepicker.min.js"></script>
+    <script src="../bower_components/wysihtml5/dist/wysihtml5-0.3.0_rc2.min.js"></script>
+    <script src="../bower_components/bootstrap-wysihtml5/src/bootstrap-wysihtml5.js"></script>
+    <script src="../bower_components/flot/jquery.flot.js"></script>
+    <script src="../bower_components/flot/jquery.flot.resize.js"></script>
+    <script src="../bower_components/flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
+    <script src="../bower_components/bower-jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+    <script src="../bower_components/bower-jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="../bower_components/ckeditor/ckeditor.js"></script>
+    <script src="../bower_components/datatables/media/js/jquery.dataTables.js"></script>
+    <script src="../bower_components/datatables-colreorder/js/dataTables.colReorder.js"></script>
+    <script src="../bower_components/datatables-colvis/js/dataTables.colVis.js"></script>
+    <script src="../bower_components/datatables-fixedheader/js/dataTables.fixedHeader.js"></script>
+    <script src="../bower_components/datatables-tabletools/js/dataTables.tableTools.js"></script>
+    <script src="../bower_components/dropzone/downloads/dropzone.min.js"></script>
+    <script src="../bower_components/es6-shim/es6-shim.js"></script>
+    <script src="../bower_components/farbtastic/src/farbtastic.js"></script>
+    <script src="../bower_components/footable/js/footable.js"></script>
+    <script src="../bower_components/fullcalendar/fullcalendar.js"></script>
+    <script src="../bower_components/gmaps-markerclusterer-plus/src/markerclusterer.js"></script>
+    <script src="../bower_components/google-code-prettify/src/prettify.js"></script>
+    <script src="../bower_components/holderjs/holder.js"></script>
+    <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
+    <script src="../bower_components/html5shiv/dist/html5shiv-printshiv.js"></script>
+    <script src="../bower_components/jasny-bootstrap/dist/js/jasny-bootstrap.js"></script>
+    <script src="../bower_components/jcrop/js/jquery.Jcrop.min.js"></script>
+    <script src="../bower_components/jqrangeslider/jQRangeSlider.js"></script>
+    <script src="../bower_components/jquery.breakpoints/breakpoints.js"></script>
+    <script src="../bower_components/jquery.easy-pie-chart/jquery.easy-pie-chart.js"></script>
+    <script src="../bower_components/jquery.gritter/js/jquery.gritter.js"></script>
+    <script src="../bower_components/jquery.hotkeys/jquery.hotkeys.js"></script>
+    <script src="../bower_components/jquery.inputmask/dist/jquery.inputmask.bundle.js"></script>
+    <script src="../bower_components/jquery.slimscroll/jquery.slimscroll.js"></script>
+    <script src="../bower_components/jquery.stellar/jquery.stellar.js"></script>
+    <script src="../bower_components/jquery.uniform/jquery.uniform.js"></script>
+    <script src="../bower_components/jquery.validation/jquery.validate.js"></script>
+    <script src="../bower_components/jquery-mousewheel/jquery.mousewheel.js"></script>
+    <script src="../bower_components/jquery-nicescroll/jquery.nicescroll.js"></script>
+    <script src="../bower_components/jquery-prettyPhoto/js/jquery.prettyPhoto.js"></script>
+    <script src="../bower_components/jquery-ui/ui/jquery-ui.js"></script>
+    <script src="../bower_components/jquery-waypoints/waypoints.js"></script>
+    <script src="../bower_components/js-beautify/js/lib/beautify.js"></script>
+    <script src="../bower_components/js-beautify/js/lib/beautify-css.js"></script>
+    <script src="../bower_components/js-beautify/js/lib/beautify-html.js"></script>
+    <script src="../bower_components/kapusta-jquery.sparkline/dist/jquery.sparkline.min.js"></script>
+    <script src="../bower_components/notyfy/js/noty/jquery.noty.js"></script>
+    <script src="../bower_components/owlcarousel/owl-carousel/owl.carousel.js"></script>
+    <script src="../bower_components/pace/pace.min.js"></script>
+    <script src="../bower_components/pageguide/dist/js/pageguide.min.js"></script>
+    <script src="../bower_components/parallax/deploy/parallax.js"></script>
+    <script src="../bower_components/parallax/deploy/parallax.min.js"></script>
+    <script src="../bower_components/parallax/deploy/jquery.parallax.js"></script>
+    <script src="../bower_components/parallax/deploy/jquery.parallax.min.js"></script>
+    <script src="../bower_components/plupload/js/plupload.full.min.js"></script>
+    <script src="../bower_components/prettyprint/prettyprint.js"></script>
+    <script src="../bower_components/q/q.js"></script>
+    <script src="../bower_components/select2/select2.js"></script>
+    <script src="../bower_components/twitter-bootstrap-wizard/jquery.bootstrap.wizard.js"></script>
+    <script src="../bower_components/zeroclipboard/ZeroClipboard.js"></script>
+    <!-- endbower -->
 
-        App.Config = {
-        ajaxify_menu_selectors: ['#menu'],
-        ajaxify_layout_app: false	};
-        </script>
+    <!-- inject:js -->
+    <script src="../src/js/DT_bootstrap.js"></script>
+    <script src="../src/js/animations.init.js"></script>
+    <script src="../src/js/bootstrap-datepicker.init.js"></script>
+    <script src="../src/js/bootstrap-select.init.js"></script>
+    <script src="../src/js/bootstrap-switch.init.js"></script>
+    <script src="../src/js/bootstrap-timepicker.init.js"></script>
+    <script src="../src/js/button-loading.init.js"></script>
+    <script src="../src/js/calendar.init.js"></script>
+    <script src="../src/js/colorpicker-farbtastic.init.js"></script>
+    <script src="../src/js/courses-featured-1.init.js"></script>
+    <script src="../src/js/datatables.init.js"></script>
+    <script src="../src/js/dropzone.init.js"></script>
+    <script src="../src/js/easy-pie.init.js"></script>
+    <script src="../src/js/email.init.js"></script>
+    <script src="../src/js/employees.init.js"></script>
+    <script src="../src/js/events-carousel.init.js"></script>
+    <script src="../src/js/events-speakers.init.js"></script>
+    <script src="../src/js/flot-charts.common.js"></script>
+    <script src="../src/js/flotchart-autoupdating.init.js"></script>
+    <script src="../src/js/flotchart-bars-horizontal.init.js"></script>
+    <script src="../src/js/flotchart-bars-ordered.init.js"></script>
+    <script src="../src/js/flotchart-bars-stacked.init.js"></script>
+    <script src="../src/js/flotchart-donut.init.js"></script>
+    <script src="../src/js/flotchart-line-2.init.js"></script>
+    <script src="../src/js/flotchart-line.init.js"></script>
+    <script src="../src/js/flotchart-mixed-1.init.js"></script>
+    <script src="../src/js/flotchart-pie-finances.init.js"></script>
+    <script src="../src/js/flotchart-pie.init.js"></script>
+    <script src="../src/js/flotchart-simple.init.js"></script>
+    <script src="../src/js/form-validator.init.js"></script>
+    <script src="../src/js/form-wizards.init.js"></script>
+    <script src="../src/js/fuelux-checkbox.init.js"></script>
+    <script src="../src/js/fuelux-radio.init.js"></script>
+    <script src="../src/js/gridalicious.init.js"></script>
+    <script src="../src/js/gritter.init.js"></script>
+    <script src="../src/js/image-crop.init.js"></script>
+    <script src="../src/js/image-preview.js"></script>
+    <script src="../src/js/infinite-scroll.init.js"></script>
+    <script src="../src/js/inputmask.init.js"></script>
+    <script src="../src/js/invoice.init.js"></script>
+    <script src="../src/js/jquery.bootpag.init.js"></script>
+    <script src="../src/js/jqueryui-sliders.init.js"></script>
+    <script src="../src/js/maps-google.init.js"></script>
+    <script src="../src/js/maps-vector.france-elections.init.js"></script>
+    <script src="../src/js/maps-vector.mall-map.init.js"></script>
+    <script src="../src/js/maps-vector.projection-map.init.js"></script>
+    <script src="../src/js/maps-vector.random-colors.init.js"></script>
+    <script src="../src/js/maps-vector.region-selection.init.js"></script>
+    <script src="../src/js/maps-vector.tabs.js"></script>
+    <script src="../src/js/maps-vector.usa-unemployment.init.js"></script>
+    <script src="../src/js/maps-vector.world-map-gdp.init.js"></script>
+    <script src="../src/js/maps-vector.world-map-markers.init.js"></script>
+    <script src="../src/js/medical.init.js"></script>
+    <script src="../src/js/messages.init.js"></script>
+    <script src="../src/js/messages.js"></script>
+    <script src="../src/js/mixitup.init.js"></script>
+    <script src="../src/js/modals.init.js"></script>
+    <script src="../src/js/multiselect.init.js"></script>
+    <script src="../src/js/news-featured-1.init.js"></script>
+    <script src="../src/js/news-featured-2.init.js"></script>
+    <script src="../src/js/news-featured-3.init.js"></script>
+    <script src="../src/js/notyfy.init.js"></script>
+    <script src="../src/js/page-tour.init.js"></script>
+    <script src="../src/js/parallax.init.js"></script>
+    <script src="../src/js/plupload.init.js"></script>
+    <script src="../src/js/preload.pace.init.js"></script>
+    <script src="../src/js/prettyphoto.init.js"></script>
+    <script src="../src/js/range-sliders.init.js"></script>
+    <script src="../src/js/select2.init.js"></script>
+    <script src="../src/js/shop-featured-1.init.js"></script>
+    <script src="../src/js/sidebar.collapse.init.js"></script>
+    <script src="../src/js/sidebar.discover.init.js"></script>
+    <script src="../src/js/sidebar.main.init.js"></script>
+    <script src="../src/js/sparkline.init.js"></script>
+    <script src="../src/js/tables-classic.init.js"></script>
+    <script src="../src/js/tables-responsive-footable.init.js"></script>
+    <script src="../src/js/template-options.js"></script>
+    <script src="../src/js/twitter.init.js"></script>
+    <script src="../src/js/twitter.js"></script>
+    <script src="../src/js/uniform.init.js"></script>
+    <script src="../src/js/widget-chat.init.js"></script>
+    <script src="../src/js/widget-chat.js"></script>
+    <script src="../src/js/widget-collapsible.init.js"></script>
+    <script src="../src/js/widget-progress.init.js"></script>
+    <script src="../src/js/widget-scrollable.init.js"></script>
+    <script src="../src/js/wysihtml5.init.js"></script>
+    <script src="../src/js/z-core.init.js"></script>
+    <script src="../src/js/data/gdp-data.js"></script>
+    <script src="../src/js/maps/jquery-jvectormap-de-merc-en.js"></script>
+    <script src="../src/js/maps/jquery-jvectormap-es-merc-en.js"></script>
+    <script src="../src/js/maps/jquery-jvectormap-fr-merc-en.js"></script>
+    <script src="../src/js/maps/jquery-jvectormap-us-aea-en.js"></script>
+    <script src="../src/js/maps/jquery-jvectormap-us-lcc-en.js"></script>
+    <script src="../src/js/maps/mall-map.js"></script>
+    <!-- endinject -->
     
-        
 </body>
 </html>

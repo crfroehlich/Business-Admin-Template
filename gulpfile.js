@@ -114,7 +114,7 @@
   });
 
   gulp.task('css', function() {
-    gulp.src(['./src/css/**/*.css', './src/icon/glyphsrc/icon/css/glyphsrc/**/*.css', './src/icon/pictosrc/icon/css/picto.css']).pipe(concat('addon.css')).pipe(header(extended, {
+    gulp.src(['./src/css/**/*.css', './src/icon/glyphicons/less/**/*.css', './src/icon/pictoicons/css/picto.css']).pipe(concat('addon.css')).pipe(header(extended, {
       pkg: pkg
     })).pipe(gulp.dest('./dist')).pipe(rename({
       suffix: '.min'
@@ -132,7 +132,7 @@
   });
 
   gulp.task('inject', function() {
-    gulp.src('./src/dev.html').pipe(inject(gulp.src(['./src/less/**/*.css', './src/css/**/*.css', './src/js/**/*.js', './src/icon/glyphsrc/icon/css/glyphsrc/**/*.css', './src/icon/pictosrc/icon/css/picto.css'], {
+    gulp.src('./src/dev.html').pipe(inject(gulp.src(['./src/less/**/*.css', './src/css/**/*.css', './src/js/**/*.js', './src/icons/glyphicons/less/**/*.css', './src/icons/pictoicons/css/picto.css'], {
       read: false
     }), {
       addRootSlash: false,
@@ -194,19 +194,19 @@
       directory: './bower_components',
       bowerJson: require('./bower.json'),
       src: './dist/release.html',
-      exclude: [/require/]
+      exclude: [/require/, /jquery.js/, /jqueryy-migrate/]
     });
     wiredep({
       directory: './bower_components',
       bowerJson: require('./bower.json'),
       src: './src/dev.html',
-      exclude: [/require/]
+      exclude: [/require/, /jquery.js/, /jqueryy-migrate/]
     });
     wiredep({
       directory: './bower_components',
       bowerJson: require('./bower.json'),
       src: './test/test.html',
-      exclude: [/require/]
+      exclude: [/require/, /jquery.js/, /jqueryy-migrate/]
     });
   });
 

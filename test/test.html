@@ -31,7 +31,6 @@
     <link rel="stylesheet" href="../src/less/courses-featured-1.css">
     <link rel="stylesheet" href="../src/less/datatables.css">
     <link rel="stylesheet" href="../src/less/demi.css">
-    <link rel="stylesheet" href="../src/less/docs.css">
     <link rel="stylesheet" href="../src/less/email.css">
     <link rel="stylesheet" href="../src/less/employees.css">
     <link rel="stylesheet" href="../src/less/error.css">
@@ -85,7 +84,6 @@
     <link rel="stylesheet" href="../src/less/notyfy.css">
     <link rel="stylesheet" href="../src/less/page-tour.css">
     <link rel="stylesheet" href="../src/less/pagination.css">
-    <link rel="stylesheet" href="../src/less/parallax.css">
     <link rel="stylesheet" href="../src/less/popovers.css">
     <link rel="stylesheet" href="../src/less/preload.pace.css">
     <link rel="stylesheet" href="../src/less/profile_resume.css">
@@ -136,38 +134,39 @@
     <link rel="stylesheet" href="../src/css/notyfy.theme.default.css">
     <!-- endinject -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/blueimp-gallery/css/blueimp-gallery.min.css" />
+    <link rel="stylesheet" href="../bower_components/blueimp-gallery/css/blueimp-gallery-video.css" />
     <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="../bower_components/jquery-ui/themes/base/minified/jquery-ui.min.css" />
     <link rel="stylesheet" href="../bower_components/bootstrap-datepicker/css/datepicker.css" />
     <link rel="stylesheet" href="../bower_components/bootstrap-datepicker/css/datepicker3.css" />
+    <link rel="stylesheet" href="../bower_components/bootstrap-multiselect/css/bootstrap-multiselect.css" />
     <link rel="stylesheet" href="../bower_components/bootstrap-select/bootstrap-select.css" />
     <link rel="stylesheet" href="../bower_components/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.css" />
     <link rel="stylesheet" href="../bower_components/bootstrap-timepicker/css/bootstrap-timepicker.min.css" />
-    <link rel="stylesheet" href="../bower_components/jasny-bootstrap/dist/css/jasny-bootstrap.css" />
-    <link rel="stylesheet" href="../bower_components/bootstrap-multiselect/css/bootstrap-multiselect.css" />
-    <link rel="stylesheet" href="../bower_components/select2/select2.css" />
-    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css" />
-    <link rel="stylesheet" href="../bower_components/fullcalendar/fullcalendar.css" />
-    <link rel="stylesheet" href="../bower_components/jquery.gritter/css/jquery.gritter.css" />
-    <link rel="stylesheet" href="../bower_components/pageguide/dist/css/pageguide.min.css" />
-    <link rel="stylesheet" href="../bower_components/owlcarousel/owl-carousel/owl.carousel.css" />
-    <link rel="stylesheet" href="../bower_components/owlcarousel/owl-carousel/owl.theme.css" />
-    <link rel="stylesheet" href="../bower_components/google-code-prettify/src/prettify.css" />
+    <link rel="stylesheet" href="../bower_components/bootstrap-wysihtml5/src/bootstrap-wysihtml5.css" />
+    <link rel="stylesheet" href="../bower_components/bower-jvectormap/jquery-jvectormap-1.2.2.css" />
     <link rel="stylesheet" href="../bower_components/datatables/media/css/jquery.dataTables.css" />
     <link rel="stylesheet" href="../bower_components/datatables-colreorder/css/dataTables.colReorder.css" />
     <link rel="stylesheet" href="../bower_components/datatables-colvis/css/dataTables.colVis.css" />
     <link rel="stylesheet" href="../bower_components/datatables-fixedheader/css/dataTables.fixedHeader.css" />
     <link rel="stylesheet" href="../bower_components/datatables-tabletools/css/dataTables.tableTools.css" />
-    <link rel="stylesheet" href="../bower_components/footable/css/footable.core.min.css" />
-    <link rel="stylesheet" href="../bower_components/bootstrap-wysihtml5/src/bootstrap-wysihtml5.css" />
     <link rel="stylesheet" href="../bower_components/dropzone/downloads/css/dropzone.css" />
-    <link rel="stylesheet" href="../bower_components/plupload/js/jquery.plupload.queue/css/jquery.plupload.queue.css" />
-    <link rel="stylesheet" href="../bower_components/bower-jvectormap/jquery-jvectormap-1.2.2.css" />
-    <link rel="stylesheet" href="../bower_components/jqrangeslider/css/iThing.css" />
-    <link rel="stylesheet" href="../bower_components/blueimp-gallery/css/blueimp-gallery.min.css" />
-    <link rel="stylesheet" href="../bower_components/blueimp-gallery/css/blueimp-gallery-video.css" />
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="../bower_components/footable/css/footable.core.min.css" />
+    <link rel="stylesheet" href="../bower_components/fullcalendar/fullcalendar.css" />
+    <link rel="stylesheet" href="../bower_components/google-code-prettify/src/prettify.css" />
+    <link rel="stylesheet" href="../bower_components/jasny-bootstrap/dist/css/jasny-bootstrap.css" />
     <link rel="stylesheet" href="../bower_components/jcrop/css/jquery.Jcrop.min.css" />
+    <link rel="stylesheet" href="../bower_components/jqrangeslider/css/iThing.css" />
+    <link rel="stylesheet" href="../bower_components/jquery.easy-pie-chart/jquery.easy-pie-chart.css" />
+    <link rel="stylesheet" href="../bower_components/jquery.gritter/css/jquery.gritter.css" />
     <link rel="stylesheet" href="../bower_components/jquery-prettyPhoto/css/prettyPhoto.css" />
+    <link rel="stylesheet" href="../bower_components/jquery-ui/themes/base/minified/jquery-ui.min.css" />
+    <link rel="stylesheet" href="../bower_components/owlcarousel/owl-carousel/owl.carousel.css" />
+    <link rel="stylesheet" href="../bower_components/owlcarousel/owl-carousel/owl.theme.css" />
+    <link rel="stylesheet" href="../bower_components/pageguide/dist/css/pageguide.min.css" />
+    <link rel="stylesheet" href="../bower_components/plupload/js/jquery.plupload.queue/css/jquery.plupload.queue.css" />
+    <link rel="stylesheet" href="../bower_components/select2/select2.css" />
     <!-- endbower -->
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -1050,69 +1049,7 @@ $script.ready(['core', 'plugins_dependency', 'plugins'], function(){
     <!-- // Main Container Fluid END -->
     
     <!-- bower:js -->
-    <script src="../bower_components/modernizr/modernizr.js"></script>
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="../bower_components/jquery-ui/ui/jquery-ui.js"></script>
-    <script src="../bower_components/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
-    <script src="../bower_components/bootstrap-select/bootstrap-select.js"></script>
-    <script src="../bower_components/bootstrap-switch/build/js/bootstrap-switch.js"></script>
-    <script src="../bower_components/farbtastic/src/farbtastic.js"></script>
-    <script src="../bower_components/autotype/index.js"></script>
-    <script src="../bower_components/bootstrap-timepicker/js/bootstrap-timepicker.min.js"></script>
-    <script src="../bower_components/jquery.inputmask/dist/jquery.inputmask.bundle.js"></script>
-    <script src="../bower_components/jasny-bootstrap/dist/js/jasny-bootstrap.js"></script>
-    <script src="../bower_components/bootstrap-multiselect/js/bootstrap-multiselect.js"></script>
-    <script src="../bower_components/select2/select2.js"></script>
-    <script src="../bower_components/jquery.uniform/jquery.uniform.js"></script>
-    <script src="../bower_components/fullcalendar/fullcalendar.js"></script>
-    <script src="../bower_components/jquery.easy-pie-chart/dist/jquery.easypiechart.js"></script>
-    <script src="../bower_components/flot/jquery.flot.js"></script>
-    <script src="../bower_components/flot/excanvas.min.js"></script>
-    <script src="../bower_components/flot/jquery.flot.resize.js"></script>
-    <script src="../bower_components/jquery.jscroll/jquery.jscroll.js"></script>
-    <script src="../bower_components/bootbox/bootbox.js"></script>
-    <script src="../bower_components/jquery.gritter/js/jquery.gritter.js"></script>
-    <script src="../bower_components/pageguide/dist/js/pageguide.min.js"></script>
     <script src="../bower_components/appear/jquery.appear.js"></script>
-    <script src="../bower_components/js-beautify/js/lib/beautify.js"></script>
-    <script src="../bower_components/js-beautify/js/lib/beautify-css.js"></script>
-    <script src="../bower_components/js-beautify/js/lib/beautify-html.js"></script>
-    <script src="../bower_components/jquery.breakpoints/breakpoints.js"></script>
-    <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
-    <script src="../bower_components/html5shiv/dist/html5shiv-printshiv.js"></script>
-    <script src="../bower_components/holderjs/holder.js"></script>
-    <script src="../bower_components/jquery.hotkeys/jquery.hotkeys.js"></script>
-    <script src="../bower_components/jqueryui-touch-punch/jquery.ui.touch-punch.js"></script>
-    <script src="../bower_components/jquery-mousewheel/jquery.mousewheel.js"></script>
-    <script src="../bower_components/jquery-nicescroll/jquery.nicescroll.js"></script>
-    <script src="../bower_components/owlcarousel/owl-carousel/owl.carousel.js"></script>
-    <script src="../bower_components/parallax/deploy/parallax.js"></script>
-    <script src="../bower_components/parallax/deploy/parallax.min.js"></script>
-    <script src="../bower_components/parallax/deploy/jquery.parallax.js"></script>
-    <script src="../bower_components/parallax/deploy/jquery.parallax.min.js"></script>
-    <script src="../bower_components/jquery.stellar/jquery.stellar.js"></script>
-    <script src="../bower_components/jquery-waypoints/waypoints.js"></script>
-    <script src="../bower_components/pace/pace.js"></script>
-    <script src="../bower_components/google-code-prettify/src/prettify.js"></script>
-    <script src="../bower_components/jquery.slimscroll/jquery.slimscroll.js"></script>
-    <script src="../bower_components/q/q.js"></script>
-    <script src="../bower_components/datatables/media/js/jquery.dataTables.js"></script>
-    <script src="../bower_components/datatables-colreorder/js/dataTables.colReorder.js"></script>
-    <script src="../bower_components/datatables-colvis/js/dataTables.colVis.js"></script>
-    <script src="../bower_components/datatables-fixedheader/js/dataTables.fixedHeader.js"></script>
-    <script src="../bower_components/datatables-tabletools/js/dataTables.tableTools.js"></script>
-    <script src="../bower_components/zeroclipboard/ZeroClipboard.js"></script>
-    <script src="../bower_components/footable/js/footable.js"></script>
-    <script src="../bower_components/ckeditor/ckeditor.js"></script>
-    <script src="../bower_components/wysihtml5/dist/wysihtml5-0.3.0_rc2.min.js"></script>
-    <script src="../bower_components/bootstrap-wysihtml5/src/bootstrap-wysihtml5.js"></script>
-    <script src="../bower_components/dropzone/downloads/dropzone.min.js"></script>
-    <script src="../bower_components/plupload/js/plupload.full.min.js"></script>
-    <script src="../bower_components/jquery.validation/jquery.validate.js"></script>
-    <script src="../bower_components/twitter-bootstrap-wizard/jquery.bootstrap.wizard.js"></script>
-    <script src="../bower_components/bower-jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-    <script src="../bower_components/bower-jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-    <script src="../bower_components/jqrangeslider/jQRangeSlider.js"></script>
     <script src="../bower_components/blueimp-gallery/js/blueimp-gallery.min.js"></script>
     <script src="../bower_components/blueimp-gallery/js/blueimp-helper.js"></script>
     <script src="../bower_components/blueimp-gallery/js/blueimp-gallery.js"></script>
@@ -1121,13 +1058,53 @@ $script.ready(['core', 'plugins_dependency', 'plugins'], function(){
     <script src="../bower_components/blueimp-gallery/js/blueimp-gallery-video.js"></script>
     <script src="../bower_components/blueimp-gallery/js/blueimp-gallery-vimeo.js"></script>
     <script src="../bower_components/blueimp-gallery/js/blueimp-gallery-youtube.js"></script>
-    <script src="../bower_components/jcrop/js/jquery.Jcrop.min.js"></script>
-    <script src="../bower_components/jquery-prettyPhoto/js/jquery.prettyPhoto.js"></script>
-    <script src="../bower_components/notyfy/js/noty/jquery.noty.js"></script>
-    <script src="../bower_components/prettyprint/prettyprint.js"></script>
-    <script src="../bower_components/flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
-    <script src="../bower_components/kapusta-jquery.sparkline/dist/jquery.sparkline.min.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../bower_components/bootbox/bootbox.js"></script>
+    <script src="../bower_components/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+    <script src="../bower_components/bootstrap-multiselect/js/bootstrap-multiselect.js"></script>
+    <script src="../bower_components/bootstrap-select/bootstrap-select.js"></script>
+    <script src="../bower_components/bootstrap-switch/build/js/bootstrap-switch.js"></script>
+    <script src="../bower_components/autotype/index.js"></script>
+    <script src="../bower_components/bootstrap-timepicker/js/bootstrap-timepicker.min.js"></script>
+    <script src="../bower_components/wysihtml5/dist/wysihtml5-0.3.0_rc2.min.js"></script>
+    <script src="../bower_components/bootstrap-wysihtml5/src/bootstrap-wysihtml5.js"></script>
+    <script src="../bower_components/bower-jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+    <script src="../bower_components/bower-jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="../bower_components/ckeditor/ckeditor.js"></script>
+    <script src="../bower_components/datatables/media/js/jquery.dataTables.js"></script>
+    <script src="../bower_components/datatables-colreorder/js/dataTables.colReorder.js"></script>
+    <script src="../bower_components/datatables-colvis/js/dataTables.colVis.js"></script>
+    <script src="../bower_components/datatables-fixedheader/js/dataTables.fixedHeader.js"></script>
+    <script src="../bower_components/datatables-tabletools/js/dataTables.tableTools.js"></script>
+    <script src="../bower_components/dropzone/downloads/dropzone.min.js"></script>
     <script src="../bower_components/es6-shim/es6-shim.js"></script>
+    <script src="../bower_components/farbtastic/src/farbtastic.js"></script>
+    <script src="../bower_components/flot/jquery.flot.js"></script>
+    <script src="../bower_components/flot/jquery.flot.resize.js"></script>
+    <script src="../bower_components/flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
+    <script src="../bower_components/footable/js/footable.js"></script>
+    <script src="../bower_components/fullcalendar/fullcalendar.js"></script>
+    <script src="../bower_components/gmaps-markerclusterer-plus/src/markerclusterer.js"></script>
+    <script src="../bower_components/google-code-prettify/src/prettify.js"></script>
+    <script src="../bower_components/holderjs/holder.js"></script>
+    <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
+    <script src="../bower_components/html5shiv/dist/html5shiv-printshiv.js"></script>
+    <script src="../bower_components/jasny-bootstrap/dist/js/jasny-bootstrap.js"></script>
+    <script src="../bower_components/jcrop/js/jquery.Jcrop.min.js"></script>
+    <script src="../bower_components/jqrangeslider/jQRangeSlider.js"></script>
+    <script src="../bower_components/jquery.breakpoints/breakpoints.js"></script>
+    <script src="../bower_components/jquery.easy-pie-chart/jquery.easy-pie-chart.js"></script>
+    <script src="../bower_components/jquery.gritter/js/jquery.gritter.js"></script>
+    <script src="../bower_components/jquery.hotkeys/jquery.hotkeys.js"></script>
+    <script src="../bower_components/jquery.inputmask/dist/jquery.inputmask.bundle.js"></script>
+    <script src="../bower_components/jquery.slimscroll/jquery.slimscroll.js"></script>
+    <script src="../bower_components/jquery.stellar/jquery.stellar.js"></script>
+    <script src="../bower_components/jquery.uniform/jquery.uniform.js"></script>
+    <script src="../bower_components/jquery.validation/jquery.validate.js"></script>
+    <script src="../bower_components/jquery-mousewheel/jquery.mousewheel.js"></script>
+    <script src="../bower_components/jquery-nicescroll/jquery.nicescroll.js"></script>
+    <script src="../bower_components/jquery-prettyPhoto/js/jquery.prettyPhoto.js"></script>
+    <script src="../bower_components/jquery-ui/ui/jquery-ui.js"></script>
     <script src="../bower_components/jquery-ui-map/ui/min/jquery.ui.map.full.min.js"></script>
     <script src="../bower_components/jquery-ui-map/ui/min/jquery.ui.map.microdata.min.js"></script>
     <script src="../bower_components/jquery-ui-map/ui/min/jquery.ui.map.microformat.min.js"></script>
@@ -1135,13 +1112,31 @@ $script.ready(['core', 'plugins_dependency', 'plugins'], function(){
     <script src="../bower_components/jquery-ui-map/ui/min/jquery.ui.map.overlays.min.js"></script>
     <script src="../bower_components/jquery-ui-map/ui/min/jquery.ui.map.rdfa.min.js"></script>
     <script src="../bower_components/jquery-ui-map/ui/min/jquery.ui.map.services.min.js"></script>
-    <script src="../bower_components/gmaps-markerclusterer-plus/src/markerclusterer.js"></script>
+    <script src="../bower_components/jqueryui-touch-punch/jquery.ui.touch-punch.js"></script>
+    <script src="../bower_components/jquery-waypoints/waypoints.js"></script>
+    <script src="../bower_components/js-beautify/js/lib/beautify.js"></script>
+    <script src="../bower_components/js-beautify/js/lib/beautify-css.js"></script>
+    <script src="../bower_components/js-beautify/js/lib/beautify-html.js"></script>
+    <script src="../bower_components/kapusta-jquery.sparkline/dist/jquery.sparkline.min.js"></script>
+    <script src="../bower_components/notyfy/js/noty/jquery.noty.js"></script>
+    <script src="../bower_components/owlcarousel/owl-carousel/owl.carousel.js"></script>
+    <script src="../bower_components/pace/pace.min.js"></script>
+    <script src="../bower_components/pageguide/dist/js/pageguide.min.js"></script>
+    <script src="../bower_components/parallax/deploy/parallax.js"></script>
+    <script src="../bower_components/parallax/deploy/parallax.min.js"></script>
+    <script src="../bower_components/parallax/deploy/jquery.parallax.js"></script>
+    <script src="../bower_components/parallax/deploy/jquery.parallax.min.js"></script>
+    <script src="../bower_components/plupload/js/plupload.full.min.js"></script>
+    <script src="../bower_components/prettyprint/prettyprint.js"></script>
+    <script src="../bower_components/q/q.js"></script>
+    <script src="../bower_components/select2/select2.js"></script>
+    <script src="../bower_components/twitter-bootstrap-wizard/jquery.bootstrap.wizard.js"></script>
+    <script src="../bower_components/zeroclipboard/ZeroClipboard.js"></script>
     <!-- endbower -->
     <!-- inject:js -->
     <script src="../src/coffee/Doc.js"></script>
     <script src="../src/coffee/components/sidebar-subnav.js"></script>
     <script src="../src/js/DT_bootstrap.js"></script>
-    <script src="../src/js/ajaxify.init.js"></script>
     <script src="../src/js/animations.init.js"></script>
     <script src="../src/js/bootstrap-datepicker.init.js"></script>
     <script src="../src/js/bootstrap-select.init.js"></script>

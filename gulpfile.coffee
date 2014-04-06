@@ -86,8 +86,8 @@ gulp.task 'less', ->
 gulp.task 'css', ->
   gulp.src [
     './src/css/**/*.css' 
-    './src/icon/glyphsrc/icon/css/glyphsrc/**/*.css'
-    './src/icon/pictosrc/icon/css/picto.css'
+    './src/icon/glyphicons/less/**/*.css'
+    './src/icon/pictoicons/css/picto.css'
     ] 
     .pipe concat 'addon.css'
     .pipe header extended, pkg: pkg
@@ -110,14 +110,14 @@ gulp.task 'img', ->
 gulp.task 'inject', ->
   
   #Inject into dev.html
-  gulp.src './src/dev2.html'
+  gulp.src './src/dev.html'
     .pipe inject(gulp.src([
       
       './src/less/**/*.css'
       './src/css/**/*.css'
       './src/js/**/*.js'
-      './src/icon/glyphsrc/icon/css/glyphsrc/**/*.css'
-      './src/icon/pictosrc/icon/css/picto.css'
+      './src/icons/glyphicons/less/**/*.css'
+      './src/icons/pictoicons/css/picto.css'
     ],
       read: false), # Not necessary to read the files (will speed up things), we're only after their paths
    
@@ -195,19 +195,19 @@ gulp.task 'init', ->
     directory: './bower_components'
     bowerJson: require('./bower.json')
     src: './dist/release.html'
-    exclude: [/require/]
+    exclude: [/require/, /jquery.js/, /jqueryy-migrate/]
 
   wiredep
     directory: './bower_components'
     bowerJson: require('./bower.json')
-    src: './src/dev2.html'
-    exclude: [/require/]
+    src: './src/dev.html'
+    exclude: [/require/, /jquery.js/, /jqueryy-migrate/]
 
   wiredep
     directory: './bower_components'
     bowerJson: require('./bower.json')
     src: './test/test.html'
-    exclude: [/require/]
+    exclude: [/require/, /jquery.js/, /jqueryy-migrate/]
 
   return
 
