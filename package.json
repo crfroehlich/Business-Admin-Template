@@ -14,7 +14,7 @@
   "description": "NPM package for web app",
   "devDependencies": {
     "gulp": "3.9.1",
-    "gulp-autoprefixer": "0.0.6",
+    "gulp-autoprefixer": "0.0.10",
     "gulp-bower-files": "0.2.7",
     "gulp-bump": "0.1.13",
     "gulp-cache": "0.5.0",
