@@ -23,7 +23,7 @@
     "gulp-coffee": "1.4.3",
     "gulp-coffeelint": "0.3.4",
     "gulp-concat": "2.6.1",
-    "gulp-debug": "0.2.0",
+    "gulp-debug": "0.3.1",
     "gulp-declare": "*",
     "gulp-gh-pages": "*",
     "gulp-git": "0.3.6",
