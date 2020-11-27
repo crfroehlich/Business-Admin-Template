@@ -21,7 +21,7 @@
     "gulp-changed": "0.3.0",
     "gulp-clean": "0.2.4",
     "gulp-coffee": "1.4.3",
-    "gulp-coffeelint": "0.3.4",
+    "gulp-coffeelint": "0.6.0",
     "gulp-concat": "2.6.1",
     "gulp-debug": "0.2.0",
     "gulp-declare": "*",
