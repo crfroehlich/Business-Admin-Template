@@ -28,7 +28,7 @@
     "gulp-gh-pages": "*",
     "gulp-git": "0.3.6",
     "gulp-header": "1.8.12",
-    "gulp-imagemin": "0.1.5",
+    "gulp-imagemin": "0.6.2",
     "gulp-inject": "*",
     "gulp-js2coffee": "0.0.1",
     "gulp-jshint": "1.12.0",
