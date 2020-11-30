@@ -41,7 +41,7 @@
     "gulp-rename": "1.4.0",
     "gulp-replace": "*",
     "gulp-template": "*",
-    "gulp-uglify": "0.2.1",
+    "gulp-uglify": "0.3.2",
     "gulp-util": "*",
     "gulp-watch": "0.5.4",
     "qunit": "*",
