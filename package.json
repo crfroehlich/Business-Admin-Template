@@ -45,7 +45,7 @@
     "gulp-util": "*",
     "gulp-watch": "0.5.4",
     "qunit": "*",
-    "tiny-lr": "0.0.5",
+    "tiny-lr": "0.2.1",
     "wiredep": "1.8.6"
   },
   "engines": {
