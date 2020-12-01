@@ -43,7 +43,7 @@
     "gulp-template": "*",
     "gulp-uglify": "0.2.1",
     "gulp-util": "*",
-    "gulp-watch": "0.5.4",
+    "gulp-watch": "0.7.1",
     "qunit": "*",
     "tiny-lr": "0.0.5",
     "wiredep": "1.8.6"
